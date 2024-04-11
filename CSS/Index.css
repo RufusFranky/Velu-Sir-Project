@@ -1,0 +1,841 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Nabar CSS */
+
+.navbar{
+    background-color: white !important;
+    /* height: 80px; */
+    /* border: thin solid red; */
+}
+
+.navbar-brand{
+    /* margin-bottom: -40px; */
+    margin-left: 30px;
+}
+
+.logo-img{
+    position: absolute;
+    height: 140px;
+    top: 1px;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    text-decoration: underline;
+    /* border-bottom: thin solid  #093fab; */
+    color: #093fab !important;
+    transition: .5s;
+
+    .Home-icon, .About-icon, .service-icon, .blog-icon, .contact-icon{
+        fill: #093fab;
+        transition: .5s;
+
+    }
+}
+
+.nav-item {
+    margin-right: 80px;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.nav-link{
+    /* border-bottom: thin solid  #ffffff; */
+    transition: .5s;
+    color: #04a7ac !important;
+
+}
+
+.nav-item-last{
+    margin-right: 0;
+}
+
+.Home-icon, .service-icon, .About-icon, .blog-icon, .contact-icon{
+    fill: #04a7ac;
+}
+
+.Home-svg{
+    margin-left: 11px;
+    height: 20px;
+}
+
+.Abt-svg{
+    height: 24px;
+    margin-left: 22px;
+
+}
+
+.service-svg{
+    height: 24px;
+    width: 24px;
+}
+
+.blog-svg{
+    height: 24px;
+    margin-left: 6px;
+}
+
+.contact-svg{
+    height: 22px;
+    margin-left: 25px;
+}
+
+/* Banner CSS..................................................................................... */
+
+@media (max-width:1200px) {
+    .banner-heading, .banner-sub, .learn-more-btn{
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width:991px) {
+    .nav-item svg{
+        margin: 0;
+    }
+
+    .banner-img{
+        min-height: 300px !important;
+        background-position: bottom center !important;
+
+    }
+    .banner-heading, .banner-sub, .col-12{
+        text-align: center;
+        padding: 0 !important;
+    }
+
+    .banner-inner-div{
+        padding-bottom: 0 !important;
+    }
+    
+    .banner-heading{
+        text-align: center;
+        width: 100% !important;
+        padding-top: 120px !important;
+    }
+    .banner-sub{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media (max-width:320px) {
+    .banner-img{
+        min-height: 250px !important;
+    }
+} 
+
+.banner-fluid{
+	background-color: #04a7ac;
+    /* background-image: url(../Images/banner-img1.png); */
+	color: white;
+    padding: 0;
+    position: relative;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: bottom 20px right 120px; */
+    /* border: thin solid red; */
+
+}
+
+.banner-img{
+    background-image: url(../Images/banner-img1.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom left 80px;
+}
+
+.banner-inner-div{
+    /* border: thin solid red; */
+    /* position: relative; */
+    padding-bottom: 50px;
+    
+}
+
+.banner-inner-div .row .col-12{
+    padding: 115px 0;
+}
+
+.banner-heading{
+    font-family: "Sniglet", system-ui;
+    margin-left: 80px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+
+}
+
+.banner-sub{
+    font-family: "Roboto", sans-serif !important;
+    color: #ffffff;
+    margin-left: 80px;
+    width: 80%;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.learn-more-btn{
+    border: none;
+    font-family: "Roboto", sans-serif !important;
+    margin-left: 80px;
+    background-color: white;
+    padding: 10px 40px 10px 40px;
+    border-radius: 25px;
+    border: thin solid rgb(255, 255, 255);
+    color: #093fab !important;
+    font-weight: 500;
+}
+
+.learn-more-btn:hover{
+    /* background-color: transparent; */
+    transition: 0.3s;
+    color: #04a7ac !important;
+}
+
+.cloud-img{
+    /* border: thin solid red; */
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    /* border: thin solid red; */
+}
+
+/* About CSS.......................................................................................... */
+
+@media (max-width:1024px) {
+    .abt-col-left{
+        width: 100%;
+    } 
+    .center_col{
+        width: 100%;
+    }
+    .abt-col-right{
+        padding-left: 90px;
+        width: 100%;
+    }
+.img-fluid{
+    max-width: 45% !important;
+}
+    .vertical-line{
+        height: 1px !important;
+        width: 80% !important;
+        border-top: 1px dashed black;
+        border-left: 0 !important;
+        margin: 0 auto !important;
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+    .line-top-cicle{
+        top: 42px;
+        left: 10%;
+    }
+    .center-img{
+        bottom: 15%;
+        right: 438px !important;
+        height: 75px !important;
+    }
+}
+
+@media (max-width:768px) {
+    .center-img{
+        right: 310px !important;
+    }
+    .img-fluid{
+        max-width: 100% !important;
+    }
+}
+
+@media (max-width:426px) { 
+    .img-fluid{
+        max-width: 100% !important;
+    }
+    .line-top-cicle{
+        top: 42px;
+        left: 5%;
+    }
+    .center-img{
+        height: 70px !important;
+        right:40% !important;
+    }
+    .abt-col-right{
+        padding-top: 20px !important;
+        padding-left: 0 !important;
+    }
+    .vertical-line{
+        height: 1px !important;
+        width: 90% !important;
+        border-top: 1px dashed black;
+        border-left: 0 !important;
+        margin: 0 auto !important;
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+}
+
+@media (max-width:320px){
+    .img-fluid{
+        height: 200px;
+    }
+}
+
+.abt-heading {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.abt-heading h1{
+    font-family: "Grand Hotel", cursive;
+    color: #04a7ac !important;
+
+}
+
+.sub-heading{
+    font-family: "Sniglet", system-ui;
+    color: #093fab !important;
+
+}
+
+.abt-heading p{
+    font-family: "Roboto", sans-serif;
+    color: #4a4a4a;
+}
+
+.abt-col-left{
+   text-align: center;
+}
+
+.center_col{
+    position: relative;
+}
+
+.abt-para{
+    font-family: "Roboto", sans-serif;
+    color: #4a4a4a;
+    font-size: 15px;
+}
+
+/* .center_col{
+    border:  thin solid red;
+} */
+
+
+
+.vertical-line {
+    border-left: 1px dashed #093fab; /* Change color and width as needed */
+    height: 350px; /* Adjust height as needed */
+    margin-left: 62%;
+
+}
+
+.line-top-cicle{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    right: 33%;
+    /* border: thin solid red; */
+    background-color: #093fab;
+}
+
+.center-img{
+    position: absolute;
+    height: 85px;
+    right: 0;
+    margin-top: 130px;
+}
+
+/* Showcase CSS .......................................................................................*/
+
+@media (max-width:1024px){
+    .showcase-row{
+       margin-left: 10px !important;
+       margin-right: 10px !important;
+    }
+    .showcase-box_1::before, .showcase-box_2::before, .showcase-box_3::before{
+        left: 130px !important;
+    }
+    .banner-img{
+        background-size: 100%;
+        background-position: bottom left 0px;
+    }
+}
+
+@media (max-width: 768px){
+    .showcase-box{
+        padding: 10px !important;
+    }
+    .showcase-box_1::before, .showcase-box_2::before, .showcase-box_3::before{
+        left: 145px !important;
+    }
+    .banner-img{
+        background-size: 60%;
+    }
+}
+
+@media (max-width: 426px){
+    .showcase-box_1::before, .showcase-box_2::before, .showcase-box_3::before{
+        /* left: 330px !important; */
+        left: 10px !important;
+        /* right: 0 !important; */
+    }
+    .Showcase-fluid{
+        background-image: url(../Images//bg12.png) !important;
+    }
+    .banner-img{
+        background-size: 90%;
+    }
+}
+
+.Showcase-fluid{
+    padding: 0;
+    background-image: url(../Images/bg1.png);
+    /* border: thin solid red; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  
+    overflow: hidden;
+}
+
+.showcase-row{
+    /* border: thin solid red; */
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+.showcase-box{
+    background-color: #ffffff;
+    border-radius: 20px;
+    font-family: "Sniglet", system-ui;
+    color: #04a7ac;
+    position: relative !important;
+    
+}
+
+.showcase-box:hover{
+    background-color: #04a7ac;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.showcase-box_1::before, .showcase-box_2::before, .showcase-box_3::before{
+    width: 45px;
+    padding: 10px;
+    content: "01";
+    left: 165PX;
+    background-color: #9bdee0;
+    position: absolute;
+    border-radius: 50px;
+    color: #093fab !important;    
+}
+
+.showcase-box_2::before{
+    content: "02";
+;    
+}
+
+.showcase-box_3::before{
+    content: "03";
+
+}
+
+/* Service CSS.......................................................................................... */
+
+@media (max-width:768px){
+    .s-col-3{
+        margin-top: 80px !important;
+    }
+}
+
+@media (max-width:426px) {
+    .s-col-2{
+        margin-top: 80px !important;
+    }
+    .s-col-3{
+        margin-top: 230px !important;
+    }
+    .s-col-4{
+        margin-top: 230px !important;
+    }
+}
+
+.service-fluid{
+    background-image: url(../Images/img1.png), url(../Images/img1.png);
+    background-position: left 90px, bottom 0px;
+    background-size: 110px;
+    background-repeat: no-repeat;
+    padding: 0;
+
+}
+
+.service-heading{
+    text-align: center;
+}
+
+.service-heading h1{
+    font-family: "Grand Hotel", cursive;
+    color: #04a7ac !important;
+}
+
+.service-heading p{
+    font-family: "Roboto", sans-serif;
+    color: #4a4a4a;
+}
+
+.card{
+    border: none;
+    text-align: center;
+}
+
+.card-body{
+    text-align: center;
+    background-color: #9bdee057;
+    /* padding-left: 35px;
+    padding-right: 35px; */
+    border-radius: 20px;
+
+}
+
+.card-title{
+    font-family: "Sniglet", system-ui;
+    color: #04a7ac !important;
+    margin-top: 130px;
+}
+
+.card-title-2, .card-title-3, .card-title-4, .card-title-5, .card-title-6{
+    font-family: "Sniglet", system-ui;
+    color: #04a7ac !important;
+    margin-top: 145px;
+}
+
+.card-text{
+    color: #4a4a4a;
+}
+
+.card-btn{
+    font-family: "Sniglet", system-ui;
+    color: #093fab;
+    padding: 8px 20px 8px 20px;
+    background-color: transparent;
+    border: thin  solid #093fab;
+    border-radius: 20px;
+}
+
+.card-btn:hover{
+    background-color: #346fe4;
+    border: thin  solid #ffffff;
+    color: white;
+}
+
+.card_after_div1::after{
+    content: url(../Images/img2.png);
+    position: absolute;
+    width: 100%;
+    bottom: 70%;
+}
+
+.card_after_div2::after{
+    content: url(../Images/img3.png);
+    position: absolute;
+    width: 100%;
+    bottom: 50%;
+
+}
+
+.card_after_div3::after{
+    content: url(../Images/img4.png);
+    position: absolute;
+    width: 100%;
+    bottom: 50%;
+
+
+}
+
+.card_after_div4::after{
+    content: url(../Images/img5.png);
+    position: absolute;
+    width: 100%;
+    bottom: 50%;
+
+
+}
+
+.card_after_div5::after{
+    content: url(../Images/img6.png);
+    position: absolute;
+    width: 100%;
+    bottom: 50%;
+
+
+}
+
+.card_after_div6::after{
+    content: url(../Images/img7.png);
+    position: absolute;
+    width: 100%;
+    bottom: 50%;
+
+
+}
+
+.s-col-4, .s-col-5, .s-col-6{
+    height: 440px;
+    margin-top: 80px;
+}
+
+/* testimonal CSS.......................................................................................... */
+
+
+.testimonial-fluid{
+    background-image: url(../Images/bg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  100% 100%;
+    /* overflow: hidden; */
+    padding: 0;
+    /* border: thin solid red; */
+}
+.test-heaading{
+    font-family: "Grand Hotel", cursive;
+    color: #04a7ac !important;
+}
+
+.test-sub-heading{
+    font-family: "Sniglet", system-ui;
+    color: #093fab;
+}
+
+.test-para1, .test-para2{
+   
+    font-family: "Roboto", sans-serif;
+    color: #4a4a4a;
+    text-align: justify;
+}    
+
+.slider_1{
+    background-color: #04a7ac;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.slider_2{
+    background-color: #093fab;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.slider_3{
+    background-color: #04a7ac;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.slider_4{
+    background-color: #093fab;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.slider_5{
+    background-color: #04a7ac;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.client-info{
+    display: inline-block;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.client-info h6{
+    margin-bottom: 0;
+}
+
+
+.carousel-btn{
+    float: right;
+    /* margin-right: 40px; */
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: transparent;
+}
+
+.slider-container{
+    transform: rotate(180deg);
+}
+
+.slider-container li> div{ 
+    width: 87%;
+    transform: rotate(180deg);
+}
+
+.slider-nav {
+    position: absolute;
+    cursor: pointer;
+    visibility: visible !important;
+}
+
+.slider-nav-round .slider-nav::before{
+    background-color: #093fab !important;
+}
+
+.slider-nav-round .slider-nav::after{
+    background-color: white !important;
+}
+
+.lefts{
+    opacity: 1 !important;
+    top: 350px !important;
+    right: 50px !important;
+}
+
+.rights{
+    opacity: 1 !important;
+    top: 350px !important;
+    left: 420px !important;
+}
+
+@media (max-width:1024px){
+    .banner-inner-div .row .col-12{
+        padding: 60px 0;
+    }
+    .lefts{
+   
+        top: 420px !important;
+  
+    }
+    
+    .rights{
+
+        top: 420px !important;
+        left: 240px !important;
+    }
+    
+}
+@media (max-width:768px){
+    .lefts{
+        top: 330px !important;
+        right: 250px !important;
+    }
+    .lefts::before{
+       width: 50px !important;
+       height: 50px !important;
+       margin: -9px !important;
+    }
+    .lefts::after{
+      margin: 0 !important;
+       padding: 1em !important;
+    }
+    
+    .rights{
+        top: 330px !important;
+        left:340px !important;
+    } 
+    
+    .rights::before{
+        width: 50px !important;
+        height: 50px !important;
+        margin: -9px !important;
+    } 
+    
+    .rights::after{
+        margin: 0 !important;
+       padding: 1rem !important;
+    } 
+    .test-para1, .test-para2{
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+@media (max-width:576px){
+    .rights, .lefts{
+        display: none !important;
+    }
+    .test-para1, .test-para2{
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+/* Questions CSS.......................................................................................... */
+
+.question-fluid{
+    padding: 0;
+}
+
+.question-heading{
+    font-family: "Grand Hotel", cursive;
+    color: #04a7ac !important;
+    text-align: center;
+}
+
+.accordion{
+    font-family: "Roboto", sans-serif !important;
+    color: #4a4a4a !important;
+    --bs-accordion-bg:#cefeff !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button {
+    padding-top: 12px ;
+    padding-bottom: 12px;
+}
+
+.accordion-item {
+    border: none;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.accordion-header{
+    background-color:#9bdee0 !important;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #04a7ac;
+    color: white;
+    /* border: thin solid #04a7ac; */
+}
+
+.accordion-body{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.accordion-flush .accordion-collapse{
+    background-color:#eaffff;
+    border: 2px solid #04a7ac;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Footer section............................................................................................ */
+
+.footer-fluid{
+    background-color: #04a7ac;
+    background-image: url(../Images/bird.png), url(../Images/footer-book.png), url(../Images/footer-book.png), url(../Images/footer-buttter.png), url(../Images/footer-buttter.png), url(../Images//footer-smily.png);
+    background-position: top center, left 18px bottom 30px, top 18px right 45px, top 20px left 20px, top right 500px, bottom 20px right 20px;
+    background-repeat: no-repeat;
+    justify-content: center !important;
+    align-items: center !important;
+    color: white;
+}
+
+.fotter-row{
+    margin: 0 auto;
+    width: 85%;
+}
