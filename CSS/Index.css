@@ -31,7 +31,6 @@ nav ul li a.active, nav ul li a:hover {
     .Home-icon, .About-icon, .service-icon, .blog-icon, .contact-icon{
         fill: #093fab;
         transition: .5s;
-
     }
 }
 
@@ -62,23 +61,35 @@ nav ul li a.active, nav ul li a:hover {
 
 .Abt-svg{
     height: 24px;
-    margin-left: 22px;
+    margin-left: 20px;
 
 }
 
 .service-svg{
     height: 24px;
-    width: 24px;
+    margin-left: 16px;
 }
 
 .blog-svg{
     height: 24px;
-    margin-left: 6px;
+    margin-left: 4px;
 }
 
 .contact-svg{
     height: 22px;
     margin-left: 25px;
+}
+
+.show{
+    margin-top: 70px;
+}
+
+.show .nav-item{
+    margin-bottom: 10px;
+}
+
+.show .service-svg{
+    margin-left: 18px;
 }
 
 /* Banner CSS..................................................................................... */
@@ -90,9 +101,6 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 @media (max-width:991px) {
-    .nav-item svg{
-        margin: 0;
-    }
 
     .banner-img{
         min-height: 300px !important;
@@ -458,6 +466,10 @@ nav ul li a.active, nav ul li a:hover {
     }
     .s-col-4{
         margin-top: 230px !important;
+    }
+    .service-fluid{
+    background-size: 65px !important;
+
     }
 }
 
