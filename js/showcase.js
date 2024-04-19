@@ -60,14 +60,37 @@ var onScrollHandler = function() {
     if (scrollTop <200) {
        newImageUrl = "../Images/logo.png"
        myElem.style.height="140px"
-       myElem.style.transition=".5s"
 
     }
     if (scrollTop > 200) {
        newImageUrl = "../Images/logo-rect.jpg"
        myElem.style.height="90px"
-       myElem.style.transition=".5s"
     }
     myElem.src = newImageUrl;
   };
   document.addEventListener ("scroll", onScrollHandler);
+
+
+//   actvie nav
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var currentPath = window.location.pathname.split("/");
+    currentPath = currentPath[2];
+  
+    var anchors = document.querySelectorAll(".nav-item .nav-link");
+  
+    document.querySelectorAll(".nav-item .nav-link").forEach(function (activeAnchor) {
+      activeAnchor.classList.remove("active");
+    });
+  
+    anchors.forEach(function (anchor)
+   {
+      var anchorPath = new URL(anchor.href).pathname.split("/");
+      anchorPath = anchorPath[2];
+  
+      if (anchorPath === currentPath) {
+        anchor.classList.add("active");
+      }
+    });
+  });
+

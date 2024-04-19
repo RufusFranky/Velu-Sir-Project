@@ -13,7 +13,7 @@
   user-select:none;           /* Non-prefixed version */
 }
 
-/* Nabar CSS */
+/* Navbar CSS */
 
 .navbar{
     background-color: white !important;
@@ -54,7 +54,6 @@ nav ul li a.active, nav ul li a:hover {
     /* border-bottom: thin solid  #ffffff; */
     transition: .5s;
     color: #04a7ac !important;
-
 }
 
 .nav-item-last{
@@ -90,7 +89,7 @@ nav ul li a.active, nav ul li a:hover {
 
 .blog-svg{
     height: 24px;
-    margin-left: 4px;
+    margin-left: 15px;
     display: block;
 }
 
@@ -98,6 +97,14 @@ nav ul li a.active, nav ul li a:hover {
     height: 22px;
     margin-left: 25px;
     display: block;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.offcanvas-header{
+    border-bottom: thin solid #9c9c9c;
 }
 
 .offcanvas.hiding, .offcanvas.show {
@@ -108,7 +115,7 @@ nav ul li a.active, nav ul li a:hover {
     }
     .nav-item{
         margin-top: 20px;
-        transition: .5s;
+        /* transition: .5s; */
     }
 }
 
@@ -195,7 +202,6 @@ nav ul li a.active, nav ul li a:hover {
     margin-left: 80px;
     padding-left: 10px !important;
     padding-right: 10px !important;
-
 }
 
 .banner-sub{
@@ -322,12 +328,6 @@ nav ul li a.active, nav ul li a:hover {
 
 }
 
-.sub-heading{
-    font-family: "Sniglet", system-ui;
-    color: #093fab !important;
-
-}
-
 .abt-heading p{
     font-family: "Roboto", sans-serif;
     color: #4a4a4a;
@@ -339,6 +339,11 @@ nav ul li a.active, nav ul li a:hover {
 
 .center_col{
     position: relative;
+}
+
+.sub-heading{
+    font-family: "Sniglet", system-ui;
+    color: #093fab !important;
 }
 
 .abt-para{
@@ -611,8 +616,6 @@ nav ul li a.active, nav ul li a:hover {
     position: absolute;
     width: 100%;
     bottom: 50%;
-
-
 }
 
 .card_after_div6::after{
@@ -630,7 +633,6 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 /* testimonal CSS.......................................................................................... */
-
 
 .testimonial-fluid{
     background-image: url(../Images/bg2.png);
@@ -658,41 +660,6 @@ nav ul li a.active, nav ul li a:hover {
     text-align: justify;
 }    
 
-.slider_1{
-    background-color: #04a7ac;
-    color: white;
-    border-radius: 20px;
-    padding: 15px;
-}
-
-.slider_2{
-    background-color: #093fab;
-    color: white;
-    border-radius: 20px;
-    padding: 15px;
-}
-
-.slider_3{
-    background-color: #04a7ac;
-    color: white;
-    border-radius: 20px;
-    padding: 15px;
-}
-
-.slider_4{
-    background-color: #093fab;
-    color: white;
-    border-radius: 20px;
-    padding: 15px;
-}
-
-.slider_5{
-    background-color: #04a7ac;
-    color: white;
-    border-radius: 20px;
-    padding: 15px;
-}
-
 .client-info{
     display: inline-block;
     justify-content: center !important;
@@ -703,52 +670,25 @@ nav ul li a.active, nav ul li a:hover {
     margin-bottom: 0;
 }
 
+.carousel-item{
+    color: white;
+    border-radius: 15px;
+}
 
-.carousel-btn{
+.carousel-control-next, .carousel-control-prev{
     float: right;
-    /* margin-right: 40px; */
-    border: none;
-    padding: 10px;
-    margin-top: 15px;
-    text-align: center !important;
-    justify-content: center !important;
-    align-items: center !important;
-    background-color: transparent;
+    position: relative;
+    display: inline;
+    opacity: inherit;
+    background: none;
 }
 
-.slider-container{
-    transform: rotate(180deg);
+.carousel-control-next {
+    right: 25px;
 }
 
-.slider-container li> div{ 
-    width: 87%;
-    transform: rotate(180deg);
-}
-
-.slider-nav {
-    position: absolute;
-    cursor: pointer;
-    visibility: visible !important;
-}
-
-.slider-nav-round .slider-nav::before{
-    background-color: #093fab !important;
-}
-
-.slider-nav-round .slider-nav::after{
-    background-color: white !important;
-}
-
-.lefts{
-    opacity: 1 !important;
-    top: 350px !important;
-    right: 50px !important;
-}
-
-.rights{
-    opacity: 1 !important;
-    top: 350px !important;
-    left: 420px !important;
+.carousel-control-next:hover, .carousel-control-prev:hover{
+    opacity: inherit !important;
 }
 
 @media (max-width:1024px){

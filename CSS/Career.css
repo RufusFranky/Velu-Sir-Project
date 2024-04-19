@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar CSS */
+
+.navbar{
+    background-color: white !important;
+    /* height: 80px; */
+    /* border: thin solid red; */
+}
+
+.navbar-brand{
+    /* margin-bottom: -40px; */
+    margin-left: 30px;
+}
+
+.logo-img{
+    position: absolute;
+    height: 140px;
+    top: 1px;
+    padding: 10px 0;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    text-decoration: underline;
+    /* border-bottom: thin solid  #093fab; */
+    color: #093fab !important;
+    transition: .5s;
+
+    .Home-icon, .About-icon, .service-icon, .blog-icon, .contact-icon{
+        fill: #093fab;
+        transition: .5s;
+    }
+}
+
+.nav-item {
+    margin-right: 80px;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.nav-link{
+    /* border-bottom: thin solid  #ffffff; */
+    transition: .5s;
+    color: #04a7ac !important;
+}
+
+.nav-item-last{
+    margin-right: 0;
+}
+
+.offcanvas-title img{
+    height: 80px;
+}
+
+.Home-icon, .service-icon, .About-icon, .blog-icon, .contact-icon{
+    fill: #04a7ac;
+}
+
+.Home-svg{
+    margin-left: 11px;
+    height: 20px;
+    display: block;
+}
+
+.Abt-svg{
+    height: 24px;
+    margin-left: 20px;
+    display: block;
+
+}
+
+.service-svg{
+    height: 24px;
+    margin-left: 18px;
+    display: block;
+}
+
+.blog-svg{
+    height: 24px;
+    margin-left: 15px;
+    display: block;
+}
+
+.contact-svg{
+    height: 22px;
+    margin-left: 25px;
+    display: block;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.offcanvas-header{
+    border-bottom: thin solid #9c9c9c;
+}
+
+.offcanvas.hiding, .offcanvas.show {
+    .Home-svg, .Abt-svg, .service-svg, .blog-svg, .contact-svg{
+        margin-left: 0;
+        margin-right: 30px;
+        display: inline;
+    }
+    .nav-item{
+        margin-top: 20px;
+        /* transition: .5s; */
+    }
+}
+
+.offcanvas.hiding, .offcanvas.show{
+    li a.active, li a:hover{
+        text-decoration: none;
+    }
+}
+
+/* Banner CSS..................................................................................... */
+
+.banner-fluid {
+
+    background-color: #4195d3;
+    position: relative;
+    padding: 0;
+}
+
+
+
+.banner-heading{
+    font-family: "Sniglet", system-ui;
+    color: white;
+}
+
+.banner-sub{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-align: justify;
+}
+
+.banner-row{
+    padding-right: 0;
+}
+
+.Abt-banner-img{
+    height: 350px;
+}
+
+.abt-img-col{
+    text-align: center;
+}
+
+.cloud-img{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+/* <!-- Abt-Career CSS......................................................................................... --> */
+
+.c-heading {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.c-heading h1{
+    font-family: "Grand Hotel", cursive;
+    color: #04a7ac !important;
+}
+
+.c-heading p{
+    font-family: "Roboto", sans-serif;
+    color: #4a4a4a;
+}
+
+/* Questions CSS.......................................................................................... */
+
+.question-fluid{
+    padding: 0;
+}
+
+.question-heading{
+    font-family: "Grand Hotel", cursive;
+    color: #04a7ac !important;
+    text-align: center;
+}
+
+.accordion{
+    font-family: "Roboto", sans-serif !important;
+    color: #4a4a4a !important;
+    --bs-accordion-bg:#cefeff !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button {
+    padding-top: 12px ;
+    padding-bottom: 12px;
+}
+
+.accordion-item {
+    border: none;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.accordion-header{
+    background-color:#9bdee0 !important;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #04a7ac;
+    color: white;
+    /* border: thin solid #04a7ac; */
+}
+
+.accordion-body{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.accordion-flush .accordion-collapse{
+    /* background-color:#9bdee0; */
+    /* border: 2px solid #04a7ac; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.job_info{
+    display: flex;
+    list-style:none;
+    padding-left: 0;
+}
+
+.job_info li{
+    background-color: #02b5bb;
+    padding: 8px 12px 8px 12px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: small;
+    color: white;
+}
+
+/* Footer section............................................................................................ */
+
+.footer-fluid{
+    background-color: #04a7ac;
+    background-image: url(../Images/bird.png), url(../Images/footer-book.png), url(../Images/footer-book.png), url(../Images/footer-buttter.png), url(../Images/footer-buttter.png), url(../Images//footer-smily.png);
+    background-position: top center, left 18px bottom 30px, top 18px right 45px, top 20px left 20px, top right 500px, bottom 20px right 20px;
+    background-repeat: no-repeat;
+    justify-content: center !important;
+    align-items: center !important;
+    color: white;
+}
+
+.fotter-row{
+    margin: 0 auto;
+    width: 85%;
+}
