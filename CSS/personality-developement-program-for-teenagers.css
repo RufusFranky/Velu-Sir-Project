@@ -124,8 +124,6 @@ nav ul li a.active, nav ul li a:hover {
     padding: 0;
 }
 
-
-
 .banner-heading{
     font-family: "Sniglet", system-ui;
     color: white;
@@ -187,6 +185,26 @@ nav ul li a.active, nav ul li a:hover {
 
 .S-right p{
     font-family: "Roboto", sans-serif;
+}
+
+.amt-img-col{
+    text-align: center;
+}
+
+.abt-s-img{
+    height: 320px;
+}
+
+@media (max-width:1024px) {
+    .S-right p, .S-right h3{
+        text-align: center !important;
+    }
+}
+
+@media (max-width:426px) {
+    .abt-s-img{
+        height: 200px !important;
+    }
 }
 
 /* Footer section............................................................................................ */
