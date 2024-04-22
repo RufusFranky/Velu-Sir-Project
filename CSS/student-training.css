@@ -207,6 +207,70 @@ nav ul li a.active, nav ul li a:hover {
     }
 }
 
+
+/* <!-- Service-Teach- CSS......................................................................................... --> */
+
+.s-teach-fluid{
+    background-image: url(../Images/mirror_img1.png), url(../Images/footer-buttter.png);
+    background-repeat: no-repeat;
+    background-size: 8%, 5%;
+    background-position: left -40px bottom 90px, right 30px bottom 180px;
+    background-color: #9bdee057;
+}
+
+.s-teach-heading{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.s-teach-heading h1{
+    font-family: "Grand Hotel", cursive;
+    color: #04a7ac !important;
+}
+
+.s-teach-heading p{
+    font-family: "Roboto", sans-serif;
+    /* padding: 0 150px 0 150px; */
+}
+
+.circle {
+    width: 85px; /* Adjust the width and height as needed */
+    height: 85px;
+    border-radius: 50%;
+    border: 2px solid #04a7ac;
+    position: relative;
+}
+
+.circle img{
+    position: absolute;
+    left: 16px;
+    top: 12px;
+    height: 55px;
+}
+
+.sub-heading{
+    font-family: "Sniglet", system-ui;
+    color: #093fab;
+}
+
+/* <!-- Service-Section-3 CSS......................................................................................... --> */
+
+.Service-S3-fluid{
+    background-image: url(../Images/footer-buttter.png), url(../Images/footer-buttter.png), url(../Images/mirror_img1.png), url(../Images/footer-buttter.png);
+    background-repeat: no-repeat;
+    background-size: 5%, 5%, 8%, 5%;
+    background-position: left 0 top 30px, right 20px top 200px, left -40px bottom 300px, right 20px bottom 30px;
+}
+
+.topics h4 {
+    font-family: "Sniglet", system-ui;
+    color: #093fab;
+}
+
+.topics p{
+    font-family: "Roboto", sans-serif;
+}
+
 /* Footer section............................................................................................ */
 
 .footer-fluid{

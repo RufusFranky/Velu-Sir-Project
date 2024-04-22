@@ -118,10 +118,13 @@ nav ul li a.active, nav ul li a:hover {
 /* Banner CSS..................................................................................... */
 
 .banner-fluid {
+
     background-color: #4195d3;
     position: relative;
     padding: 0;
 }
+
+
 
 .banner-heading{
     font-family: "Sniglet", system-ui;
@@ -152,158 +155,21 @@ nav ul li a.active, nav ul li a:hover {
     width: 100%;
 }
 
-@media (max-width:768px) {
-    .banner-row{
-        text-align: center;
-    }
+/* <!-- Abt-Career CSS......................................................................................... --> */
 
-    .banner-row p{
-        text-align: center;
-    }
-}
-
-/* About CSS.......................................................................................... */
-
-.about-fluid{
-    background-image: url(../Images/img1.png);
-    background-repeat: no-repeat;
-    background-size: 8%;
-    background-position: left -30px bottom 0;
-    padding: 0;
-}
-
-.abt-heading{
-    font-family: "Grand Hotel", cursive;
-    color: #04a7ac !important;
-}
-
-.abt-sub-heading{
-    font-family: "Salsa", cursive;
-    color: #093fab;
-}
-
-/* <!-- V & M CSS ....................................................................................--> */
-
-.v_m-fluid{
-    padding: 0;
-}
-
-.v_m-heading {
+.c-heading {
     text-align: center;
     margin-top: 40px;
 }
 
-.v_m-heading h1{
+.c-heading h1{
     font-family: "Grand Hotel", cursive;
     color: #04a7ac !important;
 }
 
-.v_m-heading p{
-    /* padding: 0 150px 0 150px; */
-}
-
-.circle {
-    width: 85px; /* Adjust the width and height as needed */
-    height: 85px;
-    border-radius: 50%;
-    border: 2px solid #04a7ac;
-    position: relative;
-}
-
-.circle img{
-    position: absolute;
-    left: 16px;
-    top: 12px;
-    height: 55px;
-}
-
-.sub-heading{
-    font-family: "Sniglet", system-ui;
-    color: #093fab !important;
-}
-
-.v-info{
-    text-align: justify;
-}
-
-.v-btn .nav-link, .m-btn .nav-link{
-    font-size: larger;
-    font-family: "Sniglet", system-ui;
-    border-radius: 0;
-    background-color: transparent !important;
-    border-bottom: 3px solid #04a7ac;
-    color: black !important;
-    position: relative;
-
-}
-
-.m-btn .nav-link{
-    margin-left: 20px;
-}
-
-.v-btn .nav-link.active, .m-btn .nav-link.active {
-    background-color: #04a7ac !important;
-    color: white !important;
-}
-
-.v-btn .nav-link.active::before, .m-btn .nav-link.active::before{
-    content: "";
-    display: block;
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 12px solid #04a7ac;
-    transform: rotate(180deg);
-    top: 46px;
-    left: 50px;
-}
-
-.m-btn .nav-link.active::before{
-    left: 55px;
-}
-
-/* <!-- History CSS ....................................................................................--> */
-
-.history-fluid{
-    padding: 0;
-}
-
-.history-heading {
-    text-align: center;
-    margin-top: 40px;
-}
-
-.history-heading h1{
-    font-family: "Grand Hotel", cursive;
-    color: #04a7ac !important;
-}
-
-.history-heading p{
-    /* padding: 0 150px 0 150px; */
-}
-
-/* <!-- Staff-CSS ....................................................................................--> */
-
-.staff-fluid{
-    padding: 0;
-}
-
-.staff-heading {
-    text-align: center;
-    margin-top: 40px;
-}
-
-.staff-heading h1{
-    font-family: "Grand Hotel", cursive;
-    color: #04a7ac !important;
-}
-
-.staff-heading h4{
-    /* padding: 0 360px 0 360px; */
-    font-family: "Roboto", sans-serif !important;
-
+.c-heading p{
+    font-family: "Roboto", sans-serif;
+    color: #000000;
 }
 
 /* Footer section............................................................................................ */
