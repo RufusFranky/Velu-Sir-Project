@@ -195,18 +195,17 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 .accordion-button {
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
     padding-top: 12px ;
     padding-bottom: 12px;
 }
 
 .accordion-item {
+    border-radius: 5px !important;
     border: none;
     margin: 0 auto;
     width: 90%;
-}
-
-.accordion-header{
-    background-color:#9bdee0 !important;
 }
 
 .accordion-button:not(.collapsed){
@@ -239,11 +238,60 @@ nav ul li a.active, nav ul li a:hover {
     margin-right: 20px;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: small;
     color: white;
 }
 
+.upload-input {
+    display: none;
+}
+
+.upload-label {
+    color: #000000;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 2px solid #093fab;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif !important;
+    transition: background-color 0.3s ease;
+}
+
+/* .upload-label:hover {
+    background-color: #027f84;
+} */
+
+.apply-button {
+    /* float: right; */
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 15px;
+    background-color: #093fab;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif !important;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.selected-file{
+    margin-left: 10px;
+    display: inline;
+}
+
+@media (max-width:426px) {
+    .selected-file {
+        margin-top: 10px;
+        margin-left: 0;
+        display: block;
+    }
+    .apply-button{
+        margin-left: 0;
+    }
+}
 /* Footer section............................................................................................ */
 
 .footer-fluid{

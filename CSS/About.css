@@ -182,6 +182,17 @@ nav ul li a.active, nav ul li a:hover {
     color: #093fab;
 }
 
+@media (max-width:1025px) {
+    .img-fluid{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:426px) {
+    .img-fluid{
+        height: 300px !important;
+    }
+}
 /* <!-- V & M CSS ....................................................................................--> */
 
 .v_m-fluid{
@@ -190,7 +201,7 @@ nav ul li a.active, nav ul li a:hover {
 
 .v_m-heading {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .v_m-heading h1{
@@ -260,6 +271,17 @@ nav ul li a.active, nav ul li a:hover {
     left: 55px;
 }
 
+@media (max-width:1025px) {
+    .circle{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:376px) {
+    .m-btn .nav-link {
+        margin-left: 5px;
+    }
+}
 /* <!-- History CSS ....................................................................................--> */
 
 .history-fluid{
@@ -343,7 +365,6 @@ nav ul li a.active, nav ul li a:hover {
 .text-title{
     margin-bottom: 7px;
     font-family: "Sniglet", system-ui;
-
     position: relative;
     color: #fff;
     transition: .5s;
@@ -352,7 +373,6 @@ nav ul li a.active, nav ul li a:hover {
 
 .text-sub-title{
     font-family: "Sniglet", system-ui;
-
     color: #fff;
     position: relative;
     margin-bottom: 20px;

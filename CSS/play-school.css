@@ -198,14 +198,20 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 @media (max-width:1024px) {
-    .S-right p, .S-right h3{
-        text-align: center !important;
+    .circle{
+        margin: 0 auto
+    }
+    .abt-s-img{
+        margin-top: 20px;
     }
 }
 
 @media (max-width:426px) {
     .abt-s-img{
         height: 200px !important;
+    }
+    .circle{
+        margin: 0;
     }
 }
 
