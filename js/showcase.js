@@ -60,11 +60,13 @@ var onScrollHandler = function() {
     if (scrollTop <200) {
        newImageUrl = "../Images/logo.png"
        myElem.style.height="140px"
-
+       myElem.style.transition=".5s ease-out"
     }
     if (scrollTop > 200) {
-       newImageUrl = "../Images/logo-rect.jpg"
-       myElem.style.height="90px"
+       newImageUrl = "../Images/logo.png"
+       myElem.style.height="104px"
+       myElem.style.transition=".5s ease-out"
+
     }
     myElem.src = newImageUrl;
   };

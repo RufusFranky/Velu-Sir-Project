@@ -83,6 +83,12 @@ nav ul li a.active, nav ul li a:hover {
     display: block;
 }
 
+.blog-svg_1{
+    height: 24px;
+    /* margin-left: 15px; */
+    display: block;
+}
+
 .contact-svg{
     height: 22px;
     margin-left: 25px;
@@ -112,6 +118,15 @@ nav ul li a.active, nav ul li a:hover {
 .offcanvas.hiding, .offcanvas.show{
     li a.active, li a:hover{
         text-decoration: none;
+    }
+}
+
+@media (max-width:1024px) {
+    .nav-item {
+        margin-right: 40px;
+    }
+    .nav-item-last{
+        margin-right: 0;
     }
 }
 

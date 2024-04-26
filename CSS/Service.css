@@ -83,6 +83,12 @@ nav ul li a.active, nav ul li a:hover {
     display: block;
 }
 
+.blog-svg_1{
+    height: 24px;
+    /* margin-left: 15px; */
+    display: block;
+}
+
 .contact-svg{
     height: 22px;
     margin-left: 25px;
@@ -115,6 +121,15 @@ nav ul li a.active, nav ul li a:hover {
     }
 }
 
+@media (max-width:1024px) {
+    .nav-item {
+        margin-right: 40px;
+    }
+    .nav-item-last{
+        margin-right: 0;
+    }
+}
+
 /* Banner CSS..................................................................................... */
 
 .banner-fluid {
@@ -125,7 +140,7 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 .banner-heading{
-    font-family: "Sniglet", system-ui;
+    font-family: "Sniglet", system-ui; 
     color: white;
 }
 
@@ -153,6 +168,24 @@ nav ul li a.active, nav ul li a:hover {
     width: 100%;
 }
 
+@media (max-width: 768px) {
+    .banner-row {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1025px) {
+    .img-fluid {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 426px) {
+    .Abt-banner-img{
+        height: auto;
+    }
+} 
+
 /* <!-- Abt-service CSS......................................................................................... --> */
 
 .abt-s-fluid{
@@ -168,6 +201,7 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 .abt-heading h1{
+    font-size: 50px;
     font-family: "Grand Hotel", cursive;
     color: #04a7ac !important;
 }
@@ -191,7 +225,7 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 .abt-s-img{
-    height: 320px;
+    height: 350px;
 }
 
 @media (max-width:1024px) {
@@ -222,6 +256,7 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 .s-teach-heading h1{
+    font-size: 50px;
     font-family: "Grand Hotel", cursive;
     color: #04a7ac !important;
 }

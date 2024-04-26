@@ -83,6 +83,12 @@ nav ul li a.active, nav ul li a:hover {
     display: block;
 }
 
+.blog-svg_1{
+    height: 24px;
+    /* margin-left: 15px; */
+    display: block;
+}
+
 .contact-svg{
     height: 22px;
     margin-left: 25px;
@@ -115,6 +121,15 @@ nav ul li a.active, nav ul li a:hover {
     }
 }
 
+@media (max-width:1024px) {
+    .nav-item {
+        margin-right: 40px;
+    }
+    .nav-item-last{
+        margin-right: 0;
+    }
+}
+
 /* Banner CSS..................................................................................... */
 
 .banner-fluid {
@@ -124,8 +139,6 @@ nav ul li a.active, nav ul li a:hover {
     padding: 0;
 }
 
-
-
 .banner-heading{
     font-family: "Sniglet", system-ui;
     color: white;
@@ -134,7 +147,6 @@ nav ul li a.active, nav ul li a:hover {
 .banner-sub{
     font-family: "Roboto", sans-serif;
     color: white;
-    text-align: justify;
 }
 
 .banner-row{
@@ -155,6 +167,24 @@ nav ul li a.active, nav ul li a:hover {
     width: 100%;
 }
 
+@media (max-width: 768px) {
+    .banner-row {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1025px) {
+    .img-fluid {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 426px) {
+    .Abt-banner-img{
+        height: auto;
+    }
+} 
+
 /* <!-- Abt-Career CSS......................................................................................... --> */
 
 .c-heading {
@@ -163,6 +193,7 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 .c-heading h1{
+    font-size: 50px;
     font-family: "Grand Hotel", cursive;
     color: #04a7ac !important;
 }
@@ -244,7 +275,8 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 .upload-input {
-    display: none;
+    /* display: none; */
+    border: none !important;
 }
 
 .upload-label {
@@ -262,14 +294,12 @@ nav ul li a.active, nav ul li a:hover {
     background-color: #027f84;
 } */
 
-.apply-button {
-    /* float: right; */
+.apply_btn {
     margin-top: 20px;
-    margin-left: 30px;
     font-size: 15px;
-    background-color: #093fab;
+    background-color: #2e80ba;
     color: #fff;
-    padding: 8px 20px;
+    padding: 10px 30px;
     border: none;
     border-radius: 5px;
     font-family: "Roboto", sans-serif !important;
@@ -282,6 +312,45 @@ nav ul li a.active, nav ul li a:hover {
     display: inline;
 }
 
+.custom-file-button .form-control {
+    border-radius: 5px;
+    /* height: 45px; */
+    border: 1px solid transparent;
+    box-shadow: none;
+    /* padding: 10px; */
+    color: #6d7b8f;
+    display: inline;
+    font-size: 20x;
+}
+
+.custom-file-button{
+    width: 35%;
+}
+
+.custom-file-button input[type=file]::file-selector-button {
+    display: none;
+}
+
+.input-group-text {
+    border: none;
+    background-color: #02b5bb;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    /* width: 20%; */
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+@media (max-width:769px) {
+    .custom-file-button{
+        width: 55%;
+    }
+}
+
 @media (max-width:426px) {
     .selected-file {
         margin-top: 10px;
@@ -291,7 +360,23 @@ nav ul li a.active, nav ul li a:hover {
     .apply-button{
         margin-left: 0;
     }
+    .custom-file-button{
+        width: 85%;
+    }
+    .aply-tbn-div{
+        text-align: center;
+    }
+    .apply_btn {
+        padding: 8px 20px;
+    }
 }
+
+@media (max-width:376px) {
+    .custom-file-button{
+        width: 100%;
+    }
+}
+
 /* Footer section............................................................................................ */
 
 .footer-fluid{

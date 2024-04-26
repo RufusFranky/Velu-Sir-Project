@@ -78,6 +78,12 @@ nav ul li a.active, nav ul li a:hover {
     display: block;
 }
 
+.blog-svg_1{
+    height: 24px;
+    /* margin-left: 15px; */
+    display: block;
+}
+
 .contact-svg{
     height: 22px;
     margin-left: 25px;
@@ -110,10 +116,18 @@ nav ul li a.active, nav ul li a:hover {
     }
 }
 
+@media (max-width:1024px) {
+    .nav-item {
+        margin-right: 40px;
+    }
+    .nav-item-last{
+        margin-right: 0;
+    }
+}
+
 /* Banner CSS..................................................................................... */
 
 .banner-fluid {
-
     background-color: #4195d3;
     position: relative;
     padding: 0;
@@ -129,8 +143,7 @@ nav ul li a.active, nav ul li a:hover {
 .banner-sub{
     font-family: "Roboto", sans-serif;
     color: white;
-    text-align: justify;
-    font-size: large;
+    /* text-align: justify; */
 }
 
 .banner-row{
@@ -152,6 +165,13 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 /* <!-- Contact CSS......................................................................................... --> */
+
+.Contact-fluid {
+    background-image: url(../Images/img1.png), url(../Images/img1.png) ;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: top 70px left -20px, right -30px bottom 40px;
+}
 
 .contact-heading {
     text-align: center;
@@ -242,6 +262,43 @@ textarea{
     /* font-weight: bold; */
     margin-top: 20px;
 }
+
+.contact-text-inner{
+    margin-left: 65px;
+}
+
+.map{
+    width: 92%;
+    height: 450px;
+}
+
+
+@media (max-width:769px) {
+    .contact-text-inner{
+        margin-top: 50px;
+        margin-left: 0;
+    }   
+}
+
+@media (max-width:426px) {
+    .contact-row{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .map{
+        width: 350px !important;
+        height: 250px !important;
+    }
+}
+
+@media (max-width:376px) {
+    .map{
+        width: 300px !important;
+        height: 250px !important;
+    }
+}
+
 
 /* Footer section............................................................................................ */
 

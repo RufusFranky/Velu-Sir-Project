@@ -91,6 +91,13 @@ nav ul li a.active, nav ul li a:hover {
     height: 24px;
     margin-left: 15px;
     display: block;
+
+}
+
+.blog-svg_1{
+    height: 24px;
+    /* margin-left: 15px; */
+    display: block;
 }
 
 .contact-svg{
@@ -122,6 +129,15 @@ nav ul li a.active, nav ul li a:hover {
 .offcanvas.hiding, .offcanvas.show{
     li a.active, li a:hover{
         text-decoration: none;
+    }
+}
+
+@media (max-width:1024px) {
+    .nav-item {
+        margin-right: 40px;
+    }
+    .nav-item-last{
+        margin-right: 0;
     }
 }
 
@@ -323,6 +339,7 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 .abt-heading h1{
+    font-size: 50px;
     font-family: "Grand Hotel", cursive;
     color: #04a7ac !important;
 
@@ -523,6 +540,7 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 .service-heading h1{
+    font-size: 50px;
     font-family: "Grand Hotel", cursive;
     color: #04a7ac !important;
 }
@@ -759,6 +777,7 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 .question-heading{
+    font-size: 50px;
     font-family: "Grand Hotel", cursive;
     color: #04a7ac !important;
     text-align: center;
