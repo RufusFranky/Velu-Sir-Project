@@ -221,13 +221,13 @@ nav ul li a:hover {
 }
 
 @media (max-width:1025px) {
-    .img-fluid {
+    .home-abt-img {
         margin-top: 20px;
     }
 }
 
 @media (max-width:426px) {
-    .img-fluid {
+    .home-abt-img {
         height: 300px !important;
     }
 }
