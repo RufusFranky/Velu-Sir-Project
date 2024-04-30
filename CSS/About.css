@@ -32,7 +32,7 @@ nav ul li a:hover {
 
     .Home-icon,
     .About-icon,
-    .service-icon,
+    .Programs-icon,
     .blog-icon,
     .contact-icon {
         fill: #093fab;
@@ -60,7 +60,7 @@ nav ul li a:hover {
 }
 
 .Home-icon,
-.service-icon,
+.Programs-icon,
 .About-icon,
 .blog-icon,
 .contact-icon {
@@ -80,7 +80,7 @@ nav ul li a:hover {
 
 }
 
-.service-svg {
+.Programs-svg {
     height: 24px;
     margin-left: 18px;
     display: block;
@@ -90,6 +90,7 @@ nav ul li a:hover {
     height: 24px;
     margin-left: 15px;
     display: block;
+
 }
 
 .blog-svg_1 {
@@ -117,7 +118,7 @@ nav ul li a:hover {
 
     .Home-svg,
     .Abt-svg,
-    .service-svg,
+    .Programs-svg,
     .blog-svg,
     .contact-svg,
     .blog-svg_1 {
@@ -139,6 +140,15 @@ nav ul li a:hover {
     li a:hover {
         text-decoration: none;
     }
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
 }
 
 @media (max-width:1024px) {
@@ -195,10 +205,10 @@ nav ul li a:hover {
 }
 
 @media (max-width: 426px) {
-    .Abt-banner-img{
+    .Abt-banner-img {
         height: auto;
     }
-} 
+}
 
 /* About CSS.......................................................................................... */
 
@@ -275,10 +285,6 @@ nav ul li a:hover {
     text-align: justify;
 }
 
-.tab-content p {
-    /* text-align: justify; */
-}
-
 .v-btn .nav-link,
 .m-btn .nav-link {
     font-size: larger;
@@ -320,9 +326,20 @@ nav ul li a:hover {
     left: 55px;
 }
 
+.v_m_img {
+    height: 550px;
+    margin-top: 65px;
+}
+
 @media (max-width:1025px) {
     .circle {
         margin-left: 20px;
+    }
+}
+
+@media (max-width:426px) {
+    .v_m_img {
+        height: 300px;
     }
 }
 
@@ -330,7 +347,10 @@ nav ul li a:hover {
     .m-btn .nav-link {
         margin-left: 5px;
     }
+
 }
+
+
 
 /* <!-- History CSS ....................................................................................--> */
 
@@ -396,7 +416,7 @@ nav ul li a:hover {
     transition: .5s;
 }
 
-.pxl-item--title{
+.pxl-item--title {
     font-family: "Sniglet", system-ui;
     color: #fff;
     position: relative;
@@ -496,7 +516,7 @@ nav ul li a:hover {
 }
 
 .pxl-item--inner:hover .pxl-item--meta:before {
-    background-color:#154ec0;
+    background-color: #154ec0;
 }
 
 .pxl-item--inner:hover .pxl-item--social {
@@ -504,38 +524,39 @@ nav ul li a:hover {
     opacity: 1;
 }
 
-.social-icon{
+.social-icon {
     height: 20px;
 }
 
-.staff-img{
+.staff-img {
     width: 202px;
     height: 202px;
 }
 
-.pxl-swiper-slide{
+.pxl-swiper-slide {
     width: 302.5px;
 }
 
 @media (max-width:1025px) {
-    .staff-img{
+    .staff-img {
         width: 150px;
         height: 150px;
         margin-left: 25px;
     }
-    .pxl-swiper-slide{
+
+    .pxl-swiper-slide {
         width: 230.5px;
     }
 }
 
 @media (max-width:769px) {
-    .staff-img{
+    .staff-img {
         width: 202px !important;
         height: 202px !important;
         margin-left: 0px !important;
     }
-    
-    .pxl-swiper-slide{
+
+    .pxl-swiper-slide {
         width: 302.5px !important;
     }
 }

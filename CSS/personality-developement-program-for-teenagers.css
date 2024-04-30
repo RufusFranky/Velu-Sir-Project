@@ -29,7 +29,7 @@ nav ul li a.active, nav ul li a:hover {
     color: #093fab !important;
     transition: .5s;
 
-    .Home-icon, .About-icon, .service-icon, .blog-icon, .contact-icon{
+    .Home-icon, .About-icon, .Programs-icon, .blog-icon, .contact-icon{
         fill: #093fab;
         transition: .5s;
     }
@@ -54,7 +54,7 @@ nav ul li a.active, nav ul li a:hover {
     height: 80px;
 }
 
-.Home-icon, .service-icon, .About-icon, .blog-icon, .contact-icon{
+.Home-icon, .Programs-icon, .About-icon, .blog-icon, .contact-icon{
     fill: #04a7ac;
 }
 
@@ -71,7 +71,7 @@ nav ul li a.active, nav ul li a:hover {
 
 }
 
-.service-svg{
+.Programs-svg{
     height: 24px;
     margin-left: 18px;
     display: block;
@@ -81,6 +81,7 @@ nav ul li a.active, nav ul li a:hover {
     height: 24px;
     margin-left: 15px;
     display: block;
+
 }
 
 .blog-svg_1{
@@ -104,7 +105,7 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 .offcanvas.hiding, .offcanvas.show {
-    .Home-svg, .Abt-svg, .service-svg, .blog-svg, .contact-svg{
+    .Home-svg, .Abt-svg, .Programs-svg, .blog-svg, .contact-svg, .blog-svg_1{
         margin-left: 0;
         margin-right: 30px;
         display: inline;
@@ -118,6 +119,24 @@ nav ul li a.active, nav ul li a:hover {
 .offcanvas.hiding, .offcanvas.show{
     li a.active, li a:hover{
         text-decoration: none;
+    }
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+
+@media (max-width:1024px) {
+    .nav-item {
+        margin-right: 40px;
+    }
+    .nav-item-last{
+        margin-right: 0;
     }
 }
 
