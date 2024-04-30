@@ -1,35 +1,40 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
 /* Navbar CSS */
 
-.navbar{
+.navbar {
     background-color: white !important;
     /* height: 80px; */
     /* border: thin solid red; */
 }
 
-.navbar-brand{
+.navbar-brand {
     /* margin-bottom: -40px; */
     margin-left: 30px;
 }
 
-.logo-img{
+.logo-img {
     position: absolute;
     height: 140px;
     top: 1px;
     padding: 10px 0;
 }
 
-nav ul li a.active, nav ul li a:hover {
+nav ul li a.active,
+nav ul li a:hover {
     text-decoration: underline;
     /* border-bottom: thin solid  #093fab; */
     color: #093fab !important;
     transition: .5s;
 
-    .Home-icon, .About-icon, .service-icon, .blog-icon, .contact-icon{
+    .Home-icon,
+    .About-icon,
+    .service-icon,
+    .blog-icon,
+    .contact-icon {
         fill: #093fab;
         transition: .5s;
     }
@@ -40,83 +45,98 @@ nav ul li a.active, nav ul li a:hover {
     font-family: "Roboto", sans-serif !important;
 }
 
-.nav-link{
+.nav-link {
     /* border-bottom: thin solid  #ffffff; */
     transition: .5s;
     color: #04a7ac !important;
 }
 
-.nav-item-last{
+.nav-item-last {
     margin-right: 0;
 }
 
-.offcanvas-title img{
+.offcanvas-title img {
     height: 80px;
 }
 
-.Home-icon, .service-icon, .About-icon, .blog-icon, .contact-icon{
+.Home-icon,
+.service-icon,
+.About-icon,
+.blog-icon,
+.contact-icon {
     fill: #04a7ac;
 }
 
-.Home-svg{
+.Home-svg {
     margin-left: 11px;
     height: 20px;
     display: block;
 }
 
-.Abt-svg{
+.Abt-svg {
     height: 24px;
     margin-left: 20px;
     display: block;
 
 }
 
-.service-svg{
+.service-svg {
     height: 24px;
     margin-left: 18px;
     display: block;
 }
 
-.blog-svg{
+.blog-svg {
     height: 24px;
     margin-left: 15px;
     display: block;
 }
 
-.blog-svg_1{
+.blog-svg_1 {
     height: 24px;
     /* margin-left: 15px; */
     display: block;
 }
 
-.contact-svg{
+.contact-svg {
     height: 22px;
     margin-left: 25px;
     display: block;
 }
 
-.navbar-toggler:focus{
+.navbar-toggler:focus {
     box-shadow: none;
 }
 
-.offcanvas-header{
+.offcanvas-header {
     border-bottom: thin solid #9c9c9c;
 }
 
-.offcanvas.hiding, .offcanvas.show {
-    .Home-svg, .Abt-svg, .service-svg, .blog-svg, .contact-svg{
+.offcanvas.hiding,
+.offcanvas.show {
+
+    .Home-svg,
+    .Abt-svg,
+    .service-svg,
+    .blog-svg,
+    .contact-svg,
+    .blog-svg_1 {
         margin-left: 0;
         margin-right: 30px;
         display: inline;
     }
-    .nav-item{
+
+    .nav-item {
         margin-top: 20px;
         /* transition: .5s; */
     }
 }
 
-.offcanvas.hiding, .offcanvas.show{
-    li a.active, li a:hover{
+.offcanvas.hiding,
+.offcanvas.show {
+
+    li a.active,
+    li a:hover {
         text-decoration: none;
     }
 }
@@ -125,7 +145,8 @@ nav ul li a.active, nav ul li a:hover {
     .nav-item {
         margin-right: 40px;
     }
-    .nav-item-last{
+
+    .nav-item-last {
         margin-right: 0;
     }
 }
@@ -139,29 +160,29 @@ nav ul li a.active, nav ul li a:hover {
     padding: 0;
 }
 
-.banner-heading{
+.banner-heading {
     font-family: "Sniglet", system-ui;
     color: white;
 }
 
-.banner-sub{
+.banner-sub {
     font-family: "Roboto", sans-serif;
     color: white;
 }
 
-.banner-row{
+.banner-row {
     padding-right: 0;
 }
 
-.Abt-banner-img{
+.Abt-banner-img {
     height: 350px;
 }
 
-.abt-img-col{
+.abt-img-col {
     text-align: center;
 }
 
-.cloud-img{
+.cloud-img {
     bottom: 0;
     position: absolute;
     width: 100%;
@@ -180,10 +201,10 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 @media (max-width: 426px) {
-    .Abt-banner-img{
+    .Abt-banner-img {
         height: auto;
     }
-} 
+}
 
 /* <!-- Abt-Career CSS......................................................................................... --> */
 
@@ -192,33 +213,33 @@ nav ul li a.active, nav ul li a:hover {
     margin-top: 40px;
 }
 
-.c-heading h1{
+.c-heading h1 {
     font-size: 50px;
     font-family: "Grand Hotel", cursive;
     color: #04a7ac !important;
 }
 
-.c-heading p{
+.c-heading p {
     font-family: "Roboto", sans-serif;
     color: #4a4a4a;
 }
 
 /* Questions CSS.......................................................................................... */
 
-.question-fluid{
+.question-fluid {
     padding: 0;
 }
 
-.question-heading{
+.question-heading {
     font-family: "Grand Hotel", cursive;
     color: #04a7ac !important;
     text-align: center;
 }
 
-.accordion{
+.accordion {
     font-family: "Roboto", sans-serif !important;
     color: #4a4a4a !important;
-    --bs-accordion-bg:#cefeff !important;
+    --bs-accordion-bg: #cefeff !important;
 }
 
 .accordion-button:focus {
@@ -228,7 +249,7 @@ nav ul li a.active, nav ul li a:hover {
 .accordion-button {
     border-top-left-radius: 5px !important;
     border-top-right-radius: 5px !important;
-    padding-top: 12px ;
+    padding-top: 12px;
     padding-bottom: 12px;
 }
 
@@ -239,31 +260,31 @@ nav ul li a.active, nav ul li a:hover {
     width: 90%;
 }
 
-.accordion-button:not(.collapsed){
+.accordion-button:not(.collapsed) {
     background-color: #04a7ac;
     color: white;
     /* border: thin solid #04a7ac; */
 }
 
-.accordion-body{
+.accordion-body {
     padding-left: 30px !important;
     padding-right: 30px !important;
 }
 
-.accordion-flush .accordion-collapse{
+.accordion-flush .accordion-collapse {
     /* background-color:#9bdee0; */
     /* border: 2px solid #04a7ac; */
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
-.job_info{
+.job_info {
     display: flex;
-    list-style:none;
+    list-style: none;
     padding-left: 0;
 }
 
-.job_info li{
+.job_info li {
     background-color: #02b5bb;
     padding: 8px 12px 8px 12px;
     margin-right: 20px;
@@ -307,7 +328,7 @@ nav ul li a.active, nav ul li a:hover {
     transition: background-color 0.3s ease;
 }
 
-.selected-file{
+.selected-file {
     margin-left: 10px;
     display: inline;
 }
@@ -323,7 +344,7 @@ nav ul li a.active, nav ul li a:hover {
     font-size: 20x;
 }
 
-.custom-file-button{
+.custom-file-button {
     width: 35%;
 }
 
@@ -346,7 +367,7 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 @media (max-width:769px) {
-    .custom-file-button{
+    .custom-file-button {
         width: 55%;
     }
 }
@@ -357,29 +378,33 @@ nav ul li a.active, nav ul li a:hover {
         margin-left: 0;
         display: block;
     }
-    .apply-button{
+
+    .apply-button {
         margin-left: 0;
     }
-    .custom-file-button{
+
+    .custom-file-button {
         width: 85%;
     }
-    .aply-tbn-div{
+
+    .aply-tbn-div {
         text-align: center;
     }
+
     .apply_btn {
         padding: 8px 20px;
     }
 }
 
 @media (max-width:376px) {
-    .custom-file-button{
+    .custom-file-button {
         width: 100%;
     }
 }
 
 /* Footer section............................................................................................ */
 
-.footer-fluid{
+.footer-fluid {
     background-color: #04a7ac;
     background-image: url(../Images/bird.png), url(../Images/footer-book.png), url(../Images/footer-book.png), url(../Images/footer-buttter.png), url(../Images/footer-buttter.png), url(../Images//footer-smily.png);
     background-position: top center, left 18px bottom 30px, top 18px right 45px, top 20px left 20px, top right 500px, bottom 20px right 20px;
@@ -389,7 +414,7 @@ nav ul li a.active, nav ul li a:hover {
     color: white;
 }
 
-.fotter-row{
+.fotter-row {
     margin: 0 auto;
     width: 85%;
 }

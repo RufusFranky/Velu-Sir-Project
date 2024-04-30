@@ -115,7 +115,7 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 .offcanvas.hiding, .offcanvas.show {
-    .Home-svg, .Abt-svg, .service-svg, .blog-svg, .contact-svg{
+    .Home-svg, .Abt-svg, .service-svg, .blog-svg, .contact-svg, .blog-svg_1{
         margin-left: 0;
         margin-right: 30px;
         display: inline;
@@ -131,6 +131,15 @@ nav ul li a.active, nav ul li a:hover {
         text-decoration: none;
     }
 }
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
 
 @media (max-width:1024px) {
     .nav-item {
@@ -374,7 +383,6 @@ nav ul li a.active, nav ul li a:hover {
 } */
 
 
-
 .vertical-line {
     border-left: 1px dashed #093fab; /* Change color and width as needed */
     height: 350px; /* Adjust height as needed */
@@ -471,8 +479,7 @@ nav ul li a.active, nav ul li a:hover {
 
 .showcase-box:hover{
     background-color: #04a7ac;
-    color: white;
-    cursor: pointer;
+    color: white;   
     transition: .4s;
 }
 

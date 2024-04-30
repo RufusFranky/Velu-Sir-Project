@@ -1,30 +1,35 @@
 /* Navbar CSS */
 
-.navbar{
+.navbar {
     background-color: white !important;
     /* height: 80px; */
     /* border: thin solid red; */
 }
 
-.navbar-brand{
+.navbar-brand {
     /* margin-bottom: -40px; */
     margin-left: 30px;
 }
 
-.logo-img{
+.logo-img {
     position: absolute;
     height: 140px;
     top: 1px;
     padding: 10px 0;
 }
 
-nav ul li a.active, nav ul li a:hover {
+nav ul li a.active,
+nav ul li a:hover {
     text-decoration: underline;
     /* border-bottom: thin solid  #093fab; */
     color: #093fab !important;
     transition: .5s;
 
-    .Home-icon, .About-icon, .service-icon, .blog-icon, .contact-icon{
+    .Home-icon,
+    .About-icon,
+    .service-icon,
+    .blog-icon,
+    .contact-icon {
         fill: #093fab;
         transition: .5s;
     }
@@ -35,83 +40,98 @@ nav ul li a.active, nav ul li a:hover {
     font-family: "Roboto", sans-serif !important;
 }
 
-.nav-link{
+.nav-link {
     /* border-bottom: thin solid  #ffffff; */
     transition: .5s;
     color: #04a7ac !important;
 }
 
-.nav-item-last{
+.nav-item-last {
     margin-right: 0;
 }
 
-.offcanvas-title img{
+.offcanvas-title img {
     height: 80px;
 }
 
-.Home-icon, .service-icon, .About-icon, .blog-icon, .contact-icon{
+.Home-icon,
+.service-icon,
+.About-icon,
+.blog-icon,
+.contact-icon {
     fill: #04a7ac;
 }
 
-.Home-svg{
+.Home-svg {
     margin-left: 11px;
     height: 20px;
     display: block;
 }
 
-.Abt-svg{
+.Abt-svg {
     height: 24px;
     margin-left: 20px;
     display: block;
 
 }
 
-.service-svg{
+.service-svg {
     height: 24px;
     margin-left: 18px;
     display: block;
 }
 
-.blog-svg{
+.blog-svg {
     height: 24px;
     margin-left: 15px;
     display: block;
 }
 
-.blog-svg_1{
+.blog-svg_1 {
     height: 24px;
     /* margin-left: 15px; */
     display: block;
 }
 
-.contact-svg{
+.contact-svg {
     height: 22px;
     margin-left: 25px;
     display: block;
 }
 
-.navbar-toggler:focus{
+.navbar-toggler:focus {
     box-shadow: none;
 }
 
-.offcanvas-header{
+.offcanvas-header {
     border-bottom: thin solid #9c9c9c;
 }
 
-.offcanvas.hiding, .offcanvas.show {
-    .Home-svg, .Abt-svg, .service-svg, .blog-svg, .contact-svg{
+.offcanvas.hiding,
+.offcanvas.show {
+
+    .Home-svg,
+    .Abt-svg,
+    .service-svg,
+    .blog-svg,
+    .contact-svg,
+    .blog-svg_1 {
         margin-left: 0;
         margin-right: 30px;
         display: inline;
     }
-    .nav-item{
+
+    .nav-item {
         margin-top: 20px;
         /* transition: .5s; */
     }
 }
 
-.offcanvas.hiding, .offcanvas.show{
-    li a.active, li a:hover{
+.offcanvas.hiding,
+.offcanvas.show {
+
+    li a.active,
+    li a:hover {
         text-decoration: none;
     }
 }
@@ -120,7 +140,8 @@ nav ul li a.active, nav ul li a:hover {
     .nav-item {
         margin-right: 40px;
     }
-    .nav-item-last{
+
+    .nav-item-last {
         margin-right: 0;
     }
 }
@@ -135,30 +156,30 @@ nav ul li a.active, nav ul li a:hover {
 
 
 
-.banner-heading{
+.banner-heading {
     font-family: "Sniglet", system-ui;
     color: white;
 }
 
-.banner-sub{
+.banner-sub {
     font-family: "Roboto", sans-serif;
     color: white;
     /* text-align: justify; */
 }
 
-.banner-row{
+.banner-row {
     padding-right: 0;
 }
 
-.Abt-banner-img{
+.Abt-banner-img {
     height: 350px;
 }
 
-.abt-img-col{
+.abt-img-col {
     text-align: center;
 }
 
-.cloud-img{
+.cloud-img {
     bottom: 0;
     position: absolute;
     width: 100%;
@@ -167,7 +188,7 @@ nav ul li a.active, nav ul li a:hover {
 /* <!-- Contact CSS......................................................................................... --> */
 
 .Contact-fluid {
-    background-image: url(../Images/img1.png), url(../Images/img1.png) ;
+    background-image: url(../Images/img1.png), url(../Images/img1.png);
     background-repeat: no-repeat;
     background-size: 100px;
     background-position: top 70px left -20px, right -30px bottom 40px;
@@ -178,22 +199,23 @@ nav ul li a.active, nav ul li a:hover {
     margin-top: 40px;
 }
 
-.contact-heading h1{
+.contact-heading h1 {
     font-family: "Grand Hotel", cursive;
     color: #04a7ac !important;
 }
 
 .contact-form {
     background-color: #04a7ac;
-    color: #000000; /* black text color */
+    color: #000000;
+    /* black text color */
     padding: 30px;
     /* border: thin solid red; */
     border-radius: 10px;
-    text-align: end;    
-    
+    text-align: end;
+
 }
 
-.contact-form input{
+.contact-form input {
     /* display: block; */
     width: 100%;
     margin-bottom: 10px;
@@ -217,12 +239,12 @@ nav ul li a.active, nav ul li a:hover {
     font-size: larger;
 }
 
-.contact-form button:hover{
+.contact-form button:hover {
     background-color: white;
     color: #04a7ac;
 }
 
-input::placeholder{
+input::placeholder {
     font-family: "Grand Hotel", cursive;
     color: #04a7ac !important;
 }
@@ -236,14 +258,14 @@ input::placeholder{
     border: thin solid red;
 } */
 
-textarea::placeholder{
+textarea::placeholder {
     font-family: "Grand Hotel", cursive;
     color: #04a7ac !important;
 }
 
-textarea{
+textarea {
     padding: 10px;
-    border:none;
+    border: none;
     border-radius: 10px;
     font-family: "Grand Hotel", cursive;
     color: #04a7ac !important;
@@ -251,49 +273,49 @@ textarea{
     height: 150px;
 }
 
-.contact-text h2{
+.contact-text h2 {
     color: #093fab;
     font-family: Sniglet, system-ui;
 }
 
-.contact-text p{
+.contact-text p {
     font-family: "Roboto", sans-serif;
     font-size: larger;
     /* font-weight: bold; */
     margin-top: 20px;
 }
 
-.contact-text-inner{
+.contact-text-inner {
     margin-left: 65px;
 }
 
-.map{
+.map {
     width: 92%;
     height: 450px;
 }
 
 
 @media (max-width:769px) {
-    .contact-text-inner{
+    .contact-text-inner {
         margin-top: 50px;
         margin-left: 0;
-    }   
+    }
 }
 
 @media (max-width:426px) {
-    .contact-row{
+    .contact-row {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
 
-    .map{
+    .map {
         width: 350px !important;
         height: 250px !important;
     }
 }
 
 @media (max-width:376px) {
-    .map{
+    .map {
         width: 300px !important;
         height: 250px !important;
     }
@@ -302,7 +324,7 @@ textarea{
 
 /* Footer section............................................................................................ */
 
-.footer-fluid{
+.footer-fluid {
     background-color: #04a7ac;
     background-image: url(../Images/bird.png), url(../Images/footer-book.png), url(../Images/footer-book.png), url(../Images/footer-buttter.png), url(../Images/footer-buttter.png), url(../Images//footer-smily.png);
     background-position: top center, left 18px bottom 30px, top 18px right 45px, top 20px left 20px, top right 500px, bottom 20px right 20px;
@@ -312,7 +334,7 @@ textarea{
     color: white;
 }
 
-.fotter-row{
+.fotter-row {
     margin: 0 auto;
     width: 85%;
 }

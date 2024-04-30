@@ -213,8 +213,9 @@
                     <h1 class="banner-heading mt-5">Play School</h1>
                     <p class="banner-sub mt-3">Program of Canaan Academy</p>
                 </div>
-                <div class="col abt-img-col"><img src="../Images/Abt-banner.png" alt="Abt-banner.png"
-                        class="img-fluid Abt-banner-img"></div>
+                <div class="col abt-img-col">
+                    <img src="../Images/abt-banner-img.png" alt="Abt-banner.png" class="img-fluid Abt-banner-img">
+                </div>
             </div>
         </div>
         <div><img src="../Images/shape-banner.png" alt="" class="cloud-img"></div>
@@ -403,6 +404,29 @@
         </div>
     </div>
 
+    <div class="sec-title row">
+
+        <img loading="lazy" id="myImg" class="img-fluid col-6" src="../Images/play-school-new.png"
+            data-bigger-src="../Images/play-school-new.png" alt="PlayGroup Admission ">
+
+        <img loading="lazy" id="myImg" class="img-fluid col-6" src="../Images/Nurshery-new.png"
+            data-bigger-src="../Images/Nurshery-new.png" alt="Nursery School Admission">
+
+        <img loading="lazy" id="myImg" class="img-fluid col-6" src="../Images/Euro-junior.png"
+            data-bigger-src="../Images/Euro-junior.png" style="margin-bottom: -5px;" alt="Euro Junior School Admission">
+
+        <img loading="lazy" id="myImg" class="img-fluid col-6" src="../Images/Euro-senior.png"
+            data-bigger-src="../Images/Euro-senior.png" alt="Euro Senior School Admission">
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">×</span>
+            <img id="modal-img" class="modal-content" src="" loading="lazy">
+
+            <div id="caption"></div>
+        </div>
+    </div>
+
     <!-- Service-Teach-Section......................................................................................... -->
 
     <div class="container-fluid s-teach-fluid py-5">
@@ -493,6 +517,7 @@
             </div>
         </div>
     </div>
+
     <!-- Service-Section-3......................................................................................... -->
     <div class="container-fluid Service-S3-fluid py-3">
         <div class="container px-5 py-3">
@@ -616,6 +641,36 @@
     <div style="background-color: #029195; text-align: center; color: white;">
         <p class="mb-0 py-3">&copy; Copyright Canaan group 2024 | All rights reserved.</p>
     </div>
+    <script>
+        var modal = document.getElementById("myModal");
+    
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImg");
+        var modalImg = document.getElementById("modal-img");
+        var captionText = document.getElementById("caption");
+        img.onclick = function () {
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+    
+    
+        document.addEventListener("click", (e) => {
+          const elem = e.target;
+          if (elem.id === "myImg") {
+            modal.style.display = "block";
+            modalImg.src = elem.dataset.biggerSrc || elem.src;
+            captionText.innerHTML = elem.alt;
+          }
+        })
+    
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+    
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+          modal.style.display = "none";
+        }
+      </script>
 </body>
-
 </html>

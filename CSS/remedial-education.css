@@ -154,20 +154,35 @@ nav ul li a.active, nav ul li a:hover {
     padding-right: 0;
 }
 
-.Abt-banner-img{
+.Abt-banner-img {
     height: 350px;
 }
 
-.abt-img-col{
+.abt-img-col {
     text-align: center;
 }
 
-
-.cloud-img{
+.cloud-img {
     bottom: 0;
     position: absolute;
     width: 100%;
 }
+
+@media (max-width:768px) {
+    .banner-row {
+        text-align: center;
+    }
+
+    .banner-row p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 426px) {
+    .Abt-banner-img{
+        height: auto;
+    }
+} 
 
 /* <!-- Abt-service CSS......................................................................................... --> */
 

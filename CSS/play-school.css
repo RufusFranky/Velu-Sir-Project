@@ -156,20 +156,35 @@ nav ul li a.active, nav ul li a:hover {
     padding-right: 0;
 }
 
-.Abt-banner-img{
+.Abt-banner-img {
     height: 350px;
 }
 
-.abt-img-col{
+.abt-img-col {
     text-align: center;
 }
 
-
-.cloud-img{
+.cloud-img {
     bottom: 0;
     position: absolute;
     width: 100%;
 }
+
+@media (max-width:768px) {
+    .banner-row {
+        text-align: center;
+    }
+
+    .banner-row p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 426px) {
+    .Abt-banner-img{
+        height: auto;
+    }
+} 
 
 /* <!-- Abt-service CSS......................................................................................... --> */
 
@@ -212,6 +227,28 @@ nav ul li a.active, nav ul li a:hover {
     height: 320px;
 }
 
+.sec-title,
+.modal {
+  width: 50%;
+  height: 500px;
+
+}
+
+.col-6 {
+  padding: 0;
+}
+
+.close {
+  background-color: black;
+  color: white;
+  padding: 25px;
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+  right: 0;
+  z-index: 5;
+}
+
 @media (max-width:1024px) {
     .circle{
         margin: 0 auto
@@ -229,6 +266,7 @@ nav ul li a.active, nav ul li a:hover {
         margin: 0;
     }
 }
+
 
 /* <!-- Service-Teach- CSS......................................................................................... --> */
 
@@ -274,6 +312,8 @@ nav ul li a.active, nav ul li a:hover {
     font-family: "Sniglet", system-ui;
     color: #093fab;
 }
+
+
 
 /* <!-- Service-Section-3 CSS......................................................................................... --> */
 

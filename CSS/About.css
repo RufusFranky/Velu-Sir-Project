@@ -119,7 +119,8 @@ nav ul li a:hover {
     .Abt-svg,
     .service-svg,
     .blog-svg,
-    .contact-svg {
+    .contact-svg,
+    .blog-svg_1 {
         margin-left: 0;
         margin-right: 30px;
         display: inline;
@@ -232,7 +233,7 @@ nav ul li a:hover {
     }
 }
 
-/* <!-- V & M CSS ....................................................................................--> */
+/* <!-- V & M CSS ...................................................................................--> */
 
 .v_m-fluid {
     padding: 0;
@@ -272,6 +273,10 @@ nav ul li a:hover {
 
 .v-info {
     text-align: justify;
+}
+
+.tab-content p {
+    /* text-align: justify; */
 }
 
 .v-btn .nav-link,

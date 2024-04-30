@@ -1,35 +1,40 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
 /* Navbar CSS */
 
-.navbar{
+.navbar {
     background-color: white !important;
     /* height: 80px; */
     /* border: thin solid red; */
 }
 
-.navbar-brand{
+.navbar-brand {
     /* margin-bottom: -40px; */
     margin-left: 30px;
 }
 
-.logo-img{
+.logo-img {
     position: absolute;
     height: 140px;
     top: 1px;
     padding: 10px 0;
 }
 
-nav ul li a.active, nav ul li a:hover {
+nav ul li a.active,
+nav ul li a:hover {
     text-decoration: underline;
     /* border-bottom: thin solid  #093fab; */
     color: #093fab !important;
     transition: .5s;
 
-    .Home-icon, .About-icon, .service-icon, .blog-icon, .contact-icon{
+    .Home-icon,
+    .About-icon,
+    .service-icon,
+    .blog-icon,
+    .contact-icon {
         fill: #093fab;
         transition: .5s;
     }
@@ -40,83 +45,98 @@ nav ul li a.active, nav ul li a:hover {
     font-family: "Roboto", sans-serif !important;
 }
 
-.nav-link{
+.nav-link {
     /* border-bottom: thin solid  #ffffff; */
     transition: .5s;
     color: #04a7ac !important;
 }
 
-.nav-item-last{
+.nav-item-last {
     margin-right: 0;
 }
 
-.offcanvas-title img{
+.offcanvas-title img {
     height: 80px;
 }
 
-.Home-icon, .service-icon, .About-icon, .blog-icon, .contact-icon{
+.Home-icon,
+.service-icon,
+.About-icon,
+.blog-icon,
+.contact-icon {
     fill: #04a7ac;
 }
 
-.Home-svg{
+.Home-svg {
     margin-left: 11px;
     height: 20px;
     display: block;
 }
 
-.Abt-svg{
+.Abt-svg {
     height: 24px;
     margin-left: 20px;
     display: block;
 
 }
 
-.service-svg{
+.service-svg {
     height: 24px;
     margin-left: 18px;
     display: block;
 }
 
-.blog-svg{
+.blog-svg {
     height: 24px;
     margin-left: 15px;
     display: block;
 }
 
-.blog-svg_1{
+.blog-svg_1 {
     height: 24px;
     /* margin-left: 15px; */
     display: block;
 }
 
-.contact-svg{
+.contact-svg {
     height: 22px;
     margin-left: 25px;
     display: block;
 }
 
-.navbar-toggler:focus{
+.navbar-toggler:focus {
     box-shadow: none;
 }
 
-.offcanvas-header{
+.offcanvas-header {
     border-bottom: thin solid #9c9c9c;
 }
 
-.offcanvas.hiding, .offcanvas.show {
-    .Home-svg, .Abt-svg, .service-svg, .blog-svg, .contact-svg{
+.offcanvas.hiding,
+.offcanvas.show {
+
+    .Home-svg,
+    .Abt-svg,
+    .service-svg,
+    .blog-svg,
+    .contact-svg,
+    .blog-svg_1 {
         margin-left: 0;
         margin-right: 30px;
         display: inline;
     }
-    .nav-item{
+
+    .nav-item {
         margin-top: 20px;
         /* transition: .5s; */
     }
 }
 
-.offcanvas.hiding, .offcanvas.show{
-    li a.active, li a:hover{
+.offcanvas.hiding,
+.offcanvas.show {
+
+    li a.active,
+    li a:hover {
         text-decoration: none;
     }
 }
@@ -125,7 +145,8 @@ nav ul li a.active, nav ul li a:hover {
     .nav-item {
         margin-right: 40px;
     }
-    .nav-item-last{
+
+    .nav-item-last {
         margin-right: 0;
     }
 }
@@ -139,30 +160,30 @@ nav ul li a.active, nav ul li a:hover {
     padding: 0;
 }
 
-.banner-heading{
-    font-family: "Sniglet", system-ui; 
+.banner-heading {
+    font-family: "Sniglet", system-ui;
     color: white;
 }
 
-.banner-sub{
+.banner-sub {
     font-family: "Roboto", sans-serif;
     color: white;
 }
 
-.banner-row{
+.banner-row {
     padding-right: 0;
 }
 
-.Abt-banner-img{
+.Abt-banner-img {
     height: 350px;
 }
 
-.abt-img-col{
+.abt-img-col {
     text-align: center;
 }
 
 
-.cloud-img{
+.cloud-img {
     bottom: 0;
     position: absolute;
     width: 100%;
@@ -181,14 +202,14 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 @media (max-width: 426px) {
-    .Abt-banner-img{
+    .Abt-banner-img {
         height: auto;
     }
-} 
+}
 
 /* <!-- Abt-service CSS......................................................................................... --> */
 
-.abt-s-fluid{
+.abt-s-fluid {
     background-image: url(../Images/img1.png), url(../Images/img1.png);
     background-repeat: no-repeat;
     background-size: 8%;
@@ -200,49 +221,51 @@ nav ul li a.active, nav ul li a:hover {
     margin-top: 40px;
 }
 
-.abt-heading h1{
+.abt-heading h1 {
     font-size: 50px;
     font-family: "Grand Hotel", cursive;
     color: #04a7ac !important;
 }
 
-.abt-heading p{
+.abt-heading p {
     font-family: "Roboto", sans-serif;
     color: #4a4a4a;
 }
 
-.S-right h3{
+.S-right h3 {
     font-family: "Sniglet", system-ui;
     color: #093fab;
 }
 
-.S-right p{
+.S-right p {
     font-family: "Roboto", sans-serif;
 }
 
-.amt-img-col{
+.amt-img-col {
     text-align: center;
 }
 
-.abt-s-img{
+.abt-s-img {
     height: 350px;
 }
 
 @media (max-width:1024px) {
-    .S-right p, .S-right h3{
+
+    .S-right p,
+    .S-right h3 {
         text-align: center !important;
     }
 }
 
 @media (max-width:426px) {
-    .abt-s-img{
+    .abt-s-img {
         height: 200px !important;
     }
 }
 
 /* <!-- Service-Teach- CSS......................................................................................... --> */
 
-.s-teach-fluid{
+.s-teach-fluid {
     background-image: url(../Images/mirror_img1.png), url(../Images/footer-buttter.png);
     background-repeat: no-repeat;
     background-size: 8%, 5%;
@@ -250,45 +273,46 @@ nav ul li a.active, nav ul li a:hover {
     background-color: #9bdee057;
 }
 
-.s-teach-heading{
+.s-teach-heading {
     text-align: center;
     margin-top: 40px;
 }
 
-.s-teach-heading h1{
+.s-teach-heading h1 {
     font-size: 50px;
     font-family: "Grand Hotel", cursive;
     color: #04a7ac !important;
 }
 
-.s-teach-heading p{
+.s-teach-heading p {
     font-family: "Roboto", sans-serif;
     /* padding: 0 150px 0 150px; */
 }
 
 .circle {
-    width: 85px; /* Adjust the width and height as needed */
+    width: 85px;
+    /* Adjust the width and height as needed */
     height: 85px;
     border-radius: 50%;
     border: 2px solid #04a7ac;
     position: relative;
 }
 
-.circle img{
+.circle img {
     position: absolute;
     left: 16px;
     top: 12px;
     height: 55px;
 }
 
-.sub-heading{
+.sub-heading {
     font-family: "Sniglet", system-ui;
     color: #093fab;
 }
 
 /* <!-- Service-Section-3 CSS......................................................................................... --> */
 
-.Service-S3-fluid{
+.Service-S3-fluid {
     background-image: url(../Images/footer-buttter.png), url(../Images/footer-buttter.png), url(../Images/mirror_img1.png), url(../Images/footer-buttter.png);
     background-repeat: no-repeat;
     background-size: 5%, 5%, 8%, 5%;
@@ -300,13 +324,13 @@ nav ul li a.active, nav ul li a:hover {
     color: #093fab;
 }
 
-.topics p{
+.topics p {
     font-family: "Roboto", sans-serif;
 }
 
 /* Footer section............................................................................................ */
 
-.footer-fluid{
+.footer-fluid {
     background-color: #04a7ac;
     background-image: url(../Images/bird.png), url(../Images/footer-book.png), url(../Images/footer-book.png), url(../Images/footer-buttter.png), url(../Images/footer-buttter.png), url(../Images//footer-smily.png);
     background-position: top center, left 18px bottom 30px, top 18px right 45px, top 20px left 20px, top right 500px, bottom 20px right 20px;
@@ -316,7 +340,7 @@ nav ul li a.active, nav ul li a:hover {
     color: white;
 }
 
-.fotter-row{
+.fotter-row {
     margin: 0 auto;
     width: 85%;
 }
