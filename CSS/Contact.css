@@ -327,3 +327,11 @@ textarea {
     margin: 0 auto;
     width: 85%;
 }
+
+.fotter-row li{
+    margin-top: 8px;
+}
+
+.F-Social-div li img{
+    padding-right: 15px;
+}

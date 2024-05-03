@@ -347,7 +347,6 @@ nav ul li a:hover {
     .m-btn .nav-link {
         margin-left: 5px;
     }
-
 }
 
 
@@ -367,6 +366,270 @@ nav ul li a:hover {
     font-size: 50px;
     font-family: "Grand Hotel", cursive;
     color: #04a7ac !important;
+}
+
+.history-img-div {
+    margin-top: 55px;
+    position: relative;
+}
+
+.history-img {
+    position: relative;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.H-inner-div {
+    width: 20%;
+    text-align: left;
+    position: absolute;
+}
+
+.H-inner-div h4 {
+    font-family: "Sniglet", system-ui;
+    color: #093fab;
+}
+
+.H-inner-div p {
+    font-family: "Roboto", sans-serif;
+}
+
+.H-inner-div_1 {
+    left: 275px;
+    top: -8px;
+}
+
+.H-inner-div_2 {
+    right: 360px;
+    top: -8px;
+}
+
+.H-inner-div_3 {
+    right: 18px;
+    top: -8px;
+}
+
+.H-inner-div_4 {
+    left: 450px;
+    bottom: -25px;
+}
+
+.H-inner-div_5 {
+    right: 185px;
+    bottom: -25px;
+}
+
+@media (max-width:1025px) {
+    .H-inner-div {
+        width: 25%;
+    }
+
+    .H-inner-div_1 {
+        left: 140px;
+        top: 9px;
+    }
+
+    .H-inner-div_2 {
+        right: 212px;
+        top: 9px;
+    }
+
+    .H-inner-div_3 {
+        right: -80px;
+        top: 9px;
+    }
+
+    .H-inner-div_3 p {
+        width: 80%;
+        /* text-align: justify; */
+    }
+
+    .H-inner-div_4 {
+        left: 290px;
+        bottom: -50px;
+    }
+
+    .H-inner-div_5 {
+        right: 60px;
+        bottom: -50px;
+    }
+}
+
+@media (max-width:769px) {
+    .history-img-div img {
+        display: none;
+    }
+
+    .history-img-div {
+        height: 720px;
+        background-image: url(../Images/3a.png);
+        background-repeat: no-repeat;
+        background-position: right 0;
+    }
+
+    .H-inner-div_3 p {
+        width: 100%;
+    }
+
+    .H-inner-div {
+        width: 60%;
+    }
+
+    .H-inner-div_1 {
+        left: 0;
+        top: 10px;
+    }
+
+    .H-inner-div_2 {
+        left: 0;
+        top: 150px;
+    }
+
+    .H-inner-div_3 {
+        left: 0;
+        top: 290px;
+    }
+
+    .H-inner-div_4 {
+        left: 0;
+        bottom: 165px;
+    }
+
+    .H-inner-div_5 {
+        left: 0;
+        bottom: 25px;
+    }
+    .H-inner-div_1::after,
+    .H-inner-div_2::after,
+    .H-inner-div_3::after,
+    .H-inner-div_4::after,
+    .H-inner-div_5::after {
+        position: absolute;
+        content: "2020";
+        font-family: "Sniglet", system-ui;
+        color: #093fab;
+        font-size: x-large;
+        bottom: 10px;
+        right: -165px;
+    }
+
+    .H-inner-div_2::after {
+        content: "2021";
+    }
+
+    .H-inner-div_3::after {
+        content: "2022";
+    }
+    
+    .H-inner-div_4::after {
+        content: "2023";
+    }
+
+    .H-inner-div_5::after {
+        content: "2024";
+    }
+}
+
+@media (max-width:426px) {
+
+    .H-inner-div {
+        width: 59%;
+    }
+
+    .H-inner-div h4 {
+        font-size: 16px;
+    }
+
+    .H-inner-div p {
+        font-size: 13px;
+    }
+
+    .H-inner-div_1::after,
+    .H-inner-div_2::after,
+    .H-inner-div_3::after,
+    .H-inner-div_4::after,
+    .H-inner-div_5::after {
+        position: absolute;
+        content: "2020";
+        font-family: "Sniglet", system-ui;
+        color: #093fab;
+        font-size: x-large;
+        bottom: 10px;
+        right: -55px;
+    }
+
+    .H-inner-div_2::after {
+        content: "2021";
+    }
+
+    .H-inner-div_3::after {
+        content: "2022";
+    }
+    
+    .H-inner-div_4::after {
+        content: "2023";
+    }
+
+    .H-inner-div_5::after {
+        content: "2024";
+    }
+}
+
+@media (max-width:376px) {
+    .H-inner-div_1 {
+        left: 0;
+        top: -8px;
+    }
+
+    .H-inner-div_2 {
+        left: 0;
+        top: 135px;
+    }
+
+    .H-inner-div_3 {
+        left: 0;
+        top: 275px;
+    }
+
+    .H-inner-div_4 {
+        left: 0;
+        bottom: 165px;
+    }
+
+    .H-inner-div_5 {
+        left: 0;
+        bottom: 25px;
+    }
+
+    .H-inner-div_1::after,
+    .H-inner-div_2::after,
+    .H-inner-div_3::after,
+    .H-inner-div_4::after,
+    .H-inner-div_5::after {
+        position: absolute;
+        content: "2020";
+        font-family: "Sniglet", system-ui;
+        color: #093fab;
+        font-size: x-large;
+        bottom: 10px;
+        right: -35px;
+    }
+
+    .H-inner-div_2::after {
+        content: "2021";
+    }
+
+    .H-inner-div_3::after {
+        content: "2022";
+    }
+    
+    .H-inner-div_4::after {
+        content: "2023";
+    }
+
+    .H-inner-div_5::after {
+        content: "2024";
+    }
 }
 
 /* <!-- Staff-CSS ....................................................................................--> */
@@ -588,4 +851,12 @@ nav ul li a:hover {
 .fotter-row {
     margin: 0 auto;
     width: 85%;
+}
+
+.fotter-row li {
+    margin-top: 8px;
+}
+
+.F-Social-div li img {
+    padding-right: 15px;
 }
