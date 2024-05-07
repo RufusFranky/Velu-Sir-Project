@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
@@ -143,24 +143,23 @@ nav ul li a.active, nav ul li a:hover {
 /* Banner CSS..................................................................................... */
 
 .banner-fluid {
-
     background-color: #4195d3;
     position: relative;
     padding: 0;
 }
 
-.banner-heading{
+.banner-heading {
     font-family: "Sniglet", system-ui;
     color: white;
 }
 
-.banner-sub{
+.banner-sub {
     font-family: "Roboto", sans-serif;
     color: white;
     text-align: justify;
 }
 
-.banner-row{
+.banner-row {
     padding-right: 0;
 }
 
@@ -178,145 +177,40 @@ nav ul li a.active, nav ul li a:hover {
     width: 100%;
 }
 
-@media (max-width:768px) {
+@media (max-width: 769px) {
     .banner-row {
         text-align: center;
     }
+}
 
-    .banner-row p {
-        text-align: center;
+@media (max-width: 1025px) {
+    .img-fluid {
+        margin-top: 20px;
     }
 }
+
 
 @media (max-width: 426px) {
-    .Abt-banner-img{
+    .Abt-banner-img {
         height: auto;
     }
-} 
-
-/* <!-- Abt-service CSS......................................................................................... --> */
-
-.abt-s-fluid{
-    background-image: url(../Images/img1.png), url(../Images/img1.png);
-    background-repeat: no-repeat;
-    background-size: 8%;
-    background-position: left -30px top 80px, right -30px bottom 0;
 }
 
-.abt-heading {
+/* <!-- Abt-Career CSS......................................................................................... --> */
+
+.c-heading {
     text-align: center;
     margin-top: 40px;
 }
 
-.abt-heading h1{
+.c-heading h1 {
     font-family: "Grand Hotel", cursive;
     color: #04a7ac !important;
-}
-
-.abt-heading p{
-    font-family: "Roboto", sans-serif;
-    color: #4a4a4a;
-}
-
-.S-right h3{
-    font-family: "Sniglet", system-ui;
-    color: #093fab;
-}
-
-.S-right p{
-    font-family: "Roboto", sans-serif;
-}
-
-.amt-img-col{
-    text-align: center;
-}
-
-.abt-s-img{
-    height: 320px;
-}
-
-@media (max-width:1024px) {
-    .S-right p, .S-right h3{
-        text-align: center !important;
-    }
-}
-
-@media (max-width:426px) {
-    .abt-s-img{
-        height: 200px !important;
-    }
-}
-
-@media (max-width:1024px) {
-
-}
-
-/* <!-- Service-Teach- CSS......................................................................................... --> */
-
-.s-teach-fluid{
-    background-image: url(../Images/mirror_img1.png), url(../Images/footer-buttter.png);
-    background-repeat: no-repeat;
-    background-size: 8%, 5%;
-    background-position: left -40px bottom 90px, right 30px bottom 180px;
-    background-color: #9bdee057;
-}
-
-.s-teach-heading{
-    text-align: center;
-    margin-top: 40px;
-}
-
-.s-teach-heading h1{
-    font-family: "Grand Hotel", cursive;
-    color: #04a7ac !important;
-}
-
-.s-teach-heading p{
-    font-family: "Roboto", sans-serif;
-    /* padding: 0 150px 0 150px; */
-}
-
-.circle {
-    width: 85px; /* Adjust the width and height as needed */
-    height: 85px;
-    border-radius: 50%;
-    border: 2px solid #04a7ac;
-    position: relative;
-}
-
-.circle img{
-    position: absolute;
-    left: 16px;
-    top: 12px;
-    height: 55px;
-}
-
-.sub-heading{
-    font-family: "Sniglet", system-ui;
-    color: #093fab;
-}
-
-/* <!-- Service-Section-3 CSS......................................................................................... --> */
-
-.Service-S3-fluid{
-    background-image: url(../Images/footer-buttter.png), url(../Images/footer-buttter.png), url(../Images/mirror_img1.png), url(../Images/footer-buttter.png);
-    background-repeat: no-repeat;
-    background-size: 5%, 5%, 8%, 5%;
-    background-position: left 0 top 30px, right 20px top 200px, left -40px bottom 300px, right 20px bottom 30px;
-}
-
-.topics h4 {
-    font-family: "Sniglet", system-ui;
-    color: #093fab;
-}
-
-.topics p{
-    font-family: "Roboto", sans-serif;
 }
 
 /* Footer section............................................................................................ */
 
-.footer-fluid{
+.footer-fluid {
     background-color: #04a7ac;
     background-image: url(../Images/bird.png), url(../Images/footer-book.png), url(../Images/footer-book.png), url(../Images/footer-buttter.png), url(../Images/footer-buttter.png), url(../Images//footer-smily.png);
     background-position: top center, left 18px bottom 30px, top 18px right 45px, top 20px left 20px, top right 500px, bottom 20px right 20px;
@@ -326,7 +220,7 @@ nav ul li a.active, nav ul li a:hover {
     color: white;
 }
 
-.fotter-row{
+.fotter-row {
     margin: 0 auto;
     width: 85%;
 }
