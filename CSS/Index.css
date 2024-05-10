@@ -736,12 +736,12 @@ nav ul li a:hover {
     bottom: 50%;
 }
 
-/* .s-col-4,
+.s-col-4,
 .s-col-5,
 .s-col-6 {
     height: 440px;
     margin-top: 80px;
-} */
+}
 
 @media (max-width:1024px) {
     .Programs-fluid {
@@ -777,7 +777,7 @@ nav ul li a:hover {
     }
 }
 
-@media (max-width:376px) {
+/* @media (max-width:376px) {
     .s-col-3 {
         
     }
@@ -791,7 +791,7 @@ nav ul li a:hover {
     .s-col-6 {
         margin-top: 355px;
     }
-}
+} */
 
 /* testimonal CSS.......................................................................................... */
 
