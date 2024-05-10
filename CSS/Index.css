@@ -157,10 +157,6 @@ nav ul li a:hover {
     }
 }
 
-.dropdown-menu{
-    /* border:  thin solid red; */
-}
-
 .dropdown:hover>.dropdown-menu {
     display: block;
 }
@@ -242,7 +238,7 @@ nav ul li a:hover {
 
 .banner-img {
     background-image: url(../Images/banner-img1.png);
-    background-size: 80%;
+    background-size: 70%;
     background-repeat: no-repeat;
     background-position: bottom left 80px;
 }
@@ -255,7 +251,7 @@ nav ul li a:hover {
 }
 
 .banner-inner-div .row .col-12 {
-    padding: 115px 0;
+    padding: 160px 0;
 }
 
 .banner-heading {
@@ -612,36 +608,7 @@ nav ul li a:hover {
 }
 
 /* Service CSS.......................................................................................... */
-@media (max-width:1024px) {
-    .Programs-fluid {
-        background-image: none !important;
-    }
-}
 
-@media (max-width:768px) {
-    .s-col-3 {
-        margin-top: 80px !important;
-    }
-}
-
-@media (max-width:426px) {
-    .s-col-2 {
-        margin-top: 80px !important;
-    }
-
-    .s-col-3 {
-        margin-top: 230px !important;
-    }
-
-    .s-col-4 {
-        margin-top: 230px !important;
-    }
-
-    .Programs-fluid {
-        background-size: 65px !important;
-
-    }
-}
 
 .Programs-fluid {
     background-image: url(../Images/img1.png);
@@ -678,7 +645,6 @@ nav ul li a:hover {
 }
 
 .card-body {
-    text-align: center;
     background-color: #9bdee057;
     /* padding-left: 35px;
     padding-right: 35px; */
@@ -708,14 +674,9 @@ nav ul li a:hover {
     margin-top: 145px;
 }
 
-.card_after_div1 p,
-.card_after_div4 p,
-.card_after_div5 p {
-    margin-top: 48px !important;
-}
-
 .card-text {
     color: #4a4a4a;
+    text-align: left;
 }
 
 .card-btn {
@@ -745,7 +706,6 @@ nav ul li a:hover {
     position: absolute;
     width: 100%;
     bottom: 50%;
-
 }
 
 .card_after_div3::after {
@@ -753,17 +713,13 @@ nav ul li a:hover {
     position: absolute;
     width: 100%;
     bottom: 50%;
-
-
 }
 
 .card_after_div4::after {
     content: url(../Images/img5.png);
     position: absolute;
     width: 100%;
-    bottom: 50%;
-
-
+    bottom: 50%
 }
 
 .card_after_div5::after {
@@ -778,15 +734,63 @@ nav ul li a:hover {
     position: absolute;
     width: 100%;
     bottom: 50%;
-
-
 }
 
-.s-col-4,
+/* .s-col-4,
 .s-col-5,
 .s-col-6 {
     height: 440px;
     margin-top: 80px;
+} */
+
+@media (max-width:1024px) {
+    .Programs-fluid {
+        background-image: none !important;
+    }
+}
+
+@media (max-width:768px) {
+    .s-col-3 {
+        margin-top: 80px !important;
+    }
+}
+
+@media (max-width:426px) {
+    .s-col-2 {
+        margin-top: 80px !important;
+    }
+
+    .s-col-3 {
+        margin-top: 230px !important;
+    }
+
+    .s-col-4 {
+        margin-top: 230px !important;
+    }
+
+    .Programs-fluid {
+        background-size: 65px !important
+    }
+
+    .Programs-heading .p1, .p2 {
+        text-align: justify;
+    }
+}
+
+@media (max-width:376px) {
+    .s-col-3 {
+        
+    }
+}
+
+@media (max-width:321px) {
+    .s-col-3, .s-col-4, .s-col-5 {
+        margin-top: 330px !important;
+    }
+
+    .s-col-6 {
+        margin-top: 355px;
+    }
 }
 
 /* testimonal CSS.......................................................................................... */

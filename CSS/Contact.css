@@ -159,7 +159,8 @@ nav ul li a:hover {
 /* Banner CSS..................................................................................... */
 
 .banner-fluid {
-    background-color: #4195d3;
+    
+    background-color: #04a7ac;
     position: relative;
     padding: 0;
 }
