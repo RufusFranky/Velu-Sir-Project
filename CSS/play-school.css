@@ -170,8 +170,6 @@ nav ul li a:hover {
     padding: 0;
 }
 
-
-
 .banner-heading {
     font-family: "Sniglet", system-ui;
     color: white;
@@ -199,6 +197,10 @@ nav ul li a:hover {
     bottom: 0;
     position: absolute;
     width: 100%;
+}
+
+.play-school .col-12{
+    align-content: center;
 }
 
 @media (max-width:768px) {
@@ -239,6 +241,7 @@ nav ul li a:hover {
 .abt-heading p {
     font-family: "Roboto", sans-serif;
     color: #4a4a4a;
+    margin: 0 auto;
 }
 
 .S-right h3 {
