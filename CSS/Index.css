@@ -160,19 +160,19 @@ nav ul li a:hover {
 .dropdown-menu {
     margin-left: -133px;
     border: thin solid white;
-    background-color: #04a7ac;
+    /* background-color: #04a7ac; */
 }
 
 
 .dropdown-item {
-    background-color: #04a7ac;
-    color: white;
+    /* background-color: #04a7ac; */
+    color: #04a7ac;
     
 }
 
 .dropdown-item:hover {
-    background-color: white;
-    color: #04a7ac !important;
+    background-color: #04a7ac;
+    color: white !important;
 }
 
 .dropdown:hover>.dropdown-menu {

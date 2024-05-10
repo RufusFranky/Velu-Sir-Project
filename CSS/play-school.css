@@ -242,6 +242,8 @@ nav ul li a:hover {
     font-family: "Roboto", sans-serif;
     color: #4a4a4a;
     margin: 0 auto;
+    width: 80%;
+    font-size: large;
 }
 
 .S-right h3 {
