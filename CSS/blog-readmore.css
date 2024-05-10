@@ -24,7 +24,7 @@
 }
 
 nav ul li a.active, nav ul li a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     /* border-bottom: thin solid  #093fab; */
     color: #093fab !important;
     transition: .5s;

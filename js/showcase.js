@@ -107,7 +107,7 @@ var onScrollHandler = function() {
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
   }
-  
+
   document.addEventListener("click", (e) => {
     const elem = e.target;
     if (elem.id === "myImg") {

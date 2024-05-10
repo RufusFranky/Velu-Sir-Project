@@ -25,7 +25,7 @@
 
 nav ul li a.active,
 nav ul li a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     /* border-bottom: thin solid  #093fab; */
     color: #093fab !important;
     transition: .5s;
@@ -375,7 +375,7 @@ nav ul li a:hover {
 
 .history-img {
     position: relative;
-    height: 400px;
+    /* height: 400px; */
     margin-top: 50px;
 }
 

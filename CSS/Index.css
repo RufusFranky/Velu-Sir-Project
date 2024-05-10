@@ -18,7 +18,7 @@
     /* Non-prefixed version */
 }
 
-/* Navbar CSS */
+/* Navbar CSS ....................................................................................*/
 
 .navbar {
     background-color: white !important;
@@ -40,7 +40,7 @@
 
 nav ul li a.active,
 nav ul li a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     /* border-bottom: thin solid  #093fab; */
     color: #093fab !important;
     transition: .5s;
@@ -192,7 +192,6 @@ nav ul li a:hover {
     .banner-img {
         min-height: 300px !important;
         background-position: bottom center !important;
-
     }
 
     .banner-heading,
@@ -209,7 +208,7 @@ nav ul li a:hover {
     .banner-heading {
         text-align: center;
         width: 100% !important;
-        padding-top: 120px !important;
+        padding-top: 50px !important;
     }
 
     .banner-sub {
@@ -311,7 +310,30 @@ nav ul li a:hover {
         left: 240px !important;
     }
 
+    .banner-heading {
+        width: 80%;
+    }
 }
+
+@media (max-width:991px) {
+    .banner-inner-div .col-12 {
+        text-align: center;
+    }
+}
+
+@media (max-width:426px) {
+    .banner-heading {
+        width: 80% !important;
+        margin-left: 45px !important;
+    }
+}
+
+@media (max-width:376px) {
+    .banner-heading {
+        margin-left: 40px !important;
+    }
+}
+
 
 /* About CSS.......................................................................................... */
 
@@ -830,7 +852,7 @@ nav ul li a:hover {
         margin: 0 auto;
     }
 
-    .test-heaading{
+    .test-heaading {
         margin-top: 40px;
     }
 }
@@ -848,24 +870,27 @@ nav ul li a:hover {
     .carousel-item {
         padding: 15px !important;
     }
+
     .quote {
         height: 35px;
     }
+
     .carousel-item .client-img {
         height: 50px;
     }
 
-    .client-info h6, .client-info p {
+    .client-info h6,
+    .client-info p {
         margin-left: 14px;
     }
 }
 
 @media (max-width:376px) {
-    .test-heaading{
+    .test-heaading {
         margin-top: 80px;
     }
 
-    .carousel-text{
+    .carousel-text {
         margin-top: 10px !important;
         margin-bottom: 10px !important;
     }
