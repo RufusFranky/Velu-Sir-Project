@@ -271,7 +271,12 @@ nav ul li a:hover {
     height: auto;
     padding: 0;
     z-index: 0;
+    height: auto;
     /* border: thin solid red; */
+}
+
+.modal-content {
+    height: 370px;
 }
 
 .modal .row {
@@ -336,8 +341,6 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-
-
 .play-Grp,
 .Pre-Kg,
 .Jr-Kg,
@@ -369,14 +372,18 @@ nav ul li a:hover {
         height: 217px;
     }
 
+    .modal-content {
+        height: 290px;
+    }
+
 }
 
 @media (max-width:769px) {
-
     .Play-Grp,
     .Pre-KG,
     .Jr-KG,
     .Sr-KG {
+        height: 160px;
         width: 50%;
     }
 
@@ -387,6 +394,14 @@ nav ul li a:hover {
     .abt-s-img {
         margin-top: 10px;
         height: 340px;
+    }
+
+    .sec-title {
+        margin-top: 40px;
+    }
+
+    .modal-content {
+        height: 320px;
     }
 }
 
@@ -401,6 +416,18 @@ nav ul li a:hover {
 
     .circle {
         margin: 0;
+    }
+
+    .modal-content {
+        height: 240px;
+    }
+
+    .Play-Grp,
+    .Pre-KG,
+    .Jr-KG,
+    .Sr-KG {
+        height: 120px;
+        width: 50%;
     }
 }
 

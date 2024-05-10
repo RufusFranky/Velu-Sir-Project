@@ -157,6 +157,10 @@ nav ul li a:hover {
     }
 }
 
+.dropdown-menu{
+    /* border:  thin solid red; */
+}
+
 .dropdown:hover>.dropdown-menu {
     display: block;
 }
@@ -416,6 +420,10 @@ nav ul li a:hover {
         margin-top: 50px !important;
         margin-bottom: 50px !important;
     }
+
+    .abt-heading p {
+        text-align: justify;
+    }
 }
 
 @media (max-width:320px) {
@@ -657,6 +665,10 @@ nav ul li a:hover {
 .Programs-heading p {
     font-family: "Roboto", sans-serif;
     color: #4a4a4a;
+}
+
+.Programs-heading .p1 {
+    margin-bottom: 0;
 }
 
 .card {
