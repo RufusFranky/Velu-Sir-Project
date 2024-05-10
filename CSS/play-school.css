@@ -201,6 +201,7 @@ nav ul li a:hover {
 
 .play-school .col-12{
     align-content: center;
+    text-align: center;
 }
 
 @media (max-width:768px) {
@@ -246,15 +247,6 @@ nav ul li a:hover {
     font-size: large;
 }
 
-.S-right h3 {
-    font-family: "Sniglet", system-ui;
-    color: #093fab;
-}
-
-.S-right p {
-    font-family: "Roboto", sans-serif;
-}
-
 .abt-s-img {
     height: 370px;
 }
@@ -286,16 +278,6 @@ nav ul li a:hover {
 
 .modal .row {
     background-color: #e6f3fd;
-}
-
-.modal h1 {
-    font-family: "Grand Hotel", cursive;
-    color: #04a7ac;
-}
-
-.modal h4 {
-    font-family: "Sniglet", system-ui;
-    color: #093fab;
 }
 
 .modal ul {
@@ -484,6 +466,18 @@ nav ul li a:hover {
 }
 
 
+@media screen and (max-width:426px) {
+    .s-teach-heading p {
+        text-align: justify;
+    }
+    .s-teach-imgCol {
+        text-align: -webkit-center;
+    }
+
+    .sub-heading {
+        margin-top: 10px;
+    } 
+}
 
 /* <!-- Service-Section-3 CSS......................................................................................... --> */
 

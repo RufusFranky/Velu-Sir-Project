@@ -160,8 +160,9 @@ nav ul li a.active, nav ul li a:hover {
     text-align: justify;
 }
 
-.banner-row{
-    padding-right: 0;
+.After-school .col-12{
+    align-content: center;
+    text-align: center;
 }
 
 .Abt-banner-img {
@@ -218,38 +219,175 @@ nav ul li a.active, nav ul li a:hover {
     color: #4a4a4a;
 }
 
-.S-right h3{
-    font-family: "Sniglet", system-ui;
-    color: #093fab;
+.abt-s-img {
+    height: 370px;
 }
 
-.S-right p{
-    font-family: "Roboto", sans-serif;
+.sec-title {
+    /* width: 122%; */
+    height: auto;
+    position: relative;
 }
 
-.amt-img-col{
+.sec-title col {
     text-align: center;
 }
 
-.abt-s-img{
-    height: 320px;
+.modal {
+    position: absolute;
+    /* width: 83.3%; */
+    overflow: visible;
+    height: auto;
+    padding: 0;
+    z-index: 0;
+    height: auto;
+    /* border: thin solid red; */
 }
 
-@media (max-width:1024px) {
-    .S-right p, .S-right h3{
-        text-align: center !important;
+.modal-content {
+    height: 370px;
+}
+
+.modal .row {
+    background-color: #e6f3fd;
+}
+
+.modal ul {
+    padding-left: 1rem;
+}
+
+.modal li {
+    margin-top: 10px;
+}
+
+.inner-prog-img {
+    height: 336px;
+}
+
+.Play-Grp,
+.Jr-KG {
+    padding-right: 0;
+}
+
+.Pre-KG,
+.Sr-KG {
+    padding-left: 0;
+}
+
+.Play-Grp,
+.Pre-KG,
+.Jr-KG,
+.Sr-KG {
+    height: 185px;
+    padding: 0;
+}
+
+.close {
+    position: absolute;
+    top: 17px;
+    right: 21px;
+    color: #333;
+    border-radius: 50%;
+    background: #cccdce;
+    z-index: 1;
+    font-size: 30px;
+    line-height: 25px;
+    width: 30px;
+    height: 32px;
+    font-weight: bold;
+    transition: 0.3s;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.play-Grp,
+.Pre-Kg,
+.Jr-Kg,
+.Sr-Kg {
+    display: none;
+    z-index: 0;
+    /* border: thin solid red; */
+    border-radius: 10px;
+}
+
+@media (max-width:1025px) {
+
+    .abt-s-img {
+        /* margin-top: 50px; */
+        height: 290px;
+    }
+
+    .Play-Grp,
+    .Pre-KG,
+    .Jr-KG,
+    .Sr-KG {
+        height: 145px;
+    }
+
+    .inner-prog-img {
+        height: 217px;
+    }
+
+    .modal-content {
+        height: 290px;
+    }
+
+}
+
+@media (max-width:769px) {
+    .Play-Grp,
+    .Pre-KG,
+    .Jr-KG,
+    .Sr-KG {
+        height: 160px;
+        width: 50%;
+    }
+
+    .program-img-col {
+        text-align: center;
+    }
+
+    .abt-s-img {
+        margin-top: 10px;
+        height: 340px;
+    }
+
+    .sec-title {
+        margin-top: 40px;
+    }
+
+    .modal-content {
+        height: 320px;
     }
 }
 
 @media (max-width:426px) {
-    .abt-s-img{
+    .abt-s-img {
         height: 200px !important;
+    }
+
+    .abt-img-col {
+        text-align: center !important;
+    }
+
+    .circle {
+        margin: 0;
+    }
+
+    .modal-content {
+        height: 240px;
+    }
+
+    .Play-Grp,
+    .Pre-KG,
+    .Jr-KG,
+    .Sr-KG {
+        height: 120px;
+        width: 50%;
     }
 }
 
-@media (max-width:1024px) {
 
-}
 
 /* <!-- Service-Teach- CSS......................................................................................... --> */
 

@@ -251,21 +251,35 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 S-right">
                     <div class="sec-title row">
-                        <img loading="lazy" id="myImg" name="play-Grp" class="img-fluid col-xl-6 col-lg-6 Play-Grp"
-                            src="../Images/Play-grp.png" data-bigger-src="../Images/Inner-prog-fullImg.png" alt="">
+                        <img loading="lazy" id="myImg" name="Play-Grp" class="img-fluid col-xl-6 col-lg-6 Play-Grp"
+                            src="../Images/Play-grp.png" alt="">
 
                         <img loading="lazy" id="myImg" name="Pre-KG" class="img-fluid col-xl-6 col-lg-6 Pre-KG"
-                            src="../Images/pre-KG.png" data-bigger-src="../Images/Inner-prog-fullImg.png" alt="">
+                            src="../Images/pre-KG.png" alt="">
 
                         <img loading="lazy" id="myImg" name="Jr-KG" class="img-fluid col-xl-6 col-lg-6 Jr-KG"
-                            src="../Images/Jr-KG.png" data-bigger-src="../Images/Inner-prog-fullImg.png" alt="">
+                            src="../Images/Jr-KG.png" alt="">
 
                         <img loading="lazy" id="myImg" name="Sr-KG" class="img-fluid col-xl-6 col-lg-6 Sr-KG"
-                            src="../Images/Sr-KG.png" data-bigger-src="../Images/Inner-prog-fullImg.png" alt="">
+                            src="../Images/Sr-KG.png" alt="">
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
                             <span class="close">×</span>
-                            <img id="modal-img" class="modal-content" src="" loading="lazy">
+                            <div id="Play-Grp" class="row">
+                                <div class="col">
+                                    <img src="../Images/inner-prog-img.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <h1>Play Group</h1>
+                                    <h5>2 - 3 years</h5>
+                                <ul>
+                                    <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                    <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                    <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                    <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -279,15 +293,11 @@
         <div class="container px-5">
             <div class="s-teach-heading">
                 <h1>What do We Teach ?</h1>
-                <p class="mt-3 mb-5">In our Play School Program for Play Group Pre-KG, LKG, and Jr-KG, we teach
-                    fundamental concepts through interactive play, storytelling, arts and crafts, and early literacy
-                    activities, fostering social skills, creativity, and a love for learning in our youngest students.
-                </p>
             </div>
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col">
                     <div class="row mb-3">
-                        <div class="col-xl-2 col-lg-2 col-md-3">
+                        <div class="col-xl-2 col-lg-2 col-md-3 s-teach-imgCol">
                             <div class="circle">
                                 <img src="../Images/about-img1.png" alt="">
                             </div>
@@ -300,7 +310,7 @@
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <div class="col-xl-2 col-lg-2 col-md-3">
+                        <div class="col-xl-2 col-lg-2 col-md-3 s-teach-imgCol">
                             <div class="circle">
                                 <img src="../Images/about-img1.png" alt="">
                             </div>
@@ -315,7 +325,7 @@
                 </div>
                 <div class="col">
                     <div class="row mb-3">
-                        <div class="col-xl-2 col-lg-2 col-md-3">
+                        <div class="col-xl-2 col-lg-2 col-md-3 s-teach-imgCol">
                             <div class="circle">
                                 <img src="../Images/about-img1.png" alt="">
                             </div>
@@ -328,14 +338,14 @@
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <div class="col-xl-2 col-lg-2 col-md-3">
+                        <div class="col-xl-2 col-lg-2 col-md-3 s-teach-imgCol">
                             <div class="circle">
                                 <img src="../Images/about-img1.png" alt="">
                             </div>
                         </div>
                         <div class="col">
                             <h4 class="sub-heading ms-4">Early Literacy and Language Development</h4>
-                            <p class="ms-4">Early Literacy and Language Development: We focus on language development
+                            <p class="ms-4">We focus on language development
                                 through storytelling, rhymes, and songs, building vocabulary and comprehension skills,
                                 and igniting a passion for reading and communication.</p>
                         </div>
@@ -468,37 +478,8 @@
     <div style="background-color: #029195; text-align: center; color: white;">
         <p class="mb-0 py-3">&copy; Copyright Canaan group 2024 | All rights reserved.</p>
     </div>
-    <script>
-        var modal = document.getElementById("myModal");
-
-        // Get the image and insert it inside the modal - use its "alt" text as a caption
-        var img = document.getElementById("myImg");
-        var modalImg = document.getElementById("modal-img");
-        var captionText = document.getElementById("caption");
-        img.onclick = function () {
-            modal.style.display = "block";
-            modalImg.src = this.src;
-            captionText.innerHTML = this.alt;
-        }
 
 
-        document.addEventListener("click", (e) => {
-            const elem = e.target;
-            if (elem.id === "myImg") {
-                modal.style.display = "block";
-                modalImg.src = elem.dataset.biggerSrc || elem.src;
-                captionText.innerHTML = elem.alt;
-            }
-        })
-
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function () {
-            modal.style.display = "none";
-        }
-    </script>
 </body>
 
 </html>

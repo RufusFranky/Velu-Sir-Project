@@ -42,13 +42,19 @@ var addFunctionOnWindowLoad = function (callback) {
     }
 }
 
-addFunctionOnWindowLoad(fun1);
+let path=window.location.pathname
+if(path=="/index.html"){
 
-addFunctionOnWindowLoad(fun2);
+  addFunctionOnWindowLoad(fun1);
+  
+  addFunctionOnWindowLoad(fun2);
+  
+  addFunctionOnWindowLoad(fun3);
+}
 
-addFunctionOnWindowLoad(fun3);
 
-console.log(5)
+
+console.log(path)
 
 // image scroll change handler
 
@@ -96,31 +102,42 @@ var onScrollHandler = function() {
     });
   });
 
-  var modal = document.getElementById("myModal");
-
+  
   // Get the image and insert it inside the modal - use its "alt" text as a caption
-  var img = document.getElementById("myImg");
-  var modalImg = document.getElementById("modal-img");
-  var captionText = document.getElementById("caption");
-  img.onclick = function () {
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-  }
-
-  document.addEventListener("click", (e) => {
+  // var img = document.getElementById("myImg");
+  // var modalImg = document.getElementById("modal-img");
+  // var captionText = document.getElementById("caption");
+  // img.onclick = function () {
+    //   modal.style.display = "block";
+    //   modalImg.src = this.src;
+    //   captionText.innerHTML = this.alt;
+    // }
+    
+    document.addEventListener("click", (e) => {
+    var modal = document.getElementById("myModal");
+   if(e.target.classList[0]=="close"){
+    modal.style.display = "none";
+   }else{
+ document.getElementById('Play-Grp').style.display="none"
+//  document.getElementById('pre-kg').style.display="none"
+//  document.getElementById('pre-kg').style.display="none"
+//  document.getElementById('pre-kg').style.display="none"
     const elem = e.target;
-    if (elem.id === "myImg") {
-      modal.style.display = "block";
-      modalImg.src = elem.dataset.biggerSrc || elem.src;
-      captionText.innerHTML = elem.alt;
-    }
+    document.getElementById("myModal").style.display="block"
+    document.getElementById(elem.name).style.display="block"
+   }
+    // if (elem.name === "myImg") {
+    //   modal.style.display = "block";
+    //   modalImg.src = elem.dataset.biggerSrc || elem.src;
+    //   captionText.innerHTML = elem.alt;
+    // }
+
   })
 
   // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close")[0];
+  // var span = document.getElementsByClassName("close")[0];
 
-  // When the user clicks on <span> (x), close the modal
-  span.onclick = function () {
-    modal.style.display = "none";
-  }
+  // // When the user clicks on <span> (x), close the modal
+  // span.onclick = function () {
+  //   modal.style.display = "none";
+  // }
