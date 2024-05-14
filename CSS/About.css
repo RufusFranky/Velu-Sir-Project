@@ -769,7 +769,7 @@ nav ul li a:hover {
 
 @media (max-width:321px) {
     .history-img-div {
-        height: 850px;
+        height: 900px;
         background-size: 183px;
     }
 
@@ -783,22 +783,22 @@ nav ul li a:hover {
     }
 
     .H-inner-div_2 {
-        top: 277px;
+        top: 335px;
         left: 0;
     }
 
     .H-inner-div_3 {
-        top: 598px;
+        top: 727px;
         left: 0;
     }
 
     .H-inner-div_4 {
-        top: 155px;
+        top: 182px;
         left: 0;
     }
 
     .H-inner-div_5 {
-        bottom: 167px;
+        bottom: 215px;
         left: 0;
     }
 
@@ -821,25 +821,25 @@ nav ul li a:hover {
 
     .H-inner-div_2::after {
         bottom: 10px;
-        right: -75px;
+        right: -36px;
         content: "2022";
     }
 
     .H-inner-div_3::after {
         bottom: 12px;
-        right: -75px;
+        right: -34px;
         content: "2024";
     }
 
     .H-inner-div_4::after {
-        top: 70px;
-        right: -75px;
+        top: 105px;
+        right: -35px;
         content: "2021";
     }
 
     .H-inner-div_5::after {
         bottom: 12px;
-        right: -75px;
+        right: -35px;
         content: "2023";
     }
 }
@@ -955,7 +955,6 @@ nav ul li a:hover {
     -ms-transition: 300ms all linear 0ms;
     -o-transition: 300ms all linear 0ms;
     transition: 300ms all linear 0ms;
-
 }
 
 .pxl-item--meta::before,
