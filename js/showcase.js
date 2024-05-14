@@ -42,15 +42,12 @@ var addFunctionOnWindowLoad = function (callback) {
   }
 }
 
-let path = window.location.pathname
-if (path == "/index.html") {
-
   addFunctionOnWindowLoad(fun1);
 
   addFunctionOnWindowLoad(fun2);
 
   addFunctionOnWindowLoad(fun3);
-}
+
 
 // image scroll change handler
 
