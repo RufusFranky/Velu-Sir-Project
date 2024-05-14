@@ -308,13 +308,13 @@ nav ul li a:hover {
     height: 350px;
 }
 
-#Play-Grp,
-#Pre-Kg,
-#Jr-Kg,
-#Sr-Kg {
+.model-PlaySchool,
+.model-Pre-Kg,
+.model-Jr-Kg,
+.model-Sr-Kg {
     padding: 10px;
     height: auto;
-    display: flex !important;
+    display: flex ;
 }
 
 .Play-Grp,

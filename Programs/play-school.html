@@ -262,21 +262,21 @@
                 <div class="col-xl-6 col-lg-6 S-right">
                     <div class="sec-title row">
                         <div class="col">
-                            <div name="Play-Grp" class="row Play-Grp" onclick="playSchool(event)">
-                                <h1>Play Group</h1>
-                                <h4>1.5 to 3 years</h4>
+                            <div id="Play-Grp" class="row Play-Grp" onclick="playSchool(event)" >
+                                <h1  >Play Group</h1>
+                                <h4  >1.5 to 3 years</h4>
                             </div>
-                            <div class="row Jr-KG">
+                            <div id="Jr-Kg" class="row Jr-KG" onclick="playSchool(event)" >
                                 <h1>Junior KG</h1>
                                 <h4>4 Years</h4>
                             </div>
                         </div>
                         <div class="col">
-                            <div name="Pre-Kg" class="row Pre-KG">
+                            <div id="Pre-Kg" class="row Pre-KG" onclick="playSchool(event)" >
                                 <h1>Pre-KG</h1>
                                 <h4>3 Years</h4>
                             </div>
-                            <div name="Sr-Kg" class="row Sr-KG">
+                            <div id="Sr-Kg" class="row Sr-KG" onclick="playSchool(event)" >
                                 <h1>Senior KG</h1>
                                 <h4>5 years</h4>
                             </div>
@@ -295,7 +295,7 @@
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
                             <span class="close">×</span>
-                            <div id="Play-Grp" class="row">
+                            <div id="Play-Grps" class="row model-PlaySchool">
                                 <div class="col">
                                     <img src="../Images/inner-prog-img.png" alt="" class="inner-prog-img">
                                 </div>
@@ -310,7 +310,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div id="Pre-Kg" class="row">
+                            <div id="Pre-Kgs" class="row model-Pre-Kg">
                                 <div class="col">
                                     <img src="../Images/inner-prog-img.png" alt="" class="inner-prog-img">
                                 </div>
@@ -325,7 +325,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div id="Jr-Kg" class="row">
+                            <div id="Jr-Kgs" class="row model-Jr-Kg">
                                 <div class="col">
                                     <img src="../Images/inner-prog-img.png" alt="" class="inner-prog-img">
                                 </div>
@@ -340,7 +340,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div id="Sr-Kg" class="row">
+                            <div id="Sr-Kgs" class="row model-Sr-Kg">
                                 <div class="col">
                                     <img src="../Images/inner-prog-img.png" alt="" class="inner-prog-img">
                                 </div>
@@ -577,17 +577,20 @@
                 modal.style.display = "none";
             }
         })
-        function playSchool(e) {
+
+        function playSchool(event) {
             var modal = document.getElementById("myModal");
-            document.getElementById('Play-Grp').style.display = "none"
-            // document.getElementById('Pre-Kg').style.display = "none"
-            // document.getElementById('Jr-Kg').style.display = "none"
-            // document.getElementById('Sr-Kg').style.display = "none"
-            const elem = e.target;
+            document.getElementById('Play-Grps').style.display = "none"
+            document.getElementById('Pre-Kgs').style.display = "none"
+            document.getElementById('Jr-Kgs').style.display = "none"
+            document.getElementById('Sr-Kgs').style.display = "none"
+            const elem = event.currentTarget.id+"s";
+            console.log(event.currentTarget.id);
             document.getElementById("myModal").style.display = "block"
-            document.getElementById(elem.name).style.display = "block"
+            document.getElementById(elem).style.display = "flex"
 
         }
+        
     </script>
 </body>
 

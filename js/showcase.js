@@ -1,52 +1,52 @@
-function fun1() {
-  var count = 0;
+// function fun1() {
+//   var count = 0;
 
-  var interval = setInterval(function () {
-    count += 1;
-    if (count === 4) {
-      clearInterval(interval);
-    }
-    document.getElementById("view").innerHTML = count + "+";
-  }, 200);
-}
+//   var interval = setInterval(function () {
+//     count += 1;
+//     if (count === 4) {
+//       clearInterval(interval);
+//     }
+//     document.getElementById("view").innerHTML = count + "+";
+//   }, 200);
+// }
 
-function fun2() {
-  var count = 0;
+// function fun2() {
+//   var count = 0;
 
-  var interval = setInterval(function () {
-    count += 1;
-    if (count === 20) {
-      clearInterval(interval);
-    }
-    document.getElementById("view1").innerHTML = count + "+";
-  }, 400);
-}
+//   var interval = setInterval(function () {
+//     count += 1;
+//     if (count === 20) {
+//       clearInterval(interval);
+//     }
+//     document.getElementById("view1").innerHTML = count + "+";
+//   }, 400);
+// }
 
-function fun3() {
-  var count = 0;
+// function fun3() {
+//   var count = 0;
 
-  var interval = setInterval(function () {
-    count += 1;
-    if (count === 500) {
-      clearInterval(interval);
-    }
-    document.getElementById("view2").innerHTML = count + "+";
-  }, 60);
-}
+//   var interval = setInterval(function () {
+//     count += 1;
+//     if (count === 500) {
+//       clearInterval(interval);
+//     }
+//     document.getElementById("view2").innerHTML = count + "+";
+//   }, 60);
+// }
 
-var addFunctionOnWindowLoad = function (callback) {
-  if (window.addEventListener) {
-    window.addEventListener('load', callback, false);
-  } else {
-    window.attachEvent('onload', callback);
-  }
-}
+// var addFunctionOnWindowLoad = function (callback) {
+//   if (window.addEventListener) {
+//     window.addEventListener('load', callback, false);
+//   } else {
+//     window.attachEvent('onload', callback);
+//   }
+// }
 
-  addFunctionOnWindowLoad(fun1);
+// addFunctionOnWindowLoad(fun1);
 
-  addFunctionOnWindowLoad(fun2);
+// addFunctionOnWindowLoad(fun2);
 
-  addFunctionOnWindowLoad(fun3);
+// addFunctionOnWindowLoad(fun3);
 
 // image scroll change handler
 

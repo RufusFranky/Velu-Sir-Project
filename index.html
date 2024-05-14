@@ -502,7 +502,7 @@
     </div>
   </div>
   <!-- Questions section -->
-  <div class="container-fluid question-fluid mt-5 mb-3">
+  <div class="container-fluid question-fluid mt-5 mb-3" id="FAQs">
     <div class="container question-inner-div pb-5">
       <div class="question-heading">
         <h1>Frequently Asked Questions</h1>
@@ -693,7 +693,7 @@
         <div class="col-xl-3 col-lg-3 col-md-4 col-12">
           <h5 class="mb-4 CotactUs-heading">Quick Links</h5>
           <ul style="list-style: none; padding-left: 0;">
-            <a href="" style="color: rgb(255, 255, 255); text-decoration: none;">
+            <a href="#FAQs" style="color: rgb(255, 255, 255); text-decoration: none;">
               <li>FAQs</li>
             </a>
             <a href="" style="color: rgb(255, 255, 255); text-decoration: none;">
@@ -757,6 +757,59 @@
   </div>
   <script>
     new WOW().init();
+
+    function fun1() {
+      var count = 0;
+
+      var interval = setInterval(function () {
+        count += 1;
+        if (count === 4) {
+          clearInterval(interval);
+        }
+        document.getElementById("view").innerHTML = count + "+";
+      }, 200);
+    }
+
+    function fun2() {
+      var count = 0;
+
+      var interval = setInterval(function () {
+        count += 1;
+        if (count === 20) {
+          clearInterval(interval);
+        }
+        document.getElementById("view1").innerHTML = count + "+";
+      }, 400);
+    }
+
+    function fun3() {
+      var count = 0;
+
+      var interval = setInterval(function () {
+        count += 1;
+        if (count === 500) {
+          clearInterval(interval);
+        }
+        document.getElementById("view2").innerHTML = count + "+";
+      }, 60);
+    }
+
+    var addFunctionOnWindowLoad = function (callback) {
+      if (window.addEventListener) {
+        window.addEventListener('load', callback, false);
+      } else {
+        window.attachEvent('onload', callback);
+      }
+    }
+
+    addFunctionOnWindowLoad(fun1);
+
+    addFunctionOnWindowLoad(fun2);
+
+    addFunctionOnWindowLoad(fun3);
+    const urlParams = new URLSearchParams(window.location.search);
+    const vali = urlParams.get('section');
+    document.getElementById(vali).scrollIntoView();
   </script>
 </body>
 
