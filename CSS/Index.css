@@ -3,21 +3,6 @@
     margin: 0;
 }
 
-.noSelect {
-    -webkit-touch-callout: none;
-    /* iOS Safari */
-    -webkit-user-select: none;
-    /* Chrome/Safari/Opera */
-    -khtml-user-select: none;
-    /* Konqueror */
-    -moz-user-select: none;
-    /* Firefox */
-    -ms-user-select: none;
-    /* Internet Explorer/Edge */
-    user-select: none;
-    /* Non-prefixed version */
-}
-
 /* Navbar CSS ....................................................................................*/
 
 .navbar {
@@ -144,7 +129,6 @@ nav ul li a:hover {
 
     .nav-item {
         margin-top: 20px;
-        /* transition: .5s; */
     }
 }
 
@@ -162,7 +146,6 @@ nav ul li a:hover {
     border: thin solid white;
     /* background-color: #04a7ac; */
 }
-
 
 .dropdown-item {
     /* background-color: #04a7ac; */
@@ -203,6 +186,10 @@ nav ul li a:hover {
     .dropdown-item {
         white-space: wrap;
     }
+}
+
+@media screen and (max-width:769px) { 
+    
 }
 
 /* Banner CSS..................................................................................... */
@@ -327,7 +314,7 @@ nav ul li a:hover {
 
 @media (max-width:1024px) {
     .banner-inner-div .row .col-12 {
-        padding: 60px 0;
+        padding: 110px 0;
     }
 
     .lefts {

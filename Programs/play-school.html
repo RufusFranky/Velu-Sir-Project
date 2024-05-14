@@ -54,6 +54,7 @@
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="../index.html">
                                 <?xml version="1.0" ?>
@@ -64,6 +65,7 @@
                                 Home
                             </a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="../Pages/about.html">
                                 <?xml version="1.0" ?>
@@ -107,8 +109,9 @@
                                 About us
                             </a>
                         </li>
+
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./Pages/Programs.html" id="navbarDropdown"
+                            <a class="nav-link dropdown-toggle" href="../Pages/Programs.html" id="navbarDropdown"
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <?xml version="1.0" ?>
                                 <!DOCTYPE svg
@@ -126,23 +129,29 @@
                                 Programs
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="../Programs/play-school.html">Play School</a></li>
-                                <li><a class="dropdown-item"
-                                        href="../Programs/personality-developement-program-for-teenagers.html">Personality
-                                        development Programs <br> Children & Teenagers</a></li>
-                                <li><a class="dropdown-item"
-                                        href="../Programs/Career-Guidance-&-child-Counselling-Programs.html">Career
-                                        Guidance & child Counselling Programs</a></li>
-                                <li><a class="dropdown-item" href="../Programs/After-school-programs.html">After-school
+                                <li><a class="dropdown-item" href="./play-school.html">Play School
+                                        Programs</a>
+                                </li>
+                                <li><a class="dropdown-item" href="./After-School.html">After-school
                                         Programs</a></li>
                                 <li><a class="dropdown-item"
-                                        href="../Programs/Academic-Coaching-for-Specially-needs.html">Academic Coaching
-                                        for Specially needs</a></li>
+                                        href="./Career Guidance & Child-Parental Counselling.html">Career
+                                        Guidance &amp; Child/Parental Counselling</a></li>
                                 <li><a class="dropdown-item"
-                                        href="../Programs/Skill-Development-program-Focus-area-children-&-Women.html">Skill
-                                        Development program - <br> Focus area children & Women</a></li>
+                                        href="./Academic support & Coaching for Specially Needs.html">Academic
+                                        support &amp;
+                                        Coaching
+                                        for Specially Needs</a></li>
+                                <li><a class="dropdown-item" href="./Soft-skill-development-programs.html">Soft
+                                        skill
+                                        Development Programs</a></li>
+                                <li><a class="dropdown-item"
+                                        href="./Skill-Development-program-Focus-area-children-&-Women.html">Skill
+                                        Development &amp;
+                                        Awareness Workshops</a></li>
                             </ul>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="../Pages/careers.html">
                                 <?xml version="1.0" ?>
@@ -175,10 +184,11 @@
                                 Careers
                             </a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="../Pages/blog.html">
                                 <?xml version="1.0" ?>
-                                <svg class="blog-svg" style="enable-background:new 0 0 100 100;" version="1.1"
+                                <svg class="blog-svg_1" style="enable-background:new 0 0 100 100;" version="1.1"
                                     viewBox="0 0 100 100" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <style type="text/css">
@@ -237,7 +247,7 @@
         </div>
         <div><img src="../Images/shape-banner.png" alt="" class="cloud-img"></div>
     </div>
-    <!-- Abou-Programs-Section......................................................................................... -->
+    <!-- About-Programs-Section......................................................................................... -->
     <div class="container-fluid abt-s-fluid py-3">
         <div class="container px-5">
             <div class="abt-heading">
@@ -251,7 +261,27 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 S-right">
                     <div class="sec-title row">
-                        <img loading="lazy" id="myImg" name="Play-Grp" class="img-fluid col-xl-6 col-lg-6 Play-Grp"
+                        <div class="col">
+                            <div name="Play-Grp" class="row Play-Grp" onclick="playSchool(event)">
+                                <h1>Play Group</h1>
+                                <h4>1.5 to 3 years</h4>
+                            </div>
+                            <div class="row Jr-KG">
+                                <h1>Junior KG</h1>
+                                <h4>4 Years</h4>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div name="Pre-Kg" class="row Pre-KG">
+                                <h1>Pre-KG</h1>
+                                <h4>3 Years</h4>
+                            </div>
+                            <div name="Sr-Kg" class="row Sr-KG">
+                                <h1>Senior KG</h1>
+                                <h4>5 years</h4>
+                            </div>
+                        </div>
+                        <!-- <img loading="lazy" id="myImg" name="Play-Grp" class="img-fluid col-xl-6 col-lg-6 Play-Grp"
                             src="../Images/Play-grp.png" alt="">
 
                         <img loading="lazy" id="myImg" name="Pre-KG" class="img-fluid col-xl-6 col-lg-6 Pre-KG"
@@ -261,23 +291,68 @@
                             src="../Images/Jr-KG.png" alt="">
 
                         <img loading="lazy" id="myImg" name="Sr-KG" class="img-fluid col-xl-6 col-lg-6 Sr-KG"
-                            src="../Images/Sr-KG.png" alt="">
+                            src="../Images/Sr-KG.png" alt=""> -->
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
                             <span class="close">×</span>
                             <div id="Play-Grp" class="row">
                                 <div class="col">
-                                    <img src="../Images/inner-prog-img.png" alt="">
+                                    <img src="../Images/inner-prog-img.png" alt="" class="inner-prog-img">
                                 </div>
                                 <div class="col">
-                                    <h1>Play Group</h1>
-                                    <h5>2 - 3 years</h5>
-                                <ul>
-                                    <li>We're a leading institute dedicated to igniting a passion for learning</li>
-                                    <li>We're a leading institute dedicated to igniting a passion for learning</li>
-                                    <li>We're a leading institute dedicated to igniting a passion for learning</li>
-                                    <li>We're a leading institute dedicated to igniting a passion for learning</li>
-                                </ul>
+                                    <h3>Play Group</h3>
+                                    <h5>1.5 to 3 years</h5>
+                                    <ul>
+                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="Pre-Kg" class="row">
+                                <div class="col">
+                                    <img src="../Images/inner-prog-img.png" alt="" class="inner-prog-img">
+                                </div>
+                                <div class="col">
+                                    <h3>Pre-KG</h3>
+                                    <h5>3 years</h5>
+                                    <ul>
+                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="Jr-Kg" class="row">
+                                <div class="col">
+                                    <img src="../Images/inner-prog-img.png" alt="" class="inner-prog-img">
+                                </div>
+                                <div class="col">
+                                    <h3>Junior KG</h3>
+                                    <h5>4 years</h5>
+                                    <ul>
+                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="Sr-Kg" class="row">
+                                <div class="col">
+                                    <img src="../Images/inner-prog-img.png" alt="" class="inner-prog-img">
+                                </div>
+                                <div class="col">
+                                    <h3>Senior KG</h3>
+                                    <h5>5 years</h5>
+                                    <ul>
+                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -437,19 +512,19 @@
                         <a href="../index.html" style="color: rgb(255, 255, 255); text-decoration: none;">
                             <li>Home</li>
                         </a>
-                        <a href="./about.html" style="color: rgb(255, 255, 255); text-decoration: none;">
+                        <a href="../Pages/about.html" style="color: rgb(255, 255, 255); text-decoration: none;">
                             <li>About Us</li>
                         </a>
-                        <a href="./Programs.html" style="color: rgb(255, 255, 255); text-decoration: none;">
+                        <a href="../Pages/Programs.html" style="color: rgb(255, 255, 255); text-decoration: none;">
                             <li>Programs</li>
                         </a>
-                        <a href="./careers.html" style="color: rgb(255, 255, 255); text-decoration: none;">
+                        <a href="../Pages/careers.html" style="color: rgb(255, 255, 255); text-decoration: none;">
                             <li>Careers</li>
                         </a>
-                        <a href="./blog.html" style="color: rgb(255, 255, 255); text-decoration: none;">
+                        <a href="../Pages/blog.html" style="color: rgb(255, 255, 255); text-decoration: none;">
                             <li>Blog</li>
                         </a>
-                        <a href="./contact.html" style="color: rgb(255, 255, 255); text-decoration: none;">
+                        <a href="../Pages/contact.html" style="color: rgb(255, 255, 255); text-decoration: none;">
                             <li>Contact us</li>
                         </a>
                     </ul>
@@ -457,16 +532,20 @@
                 <div class="col-xl-2 col-lg-3 col-md-4 col-12 F-Social-div">
                     <h5 class="mb-4 CotactUs-heading">Social Networks</h5>
                     <ul style="list-style: none; padding-left: 0;">
-                        <a href="" style="color: rgb(255, 255, 255); text-decoration: none;">
+                        <a href="https://www.facebook.com/canaanac?mibextid=qi2Omg&rdid=aO4eMJhvJ2dbIZke&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FgRspXbX8RjVtrWCy%2F%3Fmibextid%3Dqi2Omg"
+                            target=”_blank” style="color: rgb(255, 255, 255); text-decoration: none;">
                             <li><img src="../Icons/facebook.png" alt="">Facebook</li>
                         </a>
-                        <a href="" style="color: rgb(255, 255, 255); text-decoration: none;">
+                        <a href="https://x.com/canaanaca20?t=1QTnYSVuXgDo7KdGxQ9JSQ&s=08" target=”_blank”
+                            style="color: rgb(255, 255, 255); text-decoration: none;">
                             <li><img src="../Icons/twitter.png" alt="">Twitter</li>
                         </a>
-                        <a href="" style="color: rgb(255, 255, 255); text-decoration: none;">
+                        <a href="https://www.linkedin.com/company/tia-brain/" target=”_blank”
+                            style="color: rgb(255, 255, 255); text-decoration: none;">
                             <li><img src="../Icons/linked.png" alt="">LinkedIn</li>
                         </a>
-                        <a href="" style="color: rgb(255, 255, 255); text-decoration: none;">
+                        <a href="https://www.instagram.com/reel/C6fFK8OhmuV/?igsh=MWp6ZGFxb2tqeXhkdA%3D%3D"
+                            target=”_blank” style="color: rgb(255, 255, 255); text-decoration: none;">
                             <li><img src="../Icons//instagram.png" alt="">Instagram</li>
                         </a>
                     </ul>
@@ -479,7 +558,25 @@
         <p class="mb-0 py-3">&copy; Copyright Canaan group 2024 | All rights reserved.</p>
     </div>
 
+    <script>
+        document.addEventListener("click", (e) => {
+            var modal = document.getElementById("myModal");
+            if (e.target.classList[0] == "close") {
+                modal.style.display = "none";
+            }
+        })
+        function playSchool(e) {
+            var modal = document.getElementById("myModal");
+            document.getElementById('Play-Grp').style.display = "none"
+            // document.getElementById('Pre-Kg').style.display = "none"
+            // document.getElementById('Jr-Kg').style.display = "none"
+            // document.getElementById('Sr-Kg').style.display = "none"
+            const elem = e.target;
+            document.getElementById("myModal").style.display = "block"
+            document.getElementById(elem.name).style.display = "block"
 
+        }
+    </script>
 </body>
 
 </html>

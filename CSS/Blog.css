@@ -116,6 +116,25 @@ nav ul li a.active, nav ul li a:hover {
     }
 }
 
+
+.dropdown-menu {
+    margin-left: -133px;
+    border: thin solid white;
+    /* background-color: #04a7ac; */
+}
+
+
+.dropdown-item {
+    /* background-color: #04a7ac; */
+    color: #04a7ac;
+    
+}
+
+.dropdown-item:hover {
+    background-color: #04a7ac;
+    color: white !important;
+}
+
 .offcanvas.hiding, .offcanvas.show{
     li a.active, li a:hover{
         text-decoration: none;

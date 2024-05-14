@@ -142,6 +142,24 @@ nav ul li a:hover {
     }
 }
 
+.dropdown-menu {
+    margin-left: -133px;
+    border: thin solid white;
+    /* background-color: #04a7ac; */
+}
+
+
+.dropdown-item {
+    /* background-color: #04a7ac; */
+    color: #04a7ac;
+
+}
+
+.dropdown-item:hover {
+    background-color: #04a7ac;
+    color: white !important;
+}
+
 .dropdown:hover>.dropdown-menu {
     display: block;
 }
@@ -199,7 +217,7 @@ nav ul li a:hover {
     width: 100%;
 }
 
-.play-school .col-12{
+.play-school .col-12 {
     align-content: center;
     text-align: center;
 }
@@ -266,9 +284,7 @@ nav ul li a:hover {
     /* width: 83.3%; */
     overflow: visible;
     height: auto;
-    padding: 0;
     z-index: 0;
-    height: auto;
     /* border: thin solid red; */
 }
 
@@ -289,7 +305,21 @@ nav ul li a:hover {
 }
 
 .inner-prog-img {
-    height: 336px;
+    height: 350px;
+}
+
+#Play-Grp,
+#Pre-Kg,
+#Jr-Kg,
+#Sr-Kg {
+    padding: 10px;
+    height: auto;
+    display: flex !important;
+}
+
+.Play-Grp,
+.Sr-KG {
+    background-color: #e6f3fd;
 }
 
 .Play-Grp,
@@ -306,8 +336,25 @@ nav ul li a:hover {
 .Pre-KG,
 .Jr-KG,
 .Sr-KG {
-    height: 185px;
-    padding: 0;
+    text-align: center;
+    padding: 41px 0;
+}
+
+.Play-Grp h1,
+.Pre-KG h1,
+.Jr-KG h1,
+.Sr-KG h1 {
+    font-family: "Grand Hotel", cursive;
+    color: #04a7ac;
+}
+
+.Play-Grp h4,
+.Pre-KG h4,
+.Jr-KG h4,
+.Sr-KG h4 {
+    margin-top: 10px;
+    font-family: "Grand Hotel", cursive;
+    color: #093fab;
 }
 
 .close {
@@ -366,6 +413,7 @@ nav ul li a:hover {
 }
 
 @media (max-width:769px) {
+
     .Play-Grp,
     .Pre-KG,
     .Jr-KG,
@@ -470,13 +518,14 @@ nav ul li a:hover {
     .s-teach-heading p {
         text-align: justify;
     }
+
     .s-teach-imgCol {
         text-align: -webkit-center;
     }
 
     .sub-heading {
         margin-top: 10px;
-    } 
+    }
 }
 
 /* <!-- Service-Section-3 CSS......................................................................................... --> */

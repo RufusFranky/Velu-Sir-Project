@@ -122,6 +122,24 @@ nav ul li a.active, nav ul li a:hover {
     }
 }
 
+.dropdown-menu {
+    margin-left: -133px;
+    border: thin solid white;
+    /* background-color: #04a7ac; */
+}
+
+
+.dropdown-item {
+    /* background-color: #04a7ac; */
+    color: #04a7ac;
+    
+}
+
+.dropdown-item:hover {
+    background-color: #04a7ac;
+    color: white !important;
+}
+
 .dropdown:hover>.dropdown-menu {
     display: block;
   }
@@ -179,6 +197,11 @@ nav ul li a.active, nav ul li a:hover {
     width: 100%;
 }
 
+.Career-Guidance .col-12{
+    align-content: center;
+    /* text-align: center; */
+}
+
 @media (max-width:768px) {
     .banner-row {
         text-align: center;
@@ -224,10 +247,13 @@ nav ul li a.active, nav ul li a:hover {
     color: #093fab;
 }
 
+.S-right{
+    /* align-content: center; */
+}
+
 .S-right p{
     font-family: "Roboto", sans-serif;
 }
-
 
 .amt-img-col{
     text-align: center;
@@ -235,18 +261,6 @@ nav ul li a.active, nav ul li a:hover {
 
 .abt-s-img{
     height: 320px;
-}
-
-@media (max-width:1024px) {
-    .S-right p, .S-right h3{
-        text-align: center !important;
-    }
-}
-
-@media (max-width:426px) {
-    .abt-s-img{
-        height: 200px !important;
-    }
 }
 
 /* <!-- Service-Teach- CSS......................................................................................... --> */
@@ -292,6 +306,19 @@ nav ul li a.active, nav ul li a:hover {
 .sub-heading{
     font-family: "Sniglet", system-ui;
     color: #093fab;
+}
+
+@media screen and (max-width:426px) {
+    .s-teach-heading p {
+        text-align: justify;
+    }
+    .s-teach-imgCol {
+        text-align: -webkit-center;
+    }
+
+    .sub-heading {
+        margin-top: 10px;
+    } 
 }
 
 /* <!-- Service-Section-3 CSS......................................................................................... --> */

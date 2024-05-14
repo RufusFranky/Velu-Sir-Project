@@ -122,6 +122,23 @@ nav ul li a.active, nav ul li a:hover {
     }
 }
 
+.dropdown-menu {
+    margin-left: -133px;
+    border: thin solid white;
+    /* background-color: #04a7ac; */
+}
+
+
+.dropdown-item {
+    /* background-color: #04a7ac; */
+    color: #04a7ac;
+    
+}
+
+.dropdown-item:hover {
+    background-color: #04a7ac;
+    color: white !important;
+}
 .dropdown:hover>.dropdown-menu {
     display: block;
   }
@@ -175,6 +192,11 @@ nav ul li a.active, nav ul li a:hover {
     bottom: 0;
     position: absolute;
     width: 100%;
+}
+
+.soft-skill .col-12{
+    align-content: center;
+    /* text-align: center; */
 }
 
 @media (max-width:768px) {

@@ -142,6 +142,24 @@ nav ul li a:hover {
     }
 }
 
+.dropdown-menu {
+    margin-left: -133px;
+    border: thin solid white;
+    /* background-color: #04a7ac; */
+}
+
+
+.dropdown-item {
+    /* background-color: #04a7ac; */
+    color: #04a7ac;
+    
+}
+
+.dropdown-item:hover {
+    background-color: #04a7ac;
+    color: white !important;
+}
+
 .dropdown:hover>.dropdown-menu {
     display: block;
 }
@@ -231,18 +249,65 @@ nav ul li a:hover {
     color: #093fab;
 }
 
-@media (max-width:1025px) {
-    .home-abt-img {
-        margin-top: 20px;
+.about-inner-div p {
+    text-align: justify;
+} 
+
+.founder-img-col {
+    text-align: center;
+    align-content: center;
+}
+
+.founder-img {
+    width: 75%;
+    height: 380px;
+}
+
+.award-img {
+    width: 60%;
+    height: 380px;
+}
+
+@media screen and (max-width:1025px) {
+
+    .founder-img-col {
+        margin-top: 30px;
+    }
+
+    .founder-img {
+        width: 60%;
+        height: 380px;
+    }
+    
+    .award-img {
+        width: 50%;
+        height: 380px;
     }
 }
 
-@media (max-width:426px) {
-    .home-abt-img {
-        height: 300px !important;
+@media screen and (max-width:769px) {
+    .founder-img {
+        width: 75%;
+        height: 380px;
+    }
+    
+    .award-img {
+        width: 60%;
+        height: 380px;
     }
 }
 
+@media screen and (max-width:426px) {
+    .founder-img {
+        width: 90%;
+        height: 300px;
+    }
+    
+    .award-img {
+        width: 80%;
+        height: 300px;
+    }
+}
 /* <!-- V & M CSS ...................................................................................--> */
 
 .v_m-fluid {
@@ -686,7 +751,6 @@ nav ul li a:hover {
 .socail-icon {
     height: 10px;
 }
-
 
 .pxl-swiper-slide {
     padding: 0 10px;
