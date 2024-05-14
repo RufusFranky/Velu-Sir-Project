@@ -52,10 +52,6 @@ if (path == "/index.html") {
   addFunctionOnWindowLoad(fun3);
 }
 
-
-
-console.log(path)
-
 // image scroll change handler
 
 var onScrollHandler = function () {
