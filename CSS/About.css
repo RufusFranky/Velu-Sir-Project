@@ -152,7 +152,7 @@ nav ul li a:hover {
 .dropdown-item {
     /* background-color: #04a7ac; */
     color: #04a7ac;
-    
+
 }
 
 .dropdown-item:hover {
@@ -251,7 +251,7 @@ nav ul li a:hover {
 
 .about-inner-div p {
     text-align: justify;
-} 
+}
 
 .founder-img-col {
     text-align: center;
@@ -278,7 +278,7 @@ nav ul li a:hover {
         width: 60%;
         height: 380px;
     }
-    
+
     .award-img {
         width: 50%;
         height: 380px;
@@ -290,7 +290,7 @@ nav ul li a:hover {
         width: 75%;
         height: 380px;
     }
-    
+
     .award-img {
         width: 60%;
         height: 380px;
@@ -302,12 +302,13 @@ nav ul li a:hover {
         width: 90%;
         height: 300px;
     }
-    
+
     .award-img {
         width: 80%;
         height: 300px;
     }
 }
+
 /* <!-- V & M CSS ...................................................................................--> */
 
 .v_m-fluid {
@@ -434,13 +435,14 @@ nav ul li a:hover {
 }
 
 .history-img-div {
+    text-align: center;
     margin-top: 55px;
     position: relative;
 }
 
 .history-img {
     position: relative;
-    /* height: 400px; */
+    height: 450px;
     margin-top: 50px;
 }
 
@@ -460,18 +462,18 @@ nav ul li a:hover {
 }
 
 .H-inner-div_1 {
-    left: 275px;
-    top: -8px;
+    left: 260px;
+    top: 45px;
 }
 
 .H-inner-div_2 {
-    right: 360px;
-    top: -8px;
+    top: 45px;
+    right: 385px;
 }
 
 .H-inner-div_3 {
-    right: 18px;
-    top: -8px;
+    top: 45px;
+    right: 0;
 }
 
 .H-inner-div_4 {
@@ -480,27 +482,36 @@ nav ul li a:hover {
 }
 
 .H-inner-div_5 {
-    right: 185px;
+    right: 195px;
     bottom: -25px;
 }
 
-@media (max-width:1025px) {
+@media screen and (max-width:1025px) {
+
+    .history-img {
+        height: 320px;
+    }
+
+    .H-inner-div p {
+        font-size: 15px;
+    }
+
     .H-inner-div {
-        width: 25%;
+        width: 24%;
     }
 
     .H-inner-div_1 {
-        left: 140px;
+        left: 195px;
         top: 9px;
     }
 
     .H-inner-div_2 {
-        right: 212px;
+        right: 237px;
         top: 9px;
     }
 
     .H-inner-div_3 {
-        right: -80px;
+        right: -37px;
         top: 9px;
     }
 
@@ -510,12 +521,12 @@ nav ul li a:hover {
     }
 
     .H-inner-div_4 {
-        left: 290px;
+        left: 332px;
         bottom: -50px;
     }
 
     .H-inner-div_5 {
-        right: 60px;
+        right: 98px;
         bottom: -50px;
     }
 }
@@ -542,27 +553,27 @@ nav ul li a:hover {
 
     .H-inner-div_1 {
         left: 0;
-        top: 10px;
+        top: 70px;
     }
 
     .H-inner-div_2 {
+        top: 327px;
         left: 0;
-        top: 150px;
     }
 
     .H-inner-div_3 {
+        top: 600px;
         left: 0;
-        top: 290px;
     }
 
     .H-inner-div_4 {
+        top: 180px;
         left: 0;
-        bottom: 165px;
     }
 
     .H-inner-div_5 {
+        bottom: 167px;
         left: 0;
-        bottom: 25px;
     }
 
     .H-inner-div_1::after,
@@ -571,35 +582,46 @@ nav ul li a:hover {
     .H-inner-div_4::after,
     .H-inner-div_5::after {
         position: absolute;
-        content: "2020";
         font-family: "Sniglet", system-ui;
         color: #093fab;
         font-size: x-large;
+    }
+
+    .H-inner-div_1::after {
         bottom: 10px;
-        right: -165px;
+        right: -190px;
+        content: "2020";
     }
 
     .H-inner-div_2::after {
-        content: "2021";
-    }
-
-    .H-inner-div_3::after {
+        bottom: 10px;
+        right: -185px;
         content: "2022";
     }
 
+    .H-inner-div_3::after {
+        bottom: 0;
+        right: -185px;
+        content: "2024";
+    }
+
     .H-inner-div_4::after {
-        content: "2023";
+        top: 45px;
+        right: -185px;
+        content: "2021";
     }
 
     .H-inner-div_5::after {
-        content: "2024";
+        bottom: 12px;
+        right: -185px;
+        content: "2023";
     }
 }
 
 @media (max-width:426px) {
 
     .H-inner-div {
-        width: 59%;
+        width: 55%;
     }
 
     .H-inner-div h4 {
@@ -610,61 +632,97 @@ nav ul li a:hover {
         font-size: 13px;
     }
 
+    .H-inner-div_1 {
+        left: 0;
+        top: 55px;
+    }
+
+    .H-inner-div_2 {
+        top: 297px;
+        left: 0;
+    }
+
+    .H-inner-div_3 {
+        top: 600px;
+        left: 0;
+    }
+
+    .H-inner-div_4 {
+        top: 177px;
+        left: 0;
+    }
+
+    .H-inner-div_5 {
+        bottom: 167px;
+        left: 0;
+    }
+
     .H-inner-div_1::after,
     .H-inner-div_2::after,
     .H-inner-div_3::after,
     .H-inner-div_4::after,
     .H-inner-div_5::after {
         position: absolute;
-        content: "2020";
         font-family: "Sniglet", system-ui;
         color: #093fab;
         font-size: x-large;
+    }
+
+    .H-inner-div_1::after {
         bottom: 10px;
-        right: -55px;
+        right: -99px;
+        content: "2020";
     }
 
     .H-inner-div_2::after {
-        content: "2021";
-    }
-
-    .H-inner-div_3::after {
+        bottom: 10px;
+        right: -99px;
         content: "2022";
     }
 
+    .H-inner-div_3::after {
+        bottom: 12px;
+        right: -99px;
+        content: "2024";
+    }
+
     .H-inner-div_4::after {
-        content: "2023";
+        top: 45px;
+        right: -99px;
+        content: "2021";
     }
 
     .H-inner-div_5::after {
-        content: "2024";
+        bottom: 12px;
+        right: -99px;
+        content: "2023";
     }
 }
 
 @media (max-width:376px) {
     .H-inner-div_1 {
         left: 0;
-        top: -8px;
+        top: 33px;
     }
 
     .H-inner-div_2 {
+        top: 277px;
         left: 0;
-        top: 135px;
     }
 
     .H-inner-div_3 {
+        top: 598px;
         left: 0;
-        top: 275px;
     }
 
     .H-inner-div_4 {
+        top: 155px;
         left: 0;
-        bottom: 165px;
     }
 
     .H-inner-div_5 {
+        bottom: 167px;
         left: 0;
-        bottom: 25px;
     }
 
     .H-inner-div_1::after,
@@ -673,32 +731,118 @@ nav ul li a:hover {
     .H-inner-div_4::after,
     .H-inner-div_5::after {
         position: absolute;
-        content: "2020";
         font-family: "Sniglet", system-ui;
         color: #093fab;
         font-size: x-large;
+    }
+
+    .H-inner-div_1::after {
         bottom: 10px;
-        right: -35px;
+        right: -75px;
+        content: "2020";
     }
 
     .H-inner-div_2::after {
-        content: "2021";
-    }
-
-    .H-inner-div_3::after {
+        bottom: 10px;
+        right: -75px;
         content: "2022";
     }
 
+    .H-inner-div_3::after {
+        bottom: 12px;
+        right: -75px;
+        content: "2024";
+    }
+
     .H-inner-div_4::after {
-        content: "2023";
+        top: 70px;
+        right: -75px;
+        content: "2021";
     }
 
     .H-inner-div_5::after {
-        content: "2024";
+        bottom: 12px;
+        right: -75px;
+        content: "2023";
     }
 }
 
+@media (max-width:321px) {
+    .history-img-div {
+        height: 850px;
+        background-size: 183px;
+    }
 
+    .H-inner-div_3 p {
+        width: 93%;
+    }
+
+    .H-inner-div_1 {
+        left: 0;
+        top: 43px;
+    }
+
+    .H-inner-div_2 {
+        top: 277px;
+        left: 0;
+    }
+
+    .H-inner-div_3 {
+        top: 598px;
+        left: 0;
+    }
+
+    .H-inner-div_4 {
+        top: 155px;
+        left: 0;
+    }
+
+    .H-inner-div_5 {
+        bottom: 167px;
+        left: 0;
+    }
+
+    .H-inner-div_1::after,
+    .H-inner-div_2::after,
+    .H-inner-div_3::after,
+    .H-inner-div_4::after,
+    .H-inner-div_5::after {
+        position: absolute;
+        font-family: "Sniglet", system-ui;
+        color: #093fab;
+        font-size: x-large;
+    }
+
+    .H-inner-div_1::after {
+        bottom: 8px;
+        right: -38px;
+        content: "2020";
+    }
+
+    .H-inner-div_2::after {
+        bottom: 10px;
+        right: -75px;
+        content: "2022";
+    }
+
+    .H-inner-div_3::after {
+        bottom: 12px;
+        right: -75px;
+        content: "2024";
+    }
+
+    .H-inner-div_4::after {
+        top: 70px;
+        right: -75px;
+        content: "2021";
+    }
+
+    .H-inner-div_5::after {
+        bottom: 12px;
+        right: -75px;
+        content: "2023";
+    }
+}
 
 /* <!-- Staff-CSS ....................................................................................--> */
 
@@ -885,12 +1029,12 @@ nav ul li a:hover {
     background-color: #154ec0;
 }
 
-.pxl-swiper-slide:hover .pxl-item--social{
+.pxl-swiper-slide:hover .pxl-item--social {
     max-height: 200px;
     opacity: 1;
     padding: 0px 20px 28px 20px;
 }
-    
+
 .social-icon {
     height: 20px;
 }
@@ -949,9 +1093,10 @@ nav ul li a:hover {
     .pxl-swiper-slide:hover .pxl-item--social {
         max-height: 200px;
         opacity: 1;
-        padding: 0px 0px 10px 0px; 
+        padding: 0px 0px 10px 0px;
     }
 }
+
 /* Footer section............................................................................................ */
 
 .footer-fluid {

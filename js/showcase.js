@@ -48,7 +48,6 @@ var addFunctionOnWindowLoad = function (callback) {
 
   addFunctionOnWindowLoad(fun3);
 
-
 // image scroll change handler
 
 var onScrollHandler = function () {
