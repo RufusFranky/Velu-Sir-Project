@@ -271,7 +271,7 @@ nav ul li a:hover {
 
 .sec-title {
     /* width: 122%; */
-    height: auto;
+    height: 369px;
     position: relative;
 }
 
@@ -281,10 +281,11 @@ nav ul li a:hover {
 
 .modal {
     position: absolute;
-    /* width: 83.3%; */
     overflow: visible;
     height: auto;
     z-index: 0;
+    /* padding: 10px; */
+    /* background-color: #e6f3fd; */
     /* border: thin solid red; */
 }
 
@@ -296,6 +297,16 @@ nav ul li a:hover {
     background-color: #e6f3fd;
 }
 
+.modal h1 {
+    font-family: "Grand Hotel", cursive;
+    color: #093fab;
+}
+
+.modal h5 {
+    font-family: "Grand Hotel", cursive;
+    color: #04a7ac;
+}
+
 .modal ul {
     padding-left: 1rem;
 }
@@ -305,16 +316,16 @@ nav ul li a:hover {
 }
 
 .inner-prog-img {
-    height: 350px;
+    height: 349px;
 }
 
 .model-PlaySchool,
 .model-Pre-Kg,
 .model-Jr-Kg,
 .model-Sr-Kg {
-    padding: 10px;
-    height: auto;
-    display: flex ;
+    padding: 10px 0;
+    margin: 0 auto;
+    display: flex;
 }
 
 .Play-Grp,
@@ -390,6 +401,10 @@ nav ul li a:hover {
         margin: 0 auto
     }
 
+    .sec-title {
+        height: auto;
+    }
+
     .abt-s-img {
         /* margin-top: 50px; */
         height: 290px;
@@ -399,15 +414,28 @@ nav ul li a:hover {
     .Pre-KG,
     .Jr-KG,
     .Sr-KG {
+        padding: 30px 0;
         height: 145px;
     }
 
     .inner-prog-img {
-        height: 217px;
+        height: 197px;
     }
 
-    .modal-content {
+    .model-PlaySchool,
+    .model-Pre-Kg,
+    .model-Jr-Kg,
+    .model-Sr-Kg {
         height: 290px;
+    }
+
+    .modal li {
+        margin-top: 7px;
+        font-size: 13px;
+    }
+
+    .PlaySchool-img-col {
+        align-content: center;
     }
 
 }
@@ -418,12 +446,21 @@ nav ul li a:hover {
     .Pre-KG,
     .Jr-KG,
     .Sr-KG {
+        padding: 41px 0;
         height: 160px;
-        width: 50%;
     }
 
     .program-img-col {
         text-align: center;
+    }
+
+    .PlaySchool-img-col {
+        text-align: center;
+        align-content: baseline;
+    }
+
+    .inner-prog-img {
+        height: 299px;
     }
 
     .abt-s-img {
@@ -435,8 +472,15 @@ nav ul li a:hover {
         margin-top: 40px;
     }
 
-    .modal-content {
+    .model-PlaySchool,
+    .model-Pre-Kg,
+    .model-Jr-Kg,
+    .model-Sr-Kg {
         height: 320px;
+    }
+
+    .modal li {
+        font-size: 15px;
     }
 }
 
@@ -453,18 +497,42 @@ nav ul li a:hover {
         margin: 0;
     }
 
-    .modal-content {
+    .Play-Grp,
+    .Pre-KG,
+    .Jr-KG,
+    .Sr-KG {
+        padding: 21px 0;
+        height: auto;
+    }
+
+    .PlaySchool-img-col,
+    .Pre-Kg-img-col,
+    .Jr-Kg-img-col,
+    .Sr-Kg-img-col {
+        display: none;
+    }
+
+    .modal li {
+        font-size: 13px;
+    }
+
+    .model-PlaySchool,
+    .model-Pre-Kg,
+    .model-Jr-Kg,
+    .model-Sr-Kg {
         height: 240px;
     }
+}
+
+/* @media (max-width:376px) {
 
     .Play-Grp,
     .Pre-KG,
     .Jr-KG,
     .Sr-KG {
-        height: 120px;
-        width: 50%;
+        padding: 40px 0;
     }
-}
+} */
 
 
 /* <!-- Service-Teach- CSS......................................................................................... --> */
