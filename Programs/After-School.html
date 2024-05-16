@@ -255,27 +255,28 @@
                     environment where students can engage in enriching activities, receive academic support, and explore
                     their interests beyond the classroom, fostering holistic development and personal growth.</p>
             </div>
-            <div class="row py-3">
-                <div class="col-xl-6 amt-img-col"><img src="../Images/img7.png" alt="" class="abt-s-img img-fluid">
+            <div class="row py-3 mt-5">
+                <div class="col-xl-6 col-lg-6 order-xl-1 order-lg-1 order-md-2 amt-img-col"><img
+                        src="../Images/img7.png" alt="" class="abt-s-img img-fluid">
                 </div>
-                <div class="col-xl-6 col-lg-6 S-right">
+                <div class="col-xl-6 col-lg-6 order-xl-1 order-lg-1 order-md-1 S-right">
                     <div class="sec-title row">
-                        <div class="col">
-                            <div id="" name="" class="row program_1">
+                        <div class="row" style="margin: 0 auto;">
+                            <div id="program-one" name="" class="col program_1" onclick="afterSchool(event)">
                                 <h1>Phonics for English Fluency</h1>
                                 <!-- <h4>1.5 to 3 years</h4> -->
                             </div>
-                            <div id="myImg" class="row program_2">
-                                <h1>Tamill Phonics</h1>
+                            <div id="program-two" class="col program_2" onclick="afterSchool(event)">
+                                <h1>Tamil Phonics</h1>
                                 <!-- <h4>3 Years</h4> -->
                             </div>
                         </div>
-                        <div class="col">
-                            <div id="" class="row program_3">
+                        <div class="row" style="margin: 0 auto;">
+                            <div id="program-three" class="col program_3" onclick="afterSchool(event)">
                                 <h1>Vedic Maths</h1>
                                 <!-- <h4>4 Years</h4> -->
                             </div>
-                            <div id="" class="row program_4">
+                            <div id="program-four" class="col program_4" onclick="afterSchool(event)">
                                 <h1>Academic Tuitions</h1>
                                 <h4>(KG -12st Std)</h4>
                             </div>
@@ -294,12 +295,12 @@
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
                             <span class="close">×</span>
-                            <div id="Program_1" class="row">
-                                <div class="col">
+                            <div id="program-ones" class="row Program__1">
+                                <div class="col-xl-6 col-lg-5 col-md-5 Program__1-img-col">
                                     <img src="../Images/inner-prog-img.png" alt="" class="inner-prog-img">
                                 </div>
-                                <div class="col">
-                                    <h3>Phonics for English Fluency</h3>
+                                <div class="col-xl-6 col-lg-7 col-md-6">
+                                    <h1>Phonics for English Fluency</h1>
                                     <!-- <h5>1.5 to 3 years</h5> -->
                                     <ul>
                                         <li>We're a leading institute dedicated to igniting a passion for learning</li>
@@ -308,12 +309,12 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div id="Program_2" class="row">
-                                <div class="col">
+                            <div id="program-twos" class="row Program__2">
+                                <div class="col-xl-6 col-lg-5 col-md-5 Program__2-img-col">
                                     <img src="../Images/inner-prog-img.png" alt="" class="inner-prog-img">
                                 </div>
-                                <div class="col">
-                                    <h3>Tamill Phonics</h3>
+                                <div class="col-xl-6 col-lg-7 col-md-6">
+                                    <h1>Tamill Phonics</h1>
                                     <!-- <h5>1.5 to 3 years</h5> -->
                                     <ul>
                                         <li>We're a leading institute dedicated to igniting a passion for learning</li>
@@ -322,12 +323,12 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div id="Program_3" class="row">
-                                <div class="col">
+                            <div id="program-threes" class="row Program__3">
+                                <div class="col-xl-6 col-lg-5 col-md-5 Program__3-img-col">
                                     <img src="../Images/inner-prog-img.png" alt="" class="inner-prog-img">
                                 </div>
-                                <div class="col">
-                                    <h3>Vedic Maths</h3>
+                                <div class="col-xl-6 col-lg-7 col-md-6">
+                                    <h1>Vedic Maths</h1>
                                     <!-- <h5>1.5 to 3 years</h5> -->
                                     <ul>
                                         <li>We're a leading institute dedicated to igniting a passion for learning</li>
@@ -336,12 +337,12 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div id="Program_4" class="row">
-                                <div class="col">
+                            <div id="program-fours" class="row Program__4">
+                                <div class="col-xl-6 col-lg-5 col-md-5 Program__4-img-col">
                                     <img src="../Images/inner-prog-img.png" alt="" class="inner-prog-img">
                                 </div>
-                                <div class="col">
-                                    <h3>Academic Tuitions</h3>
+                                <div class="col-xl-6 col-lg-7 col-md-6">
+                                    <h1>Academic Tuitions</h1>
                                     <h5>(KG -12st Std)</h5>
                                     <ul>
                                         <li>We're a leading institute dedicated to igniting a passion for learning</li>
@@ -574,14 +575,14 @@
             }
         })
 
-        function playSchool(event) {
+        function afterSchool(event) {
             var modal = document.getElementById("myModal");
-            document.getElementById('Play-Grps').style.display = "none"
-            document.getElementById('Pre-Kgs').style.display = "none"
-            document.getElementById('Jr-Kgs').style.display = "none"
-            document.getElementById('Sr-Kgs').style.display = "none"
+            document.getElementById('program-ones').style.display = "none"
+            document.getElementById('program-twos').style.display = "none"
+            document.getElementById('program-threes').style.display = "none"
+            document.getElementById('program-fours').style.display = "none"
             const elem = event.currentTarget.id + "s";
-            console.log(event.currentTarget.id);
+            console.log(elem);
             document.getElementById("myModal").style.display = "block"
             document.getElementById(elem).style.display = "flex"
 

@@ -325,7 +325,6 @@ nav ul li a:hover {
 .model-Sr-Kg {
     padding: 10px 0;
     margin: 0 auto;
-    display: flex;
 }
 
 .Play-Grp,
@@ -335,12 +334,12 @@ nav ul li a:hover {
 
 .Play-Grp,
 .Jr-KG {
-    padding-right: 0;
+    padding: 0;
 }
 
 .Pre-KG,
 .Sr-KG {
-    padding-left: 0;
+    padding: 0;
 }
 
 .Play-Grp,
@@ -523,16 +522,6 @@ nav ul li a:hover {
         height: 240px;
     }
 }
-
-/* @media (max-width:376px) {
-
-    .Play-Grp,
-    .Pre-KG,
-    .Jr-KG,
-    .Sr-KG {
-        padding: 40px 0;
-    }
-} */
 
 
 /* <!-- Service-Teach- CSS......................................................................................... --> */

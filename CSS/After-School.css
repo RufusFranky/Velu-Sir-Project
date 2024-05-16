@@ -264,7 +264,7 @@ nav ul li a:hover {
 
 .sec-title {
     /* width: 122%; */
-    height: auto;
+    height: 369px;
     position: relative;
 }
 
@@ -274,13 +274,9 @@ nav ul li a:hover {
 
 .modal {
     position: absolute;
-    /* width: 83.3%; */
     overflow: visible;
     height: auto;
-    padding: 0;
     z-index: 0;
-    height: auto;
-    /* border: thin solid red; */
 }
 
 .modal-content {
@@ -289,6 +285,16 @@ nav ul li a:hover {
 
 .modal .row {
     background-color: #e6f3fd;
+}
+
+.modal h1 {
+    font-family: "Grand Hotel", cursive;
+    color: #093fab;
+}
+
+.modal h5 {
+    font-family: "Grand Hotel", cursive;
+    color: #04a7ac;
 }
 
 .modal ul {
@@ -300,16 +306,15 @@ nav ul li a:hover {
 }
 
 .inner-prog-img {
-    height: 350px;
+    height: 349px;
 }
 
-#program_1,
-#program_2,
-#program_3,
-#program_4 {
-    padding: 10px;
-    height: auto;
-    display: flex !important;
+.Program__1,
+.Program__2,
+.Program__3,
+.Program__4 {
+    padding: 10px 0;
+    margin: 0 auto;
 }
 
 .program_1,
@@ -320,21 +325,28 @@ nav ul li a:hover {
 .program_1,
 .program_2 {
 
-    padding-right: 0;
+    padding: 0;
 }
 
 .program_3,
 .program_4 {
-    padding-left: 0;
+    padding: 0;
 }
 
 .program_1,
 .program_2,
 .program_3,
 .program_4 {
+    align-content: center;
     text-align: center;
-    padding: 41px 0;
 }
+
+
+/* .program_1,
+.program_2 {
+    padding: 41px 0;
+} */
+
 
 .program_1 h1,
 .program_2 h1,
@@ -370,10 +382,10 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-#program_1,
-#program_2,
-#program_3,
-#program_4 {
+.program__1,
+.program__2,
+.program__3,
+.program__4 {
     display: none;
     z-index: 0;
     /* border: thin solid red; */
@@ -387,48 +399,82 @@ nav ul li a:hover {
         height: 290px;
     }
 
-    .Play-Grp,
-    .Pre-KG,
-    .Jr-KG,
-    .Sr-KG {
-        height: 145px;
+    .program_1 h1,
+    .program_2 h1,
+    .program_3 h1,
+    .program_4 h1 {
+        font-size: 25px;
     }
 
-    .inner-prog-img {
-        height: 217px;
-    }
-
-    .modal-content {
+    .sec-title {
         height: 290px;
     }
 
+    .inner-prog-img {
+        height: 207px;
+    }
+
+    .modal li {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    .Program__1,
+    .Program__2,
+    .Program__3,
+    .Program__4 {
+        height: 290px;
+    }
+
+    .modal h1 {
+        font-size: 28px;
+    }
 }
 
 @media (max-width:769px) {
 
-    .Play-Grp,
-    .Pre-KG,
-    .Jr-KG,
-    .Sr-KG {
-        height: 160px;
-        width: 50%;
+    .program_1,
+    .program_2 {
+        padding: 15px 0;
+    }
+
+    .program_1 h1,
+    .program_2 h1,
+    .program_3 h1,
+    .program_4 h1 {
+        font-size: 30px;
+    }
+
+    .amt-img-col {
+        text-align: center;
     }
 
     .program-img-col {
         text-align: center;
     }
 
+    .inner-prog-img {
+        height: 270px;
+    }
+
     .abt-s-img {
-        margin-top: 10px;
+        margin-top: 40px;
         height: 340px;
     }
 
     .sec-title {
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .modal-content {
         height: 320px;
+    }
+
+    .Program__1-img-col,
+    .Program__2-img-col,
+    .Program__3-img-col,
+    .Program__4-img-col {
+        text-align: center;
     }
 }
 
@@ -441,22 +487,62 @@ nav ul li a:hover {
         text-align: center !important;
     }
 
-    .circle {
-        margin: 0;
+    .program_1,
+    .program_2,
+    .program_3,
+    .program_4 {
+        padding: 20px;
     }
 
-    .modal-content {
-        height: 240px;
+    .program_1 h1,
+    .program_2 h1,
+    .program_3 h1,
+    .program_4 h1 {
+        font-size: 26px;
     }
 
-    .Play-Grp,
-    .Pre-KG,
-    .Jr-KG,
-    .Sr-KG {
-        height: 120px;
-        width: 50%;
+    .program_1 h4,
+    .program_2 h4,
+    .program_3 h4,
+    .program_4 h4  {
+        font-size: 18px;
+    }
+
+    .Program__1-img-col,
+    .Program__2-img-col,
+    .Program__3-img-col,
+    .Program__4-img-col {
+        display: none;
+    }
+
+    .modal h1 {
+        font-size: 25px;
     }
 }
+
+@media (max-width:376px) {
+    .Program__1,
+    .Program__2,
+    .Program__3,
+    .Program__4 {
+        height: 290px;
+    }
+
+    .program_1 h1,
+    .program_2 h1,
+    .program_3 h1,
+    .program_4 h1 {
+        font-size: 24px;
+    }
+
+    .modal h1 {
+        font-size: 20px;
+    }
+
+    .modal li {
+        margin-top: 12px;
+    }
+} 
 
 /* <!-- Service-Teach- CSS......................................................................................... --> */
 
