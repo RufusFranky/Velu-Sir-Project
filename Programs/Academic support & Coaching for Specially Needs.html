@@ -111,8 +111,8 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 <?xml version="1.0" ?>
                                 <!DOCTYPE svg
                                     PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
@@ -256,26 +256,27 @@
                     they receive the support and resources necessary to reach their full potential.</p>
             </div>
             <div class="row py-3">
-                <div class="col-xl-6 amt-img-col"><img src="../Images/img7.png" alt="" class="abt-s-img img-fluid">
+                <div class="col-xl-6 col-lg-6 order-xl-1 order-lg-1 order-md-2 Aca-img-col"><img
+                        src="../Images/img7.png" alt="" class="abt-s-img img-fluid">
                 </div>
-                <div class="col-xl-6 col-lg-6 S-right">
+                <div class="col-xl-6 col-lg-6 order-xl-1 order-lg-1 order-md-1 S-right">
                     <div class="sec-title row">
-                        <div class="col">
-                            <div id="myImg" name="Dyslexia" class="row Dyslexia">
+                        <div class="row" style="margin: 0 auto;">
+                            <div id="Dyslexia" class="col Dyslexia" onclick="Aca(event)">
                                 <h1>Dyslexia</h1>
                                 <!-- <h4>1.5 to 3 years</h4> -->
                             </div>
-                            <div id="myImg" name="Dyspraxia" class="row Dyspraxia">
+                            <div id="Dyspraxia" class="col Dyspraxia" onclick="Aca(event)">
                                 <h1>Dyspraxia</h1>
                                 <!-- <h4>4 Years</h4> -->
                             </div>
                         </div>
-                        <div class="col">
-                            <div id="myImg" name="Dysgraphia" class="row Dysgraphia">
+                        <div class="row" style="margin: 0 auto;">
+                            <div id="Dysgraphia" class="col Dysgraphia" onclick="Aca(event)">
                                 <h1>Dysgraphia</h1>
                                 <!-- <h4>3 Years</h4> -->
                             </div>
-                            <div id="myImg" name="Dyscalculia " class="row Dyscalculia">
+                            <div id="Dyscalculia" class="col Dyscalculia" onclick="Aca(event)">
                                 <h1>Dyscalculia</h1>
                                 <!-- <h4>5 years</h4> -->
                             </div>
@@ -294,18 +295,61 @@
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
                             <span class="close">×</span>
-                            <div id="Dyslexia" class="row">
-                                <div class="col">
-                                    <img src="../Images/inner-prog-img.png" alt="">
+                            <div id="Dyslexias" class="row dyslexia">
+                                <div class="col-xl-6 col-lg-5 col-md-5 dyslexia-img-col">
+                                    <img src="../Images/inner-prog-img.png" alt="" class="inner-prog-img">
                                 </div>
                                 <div class="col">
                                     <h1>Dyslexia</h1>
                                     <!-- <h5>2 - 3 years</h5> -->
                                     <ul>
-                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
-                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
-                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
-                                        <li>We're a leading institute dedicated to igniting a passion for learning</li>
+                                        <li>Child finds it hard to remember the alphabet and word spellings.</li>
+                                        <li> Mixes up
+                                            sounds in words, seeing nonexistent movement in words and seeing letters
+                                            like “d”, “b”, “p”, “q” rotated is common among people with dyslexia
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="Dyspraxias" class="row dyspraxia">
+                                <div class="col-xl-6 col-lg-5 col-md-5 dyspraxia-img-col">
+                                    <img src="../Images/inner-prog-img.png" alt="" class="inner-prog-img">
+                                </div>
+                                <div class="col">
+                                    <h1>Dyspraxia</h1>
+                                    <!-- <h5>2 - 3 years</h5> -->
+                                    <ul>
+                                        <li>A child may struggle to stack bricks, has messy handwriting and appears to
+                                            be clumsy.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="Dysgraphias" class="row dysgraphia">
+                                <div class="col-xl-6 col-lg-5 col-md-5 dysgraphia-img-col">
+                                    <img src="../Images/inner-prog-img.png" alt="" class="inner-prog-img">
+                                </div>
+                                <div class="col">
+                                    <h1>Dysgraphia</h1>
+                                    <!-- <h5>2 - 3 years</h5> -->
+                                    <ul>
+                                        <li>Writes letters the wrong way round, randomly misspells words, mixes-up lower
+                                            and upper-case letters.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="Dyscalculias" class="row dyscalculia">
+                                <div class="col-xl-6 col-lg-5 col-md-5 dyscalculia-img-col">
+                                    <img src="../Images/inner-prog-img.png" alt="" class="inner-prog-img">
+                                </div>
+                                <div class="col">
+                                    <h1>Dyscalculia</h1>
+                                    <!-- <h5>2 - 3 years</h5> -->
+                                    <ul>
+                                        <li> Struggles to recognise numbers, do simple maths sums and remember
+                                            times-tables.
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -457,7 +501,8 @@
                 <div class="col-xl-3 col-lg-3 col-md-4 col-12">
                     <h5 class="mb-4 CotactUs-heading">Quick Links</h5>
                     <ul style="list-style: none; padding-left: 0;">
-                        <a href="./../index.html?section=#FAQs" style="color: rgb(255, 255, 255); text-decoration: none;">
+                        <a href="./../index.html?section=#FAQs"
+                            style="color: rgb(255, 255, 255); text-decoration: none;">
                             <li>FAQs</li>
                         </a>
                         <a href="" style="color: rgb(255, 255, 255); text-decoration: none;">
@@ -521,10 +566,32 @@
     </div>
 
     <script>
+
+        document.addEventListener("click", (e) => {
+            var modal = document.getElementById("myModal");
+            if (e.target.classList[0] == "close") {
+                modal.style.display = "none";
+            }
+        })
+
+        function Aca(event) {
+            var modal = document.getElementById("myModal");
+            document.getElementById('Dyslexias').style.display = "none"
+            document.getElementById('Dyspraxias').style.display = "none"
+            document.getElementById('Dysgraphias').style.display = "none"
+            document.getElementById('Dyscalculias').style.display = "none"
+            const elem = event.currentTarget.id + "s";
+            console.log(elem);
+            document.getElementById("myModal").style.display = "block"
+            document.getElementById(elem).style.display = "flex"
+
+        }
+
         const urlParams = new URLSearchParams(window.location.search);
         const vali = urlParams.get('section');
         document.getElementById(vali).scrollIntoView();
     </script>
 
 </body>
+
 </html>

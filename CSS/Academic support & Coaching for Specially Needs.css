@@ -261,15 +261,9 @@ nav ul li a:hover {
 .abt-heading p {
     font-family: "Roboto", sans-serif;
     color: #4a4a4a;
-}
-
-.S-right h3 {
-    font-family: "Sniglet", system-ui;
-    color: #093fab;
-}
-
-.S-right p {
-    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+    width: 90%;
+    font-size: large;
 }
 
 .amt-img-col {
@@ -282,7 +276,7 @@ nav ul li a:hover {
 
 .sec-title {
     /* width: 122%; */
-    height: auto;
+    height: 369px;
     position: relative;
 }
 
@@ -292,21 +286,23 @@ nav ul li a:hover {
 
 .modal {
     position: absolute;
-    /* width: 83.3%; */
     overflow: visible;
     height: auto;
-    padding: 0;
     z-index: 0;
-    height: auto;
-    /* border: thin solid red; */
-}
-
-.modal-content {
-    height: 370px;
 }
 
 .modal .row {
     background-color: #e6f3fd;
+}
+
+.modal h1 {
+    font-family: "Grand Hotel", cursive;
+    color: #093fab;
+}
+
+.modal h5 {
+    font-family: "Grand Hotel", cursive;
+    color: #04a7ac;
 }
 
 .modal ul {
@@ -318,16 +314,15 @@ nav ul li a:hover {
 }
 
 .inner-prog-img {
-    height: 336px;
+    height: 349px;
 }
 
-#Dyslexia,
-#Dyspraxia,
-#Dysgraphia,
-#Dyscalculia {
-    padding: 10px;
-    height: auto;
-    display: flex !important;
+.dyslexia,
+.dyspraxia,
+.dysgraphia,
+.dyscalculia {
+    padding: 10px 0;
+    margin: 0 auto;
 }
 
 .Dyslexia,
@@ -337,12 +332,12 @@ nav ul li a:hover {
 
 .Dyslexia,
 .Dyspraxia {
-    padding-right: 0;
+    padding: 0;
 }
 
 .Dysgraphia,
 .Dyscalculia {
-    padding-left: 0;
+    padding: 0;
 }
 
 .Dyslexia,
@@ -351,6 +346,8 @@ nav ul li a:hover {
 .Dyscalculia {
     text-align: center;
     padding: 41px 0;
+    align-content: center;
+
 }
 
 .Dyslexia h1,
@@ -361,14 +358,14 @@ nav ul li a:hover {
     color: #04a7ac;
 }
 
-/* .Dyslexia h4,
+.Dyslexia h4,
 .Dyspraxia h4,
 .Dysgraphia h4,
 .Dyscalculia h4 {
     margin-top: 10px;
     font-family: "Grand Hotel", cursive;
     color: #093fab;
-} */
+}
 
 
 .close {
@@ -389,16 +386,6 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-#Dyslexia,
-#Dyspraxia,
-#Dysgraphia,
-#Dyscalculia {
-    display: none;
-    z-index: 0;
-    /* border: thin solid red; */
-    border-radius: 10px;
-}
-
 @media (max-width:1025px) {
 
     .abt-s-img {
@@ -406,21 +393,24 @@ nav ul li a:hover {
         height: 290px;
     }
 
-    .Play-Grp,
-    .Pre-KG,
-    .Jr-KG,
-    .Sr-KG {
-        height: 145px;
-    }
-
     .inner-prog-img {
         height: 217px;
     }
 
-    .modal-content {
+    .modal li {
+        font-size: 15px;
+    }
+    
+    .sec-title {
         height: 290px;
     }
 
+    .dyslexia,
+    .dyspraxia,
+    .dysgraphia,
+    .dyscalculia {
+        height: 290px;
+    }
 }
 
 @media (max-width:769px) {
@@ -449,6 +439,10 @@ nav ul li a:hover {
     .modal-content {
         height: 320px;
     }
+
+    .inner-prog-img {
+        height: 270px;
+    }
 }
 
 @media (max-width:426px) {
@@ -460,20 +454,8 @@ nav ul li a:hover {
         text-align: center !important;
     }
 
-    .circle {
-        margin: 0;
-    }
-
-    .modal-content {
-        height: 240px;
-    }
-
-    .Play-Grp,
-    .Pre-KG,
-    .Jr-KG,
-    .Sr-KG {
-        height: 120px;
-        width: 50%;
+    .dyslexia-img-col, .dyspraxia-img-col, .dysgraphia-img-col, .dyscalculia-img-col {
+        display: none;
     }
 }
 

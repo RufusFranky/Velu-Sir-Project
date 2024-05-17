@@ -284,13 +284,6 @@ nav ul li a:hover {
     overflow: visible;
     height: auto;
     z-index: 0;
-    /* padding: 10px; */
-    /* background-color: #e6f3fd; */
-    /* border: thin solid red; */
-}
-
-.modal-content {
-    height: 370px;
 }
 
 .modal .row {
@@ -392,7 +385,7 @@ nav ul li a:hover {
     display: none;
     z-index: 0;
     /* border: thin solid red; */
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 @media (max-width:1025px) {
