@@ -427,7 +427,7 @@ nav ul li a:hover {
     }
 
     .PlaySchool-img-col {
-        align-content: center;
+        /* align-content: center; */
     }
 
 }
@@ -513,6 +513,22 @@ nav ul li a:hover {
     .model-Jr-Kg,
     .model-Sr-Kg {
         height: 240px;
+    }
+}
+
+@media (max-width:376px) {
+    .modal h1 {
+        font-size: 21px;
+    }
+
+    .modal h5 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:321px) {
+    .modal li {
+        font-size: 11px;
     }
 }
 
