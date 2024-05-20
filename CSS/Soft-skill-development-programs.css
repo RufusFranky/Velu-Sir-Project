@@ -34,6 +34,7 @@ nav ul li a:hover {
     .About-icon,
     .Programs-icon,
     .blog-icon,
+    .Career-icon,
     .contact-icon {
         fill: #093fab;
         transition: .5s;
@@ -62,6 +63,7 @@ nav ul li a:hover {
 .Home-icon,
 .Programs-icon,
 .About-icon,
+.Career-icon,
 .blog-icon,
 .contact-icon {
     fill: #04a7ac;
@@ -86,8 +88,8 @@ nav ul li a:hover {
     display: block;
 }
 
-.blog-svg {
-    height: 24px;
+.Career-svg {
+    height: 26px;
     margin-left: 15px;
     display: block;
 
@@ -121,6 +123,7 @@ nav ul li a:hover {
     .Programs-svg,
     .blog-svg,
     .contact-svg,
+    .Career-svg,
     .blog-svg_1 {
         margin-left: 0;
         margin-right: 30px;
@@ -129,7 +132,6 @@ nav ul li a:hover {
 
     .nav-item {
         margin-top: 20px;
-        /* transition: .5s; */
     }
 }
 
@@ -148,11 +150,10 @@ nav ul li a:hover {
     /* background-color: #04a7ac; */
 }
 
-
 .dropdown-item {
     /* background-color: #04a7ac; */
     color: #04a7ac;
-
+    
 }
 
 .dropdown-item:hover {
@@ -178,6 +179,18 @@ nav ul li a:hover {
         margin-right: 0;
     }
 }
+
+@media (max-width:769px) {
+    .dropdown-menu {
+        margin-left: 0;
+        width: 116%;
+    }
+
+    .dropdown-item {
+        white-space: wrap;
+    }
+}
+
 
 /* Banner CSS..................................................................................... */
 
@@ -271,7 +284,8 @@ nav ul li a:hover {
     font-family: "Roboto", sans-serif;
 }
 
-.amt-img-col {
+.abt-img-col {
+    align-content: center;
     text-align: center;
 }
 
@@ -304,10 +318,10 @@ nav ul li a:hover {
 
 @media (max-width:1024px) {
 
-    .S-right p,
-    .S-right h3 {
-        text-align: center !important;
+    .abt-img-col {
+        margin-top: 20px;
     }
+    
 }
 
 @media (max-width:426px) {
