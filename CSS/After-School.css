@@ -500,7 +500,7 @@ nav ul li a:hover {
     .program_1 h4,
     .program_2 h4,
     .program_3 h4,
-    .program_4 h4  {
+    .program_4 h4 {
         font-size: 18px;
     }
 
@@ -517,6 +517,7 @@ nav ul li a:hover {
 }
 
 @media (max-width:376px) {
+
     .Program__1,
     .Program__2,
     .Program__3,
@@ -532,13 +533,44 @@ nav ul li a:hover {
     }
 
     .modal h1 {
-        font-size: 20px;
+        font-size: 21px;
+    }
+
+    .modal h5 {
+        font-size: 18px;
     }
 
     .modal li {
         margin-top: 12px;
     }
-} 
+}
+
+@media (max-width:321px) {
+    .modal li {
+        font-size: 11px;
+    }
+
+    .program_1,
+    .program_2,
+    .program_3,
+    .program_4 {
+        padding: 5px;
+    }
+
+    .program_1 h1,
+    .program_2 h1,
+    .program_3 h1,
+    .program_4 h1 {
+        font-size: 20px;
+    }
+
+    .program_1 h4,
+    .program_2 h4,
+    .program_3 h4,
+    .program_4 h4 {
+        font-size: 14px;
+    }
+}
 
 /* <!-- Service-Teach- CSS......................................................................................... --> */
 
@@ -599,6 +631,11 @@ nav ul li a:hover {
         margin-top: 10px;
     }
 }
+
+
+
+
+
 
 /* <!-- Service-Section-3 CSS......................................................................................... --> */
 
