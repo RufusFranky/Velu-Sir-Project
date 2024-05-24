@@ -334,6 +334,9 @@ nav ul li a:hover {
     .banner-inner-div .col-12 {
         text-align: center;
     }
+    .banner-inner-div .row .col-12 {
+        padding: 60px 0;
+    }
 }
 
 @media (max-width:426px) {
@@ -623,7 +626,6 @@ nav ul li a:hover {
 }
 
 /* Service CSS.......................................................................................... */
-
 
 .Programs-fluid {
     background-image: url(../Images/img1.png);

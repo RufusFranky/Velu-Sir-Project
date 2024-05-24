@@ -445,6 +445,14 @@ nav ul li a:hover {
     .modal h1 {
         font-size: 28px;
     }
+
+    .Program__1-img-col,
+    .Program__2-img-col,
+    .Program__3-img-col,
+    .Program__4-img-col {
+        align-content: center;
+        text-align: center;
+    }
 }
 
 @media (max-width:769px) {
@@ -484,13 +492,6 @@ nav ul li a:hover {
 
     .modal-content {
         height: 320px;
-    }
-
-    .Program__1-img-col,
-    .Program__2-img-col,
-    .Program__3-img-col,
-    .Program__4-img-col {
-        text-align: center;
     }
 }
 
