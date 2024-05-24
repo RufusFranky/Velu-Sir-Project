@@ -243,6 +243,10 @@ nav ul li a:hover {
     .banner-row p {
         text-align: center;
     }
+
+    .banner-heading {
+        text-align: center;
+    }
 }
 
 @media (max-width: 426px) {

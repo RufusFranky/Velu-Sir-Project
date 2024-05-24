@@ -351,6 +351,12 @@ nav ul li a:hover {
     text-align: center;
 }
 
+.program_1,
+.program_2,
+.program_3,
+.program_4:hover {
+    cursor: pointer;
+}
 
 /* .program_1,
 .program_2 {
@@ -495,6 +501,10 @@ nav ul li a:hover {
 
     .abt-img-col {
         text-align: center !important;
+    }
+
+    .abt-heading {
+        text-align: justify;
     }
 
     .program_1,

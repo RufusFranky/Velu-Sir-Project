@@ -340,6 +340,13 @@ nav ul li a:hover {
 }
 
 .Dyslexia,
+.Dyspraxia,
+.Dysgraphia,
+.Dyscalculia:hover {
+    cursor: pointer;
+}
+
+.Dyslexia,
 .Dyscalculia {
     background-color: #e6f3fd;
 }
@@ -470,6 +477,10 @@ nav ul li a:hover {
 
     .dyslexia-img-col, .dyspraxia-img-col, .dysgraphia-img-col, .dyscalculia-img-col {
         display: none;
+    }
+
+    .abt-heading p {
+        text-align: justify;
     }
 }
 

@@ -244,6 +244,10 @@ nav ul li a:hover {
     .banner-row p {
         text-align: center;
     }
+
+    .banner-heading {
+        text-align: center;
+    }
 }
 
 @media (max-width: 426px) {
@@ -342,6 +346,10 @@ nav ul li a:hover {
     color: #093fab;
 }
 
+.S-right {
+    text-align: justify;
+}
+
 @media screen and (max-width:426px) {
     .s-teach-heading p {
         text-align: justify;
@@ -353,6 +361,7 @@ nav ul li a:hover {
     .sub-heading {
         margin-top: 10px;
     } 
+    
 }
 
 /* <!-- Service-Section-3 CSS......................................................................................... --> */

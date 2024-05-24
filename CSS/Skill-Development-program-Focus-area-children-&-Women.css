@@ -240,12 +240,16 @@ nav ul li a:hover {
     .banner-row p {
         text-align: center;
     }
+
+    .banner-heading {
+        text-align: center;
+    }
 }
 
 @media (max-width: 426px) {
     .Abt-banner-img {
         height: auto;
-    }
+    } 
 }
 
 /* <!-- Abt-service CSS......................................................................................... --> */
@@ -292,15 +296,20 @@ nav ul li a:hover {
 
 @media (max-width:1024px) {
 
-    .S-right p,
-    .S-right h3 {
-        text-align: center !important;
+    .S-right{
+        text-align: center;
     }
 }
 
 @media (max-width:426px) {
     .abt-s-img {
         height: 200px !important;
+    }
+    .S-right{
+        text-align: justify;
+    }
+    .S-right h3 {
+        text-align: center;
     }
 }
 

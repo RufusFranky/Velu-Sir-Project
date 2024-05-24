@@ -273,10 +273,20 @@ nav ul li a:hover {
     transition: .5s;
 }
 
+.card a {
+    color: black;
+    text-decoration: none;
+}
+
 .card:hover {
     transition: .5s;
     box-shadow: 0 5px 10px rgba(21, 19, 19, .4);
 }
+
+.card:hover h5 {
+    color: #093fab;
+}
+
 
 /* Footer section............................................................................................ */
 
