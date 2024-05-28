@@ -261,6 +261,10 @@ nav ul li a:hover {
     color: #04a7ac !important;
 }
 
+.Kindergarten_img, .english_phonics_img, .parrent_support_img {
+    height: 400px;
+}
+
 /* Footer section............................................................................................ */
 
 .footer-fluid {

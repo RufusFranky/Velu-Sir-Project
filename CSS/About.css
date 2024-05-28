@@ -562,6 +562,450 @@ nav ul li a:hover {
     }
 
     .H-inner-div {
+        width: 65%;
+    }
+
+    .H-inner-div_1 {
+        left: 0;
+        top: 5%;
+    }
+
+    .H-inner-div_2 {
+        top: 40%;
+        left: 0;
+        height: 100px;
+        /* overflow: hidden; */
+    }
+
+    .H-inner-div_3 {
+        top: 80%;
+        left: 0;
+    }
+
+    .H-inner-div_4 {
+        top: 20%;
+        left: 0;
+        height: 100px;
+    }
+
+    .H-inner-div_5 {
+        top: 60%;
+        left: 0;
+        height: 100px;
+    }
+    
+    .H-inner-div_1::after,
+    .H-inner-div_2::after,
+    .H-inner-div_3::after,
+    .H-inner-div_4::after,
+    .H-inner-div_5::after {
+        position: absolute;
+        font-family: "Sniglet", system-ui;
+        color: #093fab;
+        font-size: x-large;
+        align-self: end;
+    }
+    .H-inner-div::after,
+    .H-inner-div::after,
+    .H-inner-div::after,
+    .H-inner-div::after,
+    .H-inner-div::after {
+        top: 0;
+        right:-25% ;
+        bottom: 0;
+       
+    }
+
+    .H-inner-div_1::after {
+   
+        content: "2020";
+    }
+
+    .H-inner-div_2::after {
+      
+        content: "2022";
+    }
+
+    .H-inner-div_3::after {
+   
+        content: "2024";
+    }
+
+    .H-inner-div_4::after {
+      
+        content: "2021";
+    }
+
+    .H-inner-div_5::after {
+      
+        content: "2023";
+    }
+  
+}
+
+@media (max-width:426px) {
+    .H-inner-div_1::after,
+    .H-inner-div_2::after,
+    .H-inner-div_3::after,
+    .H-inner-div_4::after,
+    .H-inner-div_5::after {
+        top: 0;
+        right: -35%;
+        bottom: 0;
+    }
+
+    .H-inner-div {
+        width:60%;
+    }
+
+    .H-inner-div h4 {
+        font-size: 16px;
+    }
+
+    .H-inner-div p {
+        font-size: 13px;
+    }
+/*
+    .H-inner-div_1 {
+        left: 0;
+        top: 55px;
+    }
+
+    .H-inner-div_2 {
+        top: 280px;
+        left: 0;
+    }
+
+    .H-inner-div_3 {
+        top: 560px;
+        left: 0;
+    }
+
+    .H-inner-div_4 {
+        top: 150px;
+        left: 0;
+    }
+
+    .H-inner-div_5 {
+        bottom: 167px;
+        left: 0;
+    }
+*/
+    .H-inner-div_1::after,
+    .H-inner-div_2::after,
+    .H-inner-div_3::after,
+    .H-inner-div_4::after,
+    .H-inner-div_5::after {
+        position: absolute;
+        font-family: "Sniglet", system-ui;
+        color: #093fab;
+        font-size: x-large;
+    }
+
+    /* .H-inner-div_1::after {
+    
+        content: "2020";
+    }
+
+    .H-inner-div_2::after {
+     
+        content: "2022";
+    }
+
+    .H-inner-div_3::after {
+     
+        content: "2024";
+    }
+
+    .H-inner-div_4::after {
+      
+        content: "2021";
+    }
+
+    .H-inner-div_5::after {
+  
+        content: "2023";
+    } */
+}
+
+/* @media (max-width:376px) { */
+
+    /*
+    .H-inner-div_1 {
+        left: 0;
+        top: 33px;
+    }
+
+    .H-inner-div_2 {
+        top: 277px;
+        left: 0;
+    }
+
+    .H-inner-div_3 {
+        top: 598px;
+        left: 0;
+    }
+
+    .H-inner-div_4 {
+        top: 155px;
+        left: 0;
+    }
+
+    .H-inner-div_5 {
+        bottom: 167px;
+        left: 0;
+    }
+
+    .H-inner-div_1::after,
+    .H-inner-div_2::after,
+    .H-inner-div_3::after,
+    .H-inner-div_4::after,
+    .H-inner-div_5::after {
+        position: absolute;
+        font-family: "Sniglet", system-ui;
+        color: #093fab;
+        font-size: x-large;
+    }
+
+    .H-inner-div_1::after {
+        bottom: 10px;
+        right: -75px;
+        content: "2020";
+    }
+
+    .H-inner-div_2::after {
+        bottom: 10px;
+        right: -75px;
+        content: "2022";
+    }
+
+    .H-inner-div_3::after {
+        bottom: 12px;
+        right: -75px;
+        content: "2024";
+    }
+
+    .H-inner-div_4::after {
+        top: 70px;
+        right: -75px;
+        content: "2021";
+    }
+
+    .H-inner-div_5::after {
+        bottom: 12px;
+        right: -75px;
+        content: "2023";
+    }
+}
+*/
+/* @media (max-width:321px) {
+    .history-img-div {
+        height: 900px;
+        background-size: 183px;
+    }
+
+    .H-inner-div_3 p {
+        width: 93%;
+    } */
+/*
+    .H-inner-div_1 {
+        left: 0;
+        top: 43px;
+    }
+
+    .H-inner-div_2 {
+        top: 335px;
+        left: 0;
+    }
+
+    .H-inner-div_3 {
+        top: 727px;
+        left: 0;
+    }
+
+    .H-inner-div_4 {
+        top: 182px;
+        left: 0;
+    }
+
+    .H-inner-div_5 {
+        bottom: 215px;
+        left: 0;
+    }
+
+    .H-inner-div_1::after,
+    .H-inner-div_2::after,
+    .H-inner-div_3::after,
+    .H-inner-div_4::after,
+    .H-inner-div_5::after {
+        position: absolute;
+        font-family: "Sniglet", system-ui;
+        color: #093fab;
+        font-size: x-large;
+        right: -15%;
+    }
+/*
+    .H-inner-div_1::after {
+        bottom: 8px;
+        right: -38px;
+        content: "2020";
+    }
+
+    .H-inner-div_2::after {
+        bottom: 10px;
+        right: -36px;
+        content: "2022";
+    }
+
+    .H-inner-div_3::after {
+        bottom: 12px;
+        right: -34px;
+        content: "2024";
+    }
+
+    .H-inner-div_4::after {
+        top: 105px;
+        right: -35px;
+        content: "2021";
+    }
+
+    .H-inner-div_5::after {
+        bottom: 12px;
+        right: -35px;
+        content: "2023";
+    }
+}
+*/
+
+/* .history-fluid {
+    padding: 0;
+}
+
+.history-heading {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.history-heading h1 {
+    font-size: 50px;
+    font-family: "Grand Hotel", cursive;
+    color: #04a7ac !important;
+}
+
+.history-img-div {
+    text-align: center;
+    margin-top: 55px;
+    position: relative;
+}
+
+.history-img {
+    position: relative;
+    height: 450px;
+    margin-top: 50px;
+}
+
+.H-inner-div {
+    width: 20%;
+    text-align: left;
+    position: absolute;
+}
+
+.H-inner-div h4 {
+    font-family: "Sniglet", system-ui;
+    color: #093fab;
+}
+
+.H-inner-div p {
+    font-family: "Roboto", sans-serif;
+}
+
+.H-inner-div_1 {
+    left: 260px;
+    top: 45px;
+}
+
+.H-inner-div_2 {
+    top: 45px;
+    right: 385px;
+}
+
+.H-inner-div_3 {
+    top: 45px;
+    right: 0;
+}
+
+.H-inner-div_4 {
+    left: 450px;
+    bottom: -25px;
+}
+
+.H-inner-div_5 {
+    right: 195px;
+    bottom: -25px;
+}
+
+@media screen and (max-width:1025px) {
+
+    .history-img {
+        height: 320px;
+    }
+
+    .H-inner-div p {
+        font-size: 15px;
+    }
+
+    .H-inner-div {
+        width: 24%;
+    }
+
+    .H-inner-div_1 {
+        left: 195px;
+        top: 9px;
+    }
+
+    .H-inner-div_2 {
+        right: 237px;
+        top: 9px;
+    }
+
+    .H-inner-div_3 {
+        right: -37px;
+        top: 9px;
+    }
+
+    .H-inner-div_3 p {
+        width: 80%;
+        text-align: justify;
+    }
+
+    .H-inner-div_4 {
+        left: 332px;
+        bottom: -50px;
+    }
+
+    .H-inner-div_5 {
+        right: 98px;
+        bottom: -50px;
+    }
+}
+
+@media (max-width:769px) {
+    .history-img-div img {
+        display: none;
+    }
+
+    .history-img-div {
+        height: 720px;
+        background-image: url(../Images/3a.png);
+        background-repeat: no-repeat;
+        background-position: right 0;
+    }
+
+    .H-inner-div_3 p {
+        width: 100%;
+    }
+
+    .H-inner-div {
         width: 60%;
     }
 
@@ -856,7 +1300,7 @@ nav ul li a:hover {
         right: -35px;
         content: "2023";
     }
-}
+} */
 
 /* <!-- Staff-CSS ....................................................................................--> */
 
@@ -1065,7 +1509,6 @@ nav ul li a:hover {
     .staff-img {
         width: 150px;
         height: 150px;
-        margin-left: 25px;
     }
 
     .pxl-swiper-slide {
