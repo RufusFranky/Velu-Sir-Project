@@ -258,7 +258,7 @@ nav ul li a:hover {
 /* <!-- Abt-service CSS......................................................................................... --> */
 
 .abt-s-fluid {
-    background-image: url(../Images/img1.png), url(../Images/img1.png);
+    background-image: url(../Images/img1.webp), url(../Images/img1.webp);
     background-repeat: no-repeat;
     background-size: 8%;
     background-position: left -30px top 80px, right -30px bottom 0;
@@ -338,7 +338,7 @@ nav ul li a:hover {
 /* <!-- Service-Teach- CSS......................................................................................... --> */
 
 .s-teach-fluid {
-    background-image: url(../Images/mirror_img1.png), url(../Images/footer-buttter.png);
+    background-image: url(../Images/mirror_img1.webp), url(../Images/footer-buttter.webp);
     background-repeat: no-repeat;
     background-size: 8%, 5%;
     background-position: left -40px bottom 90px, right 30px bottom 180px;
@@ -384,7 +384,7 @@ nav ul li a:hover {
 /* <!-- Service-Section-3 CSS......................................................................................... --> */
 
 .Service-S3-fluid {
-    background-image: url(../Images/footer-buttter.png), url(../Images/footer-buttter.png), url(../Images/mirror_img1.png), url(../Images/footer-buttter.png);
+    background-image: url(../Images/footer-buttter.webp), url(../Images/footer-buttter.webp), url(../Images/mirror_img1.webp), url(../Images/footer-buttter.webp);
     background-repeat: no-repeat;
     background-size: 5%, 5%, 8%, 5%;
     background-position: left 0 top 30px, right 20px top 200px, left -40px bottom 300px, right 20px bottom 30px;
@@ -403,7 +403,7 @@ nav ul li a:hover {
 
 .footer-fluid {
     background-color: #04a7ac;
-    background-image: url(../Images/bird.png), url(../Images/footer-book.png), url(../Images/footer-book.png), url(../Images/footer-buttter.png), url(../Images/footer-buttter.png), url(../Images//footer-smily.png);
+    background-image: url(../Images/bird.webp), url(../Images/footer-book.webp), url(../Images/footer-book.webp), url(../Images/footer-buttter.webp), url(../Images/footer-buttter.webp), url(../Images//footer-smily.webp);
     background-position: top center, left 18px bottom 30px, top 18px right 45px, top 20px left 20px, top right 500px, bottom 20px right 20px;
     background-repeat: no-repeat;
     justify-content: center !important;

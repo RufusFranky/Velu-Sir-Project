@@ -196,20 +196,17 @@ nav ul li a:hover {
 }
 
 .index_banner-img {
-    background-image: url(../Images/banner-img1.png);
+    background-image: url(../Images/banner-img1.webp);
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: bottom 0 left 0;
 }
 
 .banner-inner-div {
-    /* border: thin solid red; */
-    /* position: relative; */
     padding-bottom: 25px;
-
 }
 
-.banner-inner-div .row .col-12 {
+.index-text-col, .index-banner-col{
     padding: 160px 0;
 }
 
@@ -273,7 +270,8 @@ nav ul li a:hover {
 @media screen and (max-width:1025px) {
 
     .index_banner-img {
-        background-size: 100%;
+        background-size: 70%;
+        background-position: bottom 0 center;
     }
 
     .banner-heading,
@@ -282,8 +280,12 @@ nav ul li a:hover {
         margin-left: 0 !important;
     }
 
-    .banner-inner-div .row .col-12 {
-        padding: 160px 0;
+    .index-text-col {
+        padding: 140px 0 0 0;
+    }
+
+    .index-banner-col {
+        padding: 400px 0 0 0;
     }
 
     .lefts {
@@ -295,19 +297,23 @@ nav ul li a:hover {
         left: 240px !important;
     }
 
-    .banner-heading {
-        width: 80%;
+    .banner-inner-div{
+        text-align: center;
+    }
+
+    .banner-inner-div {
+        padding-bottom: 40px;
     }
 }
 
 @media screen and (max-width:769px) {
 
-    .banner-inner-div .col-12 {
+    .banner-inner-div{
         text-align: center;
     }
 
-    .banner-inner-div .row .col-12 {
-        padding: 60px 0;
+    .index-text-col {
+        padding-top: 50px;
     }
 
     .index_banner-img {
@@ -335,12 +341,24 @@ nav ul li a:hover {
         width: 100% !important;
         text-align: center;
     }
+
+    .index-banner-col {
+        padding: 60% 0 0 0;
+    }
 }
 
 @media screen and (max-width:426px) {
     .banner-heading {
         width: 80% !important;
         margin-left: 45px !important;
+    }
+
+    .index-banner-col {
+        padding: 60% 0 0 0;
+    }
+    
+    .learn-more-btn {
+        padding: 5px 20px 5px 20px;
     }
 }
 
@@ -424,7 +442,25 @@ nav ul li a:hover {
     margin-top: 130px;
 }
 
-@media (max-width:1024px) {
+.abt-img-col {
+    text-align: end;
+}
+
+@media (max-width:1200px) {
+    .line-top-cicle {
+        right: 36%;
+    }
+
+    .center-img {
+        right: 21%;
+    }
+
+    .center_col, .abt-col-right {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:1025px) {
     .abt-col-left {
         width: 100%;
     }
@@ -434,13 +470,12 @@ nav ul li a:hover {
     }
 
     .abt-col-right {
-        padding-left: 90px;
         width: 100%;
     }
 
-    .img-fluid {
-        max-width: 45% !important;
-    }
+        /* .right-col-img {
+            max-width: 45% !important;
+        } */
 
     .vertical-line {
         height: 1px !important;
@@ -459,14 +494,21 @@ nav ul li a:hover {
 
     .center-img {
         bottom: 15%;
-        right: 438px !important;
+        right: 47% !important;
         height: 75px !important;
     }
+
 }
 
-@media (max-width:768px) {
+/* @media (max-width:992px) {
     .center-img {
-        right: 310px !important;
+
+    }
+} */
+
+@media (max-width:769px) {
+    .center-img {
+        right: 47% !important;
     }
 
     .img-fluid {
@@ -509,18 +551,12 @@ nav ul li a:hover {
     }
 }
 
-@media (max-width:320px) {
-    .img-fluid {
-        height: 200px;
-    }
-}
-
 
 /* Showcase CSS .......................................................................................*/
 
 .Showcase-fluid {
     padding: 0;
-    background-image: url(../Images/bg1.png);
+    background-image: url(../Images/bg1.webp);
     /* border: thin solid red; */
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -542,8 +578,6 @@ nav ul li a:hover {
     border-radius: 20px;
     font-family: "Sniglet", system-ui;
     color: #04a7ac;
-    position: relative !important;
-
 }
 
 .showcase-box:hover {
@@ -577,7 +611,7 @@ nav ul li a:hover {
 @media (max-width: 426px) {
 
     .Showcase-fluid {
-        background-image: url(../Images//bg12.png) !important;
+        background-image: url(../Images//bg12.webp) !important;
     }
 
     .banner-img {
@@ -589,7 +623,7 @@ nav ul li a:hover {
 /* Service CSS.......................................................................................... */
 
 .Programs-fluid {
-    background-image: url(../Images/img1.png);
+    background-image: url(../Images/img1.webp);
     background-position: left 0 top 50px;
     background-size: 100px;
     background-repeat: no-repeat;
@@ -662,42 +696,42 @@ nav ul li a:hover {
 }
 
 .card_after_div1::after {
-    content: url(../Images/img2.png);
+    content: url(../Images/img2.webp);
     position: absolute;
     width: 100%;
     bottom: 70%;
 }
 
 .card_after_div2::after {
-    content: url(../Images/img3.png);
+    content: url(../Images/img3.webp);
     position: absolute;
     width: 100%;
     bottom: 70%;
 }
 
 .card_after_div3::after {
-    content: url(../Images/img4.png);
+    content: url(../Images/img4.webp);
     position: absolute;
     width: 100%;
     bottom: 70%;
 }
 
 .card_after_div4::after {
-    content: url(../Images/img5.png);
+    content: url(../Images/img5.webp);
     position: absolute;
     width: 100%;
     bottom: 70%
 }
 
 .card_after_div5::after {
-    content: url(../Images/img6.png);
+    content: url(../Images/img6.webp);
     position: absolute;
     width: 100%;
     bottom: 70%;
 }
 
 .card_after_div6::after {
-    content: url(../Images/img7.png);
+    content: url(../Images/img7.webp);
     position: absolute;
     width: 100%;
     bottom: 70%;
@@ -749,7 +783,7 @@ nav ul li a:hover {
 /* testimonal CSS.......................................................................................... */
 
 .testimonial-fluid {
-    background-image: url(../Images/bg2.png);
+    background-image: url(../Images/bg2.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -926,7 +960,7 @@ nav ul li a:hover {
 
 .footer-fluid {
     background-color: #04a7ac;
-    background-image: url(../Images/bird.png), url(../Images/footer-book.png), url(../Images/footer-book.png), url(../Images/footer-buttter.png), url(../Images/footer-buttter.png), url(../Images//footer-smily.png);
+    background-image: url(../Images/bird.webp), url(../Images/footer-book.webp), url(../Images/footer-book.webp), url(../Images/footer-buttter.webp), url(../Images/footer-buttter.webp), url(../Images//footer-smily.webp);
     background-position: top center, left 18px bottom 30px, top 18px right 45px, top 20px left 20px, top right 500px, bottom 20px right 20px;
     background-repeat: no-repeat;
     justify-content: center !important;

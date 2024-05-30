@@ -153,7 +153,7 @@ nav ul li a:hover {
 .dropdown-item {
     /* background-color: #04a7ac; */
     color: #04a7ac;
-    
+
 }
 
 .dropdown-item:hover {
@@ -232,6 +232,21 @@ nav ul li a:hover {
     width: 100%;
 }
 
+@media (max-width:992px) {
+    .abt-img-col {
+        margin-top: 30px;
+    }
+
+    .play-school .col-12 {
+        margin-top: 50px;
+    }
+
+    .Abt-banner-img {
+        height: 280px;
+    }
+}
+
+
 @media (max-width:768px) {
     .banner-row {
         text-align: center;
@@ -251,7 +266,7 @@ nav ul li a:hover {
 /* <!-- Abt-service CSS......................................................................................... --> */
 
 .abt-s-fluid {
-    background-image: url(../Images/img1.png), url(../Images/img1.png);
+    background-image: url(../Images/img1.webp), url(../Images/img1.webp);
     background-repeat: no-repeat;
     background-size: 8%;
     background-position: left -30px top 80px, right -30px bottom 0;
@@ -298,6 +313,7 @@ nav ul li a:hover {
 }
 
 .modal h1 {
+    font-size: 32px;
     font-family: "Grand Hotel", cursive;
     color: #093fab;
 }
@@ -370,6 +386,7 @@ nav ul li a:hover {
 .program_4 h1 {
     font-family: "Grand Hotel", cursive;
     color: #04a7ac;
+    font-size: 35px;
 }
 
 .program_1 h4,
@@ -406,6 +423,46 @@ nav ul li a:hover {
     z-index: 0;
     /* border: thin solid red; */
     /* border-radius: 10px; */
+}
+
+@media (max-width:1400px) {
+    .inner-prog-img {
+        height: 320px;
+    }
+
+    .Program__1-img-col,
+    .Program__2-img-col,
+    .Program__3-img-col,
+    .Program__4-img-col {
+        align-content: center;
+        text-align: center;
+        align-self: center;
+    }
+
+    .Program__1,
+    .Program__2,
+    .Program__3,
+    .Program__4 {
+        height: 369px;
+    }
+}
+
+@media (max-width:1200px) {
+
+    .inner-prog-img {
+        height: 225px;
+    }
+
+    .model-PlaySchool,
+    .model-Pre-Kg,
+    .model-Jr-Kg,
+    .model-Sr-Kg {
+        height: 369px;
+    }
+
+    .modal h1 {
+        font-size: 28px;
+    }
 }
 
 @media (max-width:1025px) {
@@ -446,11 +503,15 @@ nav ul li a:hover {
         font-size: 28px;
     }
 
-    .Program__1-img-col,
-    .Program__2-img-col,
-    .Program__3-img-col,
-    .Program__4-img-col {
-        align-content: center;
+}
+
+@media (max-width:992px) {
+    .inner-prog-img {
+        height: 260px;
+    }
+
+    .program-img-col {
+        margin-top: 40px;
         text-align: center;
     }
 }
@@ -495,6 +556,27 @@ nav ul li a:hover {
     }
 }
 
+@media (max-width:767px) {
+    .modal h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:540px) {
+
+    .Program__1-img-col,
+    .Program__2-img-col,
+    .Program__3-img-col,
+    .Program__4-img-col {
+        display: none;
+    }
+
+    .modal .col-6 {
+        width: 100%;
+    }
+}
+
+
 @media (max-width:426px) {
     .abt-s-img {
         height: 200px !important;
@@ -529,15 +611,8 @@ nav ul li a:hover {
         font-size: 18px;
     }
 
-    .Program__1-img-col,
-    .Program__2-img-col,
-    .Program__3-img-col,
-    .Program__4-img-col {
-        display: none;
-    }
-
     .modal h1 {
-        font-size: 25px;
+        font-size: 35px;
     }
 }
 
@@ -558,7 +633,7 @@ nav ul li a:hover {
     }
 
     .modal h1 {
-        font-size: 21px;
+        font-size: 28px;
     }
 
     .modal h5 {
@@ -595,12 +670,16 @@ nav ul li a:hover {
     .program_4 h4 {
         font-size: 14px;
     }
+
+    .modal h1 {
+        font-size: 23px;
+    }
 }
 
 /* <!-- Service-Teach- CSS......................................................................................... --> */
 
 .s-teach-fluid {
-    background-image: url(../Images/mirror_img1.png), url(../Images/footer-buttter.png);
+    background-image: url(../Images/mirror_img1.webp), url(../Images/footer-buttter.webp);
     background-repeat: no-repeat;
     background-size: 8%, 5%;
     background-position: left -40px bottom 90px, right 30px bottom 180px;
@@ -665,7 +744,7 @@ nav ul li a:hover {
 /* <!-- Service-Section-3 CSS......................................................................................... --> */
 
 .Service-S3-fluid {
-    background-image: url(../Images/footer-buttter.png), url(../Images/footer-buttter.png), url(../Images/mirror_img1.png), url(../Images/footer-buttter.png);
+    background-image: url(../Images/footer-buttter.webp), url(../Images/footer-buttter.webp), url(../Images/mirror_img1.webp), url(../Images/footer-buttter.webp);
     background-repeat: no-repeat;
     background-size: 5%, 5%, 8%, 5%;
     background-position: left 0 top 30px, right 20px top 200px, left -40px bottom 300px, right 20px bottom 30px;
@@ -684,7 +763,7 @@ nav ul li a:hover {
 
 .footer-fluid {
     background-color: #04a7ac;
-    background-image: url(../Images/bird.png), url(../Images/footer-book.png), url(../Images/footer-book.png), url(../Images/footer-buttter.png), url(../Images/footer-buttter.png), url(../Images//footer-smily.png);
+    background-image: url(../Images/bird.webp), url(../Images/footer-book.webp), url(../Images/footer-book.webp), url(../Images/footer-buttter.webp), url(../Images/footer-buttter.webp), url(../Images//footer-smily.webp);
     background-position: top center, left 18px bottom 30px, top 18px right 45px, top 20px left 20px, top right 500px, bottom 20px right 20px;
     background-repeat: no-repeat;
     justify-content: center !important;

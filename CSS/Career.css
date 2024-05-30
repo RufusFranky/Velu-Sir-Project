@@ -453,7 +453,7 @@ nav ul li a:hover {
 
 .footer-fluid {
     background-color: #04a7ac;
-    background-image: url(../Images/bird.png), url(../Images/footer-book.png), url(../Images/footer-book.png), url(../Images/footer-buttter.png), url(../Images/footer-buttter.png), url(../Images//footer-smily.png);
+    background-image: url(../Images/bird.webp), url(../Images/footer-book.webp), url(../Images/footer-book.webp), url(../Images/footer-buttter.webp), url(../Images/footer-buttter.webp), url(../Images//footer-smily.webp);
     background-position: top center, left 18px bottom 30px, top 18px right 45px, top 20px left 20px, top right 500px, bottom 20px right 20px;
     background-repeat: no-repeat;
     justify-content: center !important;
