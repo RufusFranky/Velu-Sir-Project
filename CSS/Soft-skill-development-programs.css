@@ -153,7 +153,7 @@ nav ul li a:hover {
 .dropdown-item {
     /* background-color: #04a7ac; */
     color: #04a7ac;
-    
+
 }
 
 .dropdown-item:hover {
@@ -235,6 +235,22 @@ nav ul li a:hover {
     /* text-align: center; */
 }
 
+@media (max-width:992px) {
+    .abt-img-col {
+        margin-top: 30px;
+    }
+
+    .soft-skill .col-12 {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .Abt-banner-img {
+        height: 280px;
+    }
+}
+
+
 @media (max-width:768px) {
     .banner-row {
         text-align: center;
@@ -297,7 +313,8 @@ nav ul li a:hover {
     height: 320px;
 }
 
-.pro_1, .pro_2 {
+.pro_1,
+.pro_2 {
     padding: 20px;
     color: white;
     border-radius: 15px;
@@ -312,28 +329,15 @@ nav ul li a:hover {
     background-color: #093fab;
 }
 
-.pro_1 h1, h5 {
+.pro_1 h1,
+h5 {
     font-family: "Sniglet", system-ui;
 }
 
-.pro_2 h1, h5 {
+.pro_2 h1,
+h5 {
     font-family: "Sniglet", system-ui;
 }
-
-@media (max-width:1024px) {
-
-    .abt-img-col {
-        margin-top: 20px;
-    }
-    
-}
-
-@media (max-width:426px) {
-    .abt-s-img {
-        height: 200px !important;
-    }
-}
-
 
 /* <!-- Service-Teach- CSS......................................................................................... --> */
 
@@ -380,6 +384,36 @@ nav ul li a:hover {
     font-family: "Sniglet", system-ui;
     color: #093fab;
 }
+
+.s-teach-imgCol {
+    text-align: -webkit-center;
+}
+
+@media screen and (max-width:767px) {
+    .s-teach-imgCol {
+        text-align: -webkit-center;
+    }
+
+    .sub-heading {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .s-teach-heading p {
+        text-align: justify;
+    }
+
+    .s-teach-imgCol {
+        text-align: -webkit-center;
+    }
+
+    .sub-heading {
+        margin-top: 10px;
+    }
+
+}
+
 
 /* <!-- Service-Section-3 CSS......................................................................................... --> */
 

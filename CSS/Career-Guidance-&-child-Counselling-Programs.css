@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
@@ -153,7 +153,7 @@ nav ul li a:hover {
 .dropdown-item {
     /* background-color: #04a7ac; */
     color: #04a7ac;
-    
+
 }
 
 .dropdown-item:hover {
@@ -202,18 +202,18 @@ nav ul li a:hover {
 }
 
 
-.banner-heading{
+.banner-heading {
     font-family: "Sniglet", system-ui;
     color: white;
 }
 
-.banner-sub{
+.banner-sub {
     font-family: "Roboto", sans-serif;
     color: white;
     text-align: justify;
 }
 
-.banner-row{
+.banner-row {
     padding-right: 0;
 }
 
@@ -231,9 +231,9 @@ nav ul li a:hover {
     width: 100%;
 }
 
-.Career-Guidance .col-12{
+.Career-Guidance .col-12 {
     align-content: center;
-    align-self: center;
+    /* align-self: center; */
 }
 
 @media (max-width:992px) {
@@ -266,14 +266,14 @@ nav ul li a:hover {
 }
 
 @media (max-width: 426px) {
-    .Abt-banner-img{
+    .Abt-banner-img {
         height: 280px;
     }
-} 
+}
 
 /* <!-- Abt-service CSS......................................................................................... --> */
 
-.abt-s-fluid{
+.abt-s-fluid {
     background-image: url(../Images/img1.webp), url(../Images/img1.webp);
     background-repeat: no-repeat;
     background-size: 8%;
@@ -285,51 +285,51 @@ nav ul li a:hover {
     margin-top: 40px;
 }
 
-.abt-heading h1{
+.abt-heading h1 {
     font-family: "Grand Hotel", cursive;
     color: #04a7ac !important;
 }
 
-.abt-heading p{
+.abt-heading p {
     font-family: "Roboto", sans-serif;
     color: #4a4a4a;
 }
 
-.S-right h3{
+.S-right h3 {
     font-family: "Sniglet", system-ui;
     color: #093fab;
 }
 
-.S-right{
+.S-right {
     align-content: center;
 }
 
-.S-right p{
+.S-right p {
     font-family: "Roboto", sans-serif;
 }
 
-.amt-img-col{
+.amt-img-col {
     text-align: center;
 }
 
-.abt-s-img{
+.abt-s-img {
     height: 320px;
 }
 
 @media (max-width: 769px) {
-    .abt-s-img{
+    .abt-s-img {
         height: 280px;
     }
 }
 
 @media (max-width: 426px) {
-    .abt-s-img{
+    .abt-s-img {
         height: 240px;
     }
 }
 
 @media (max-width: 321px) {
-    .abt-s-img{
+    .abt-s-img {
         height: 200px;
     }
 }
@@ -337,7 +337,7 @@ nav ul li a:hover {
 
 /* <!-- Service-Teach- CSS......................................................................................... --> */
 
-.s-teach-fluid{
+.s-teach-fluid {
     background-image: url(../Images/mirror_img1.webp), url(../Images/footer-buttter.webp);
     background-repeat: no-repeat;
     background-size: 8%, 5%;
@@ -345,43 +345,44 @@ nav ul li a:hover {
     background-color: #9bdee057;
 }
 
-.s-teach-heading{
+.s-teach-heading {
     text-align: center;
     margin-top: 40px;
 }
 
-.s-teach-heading h1{
+.s-teach-heading h1 {
     font-family: "Grand Hotel", cursive;
     color: #04a7ac !important;
 }
 
-.s-teach-heading p{
+.s-teach-heading p {
     font-family: "Roboto", sans-serif;
     /* padding: 0 150px 0 150px; */
 }
 
 .circle {
-    width: 85px; /* Adjust the width and height as needed */
+    width: 85px;
+    /* Adjust the width and height as needed */
     height: 85px;
     border-radius: 50%;
     border: 2px solid #04a7ac;
     position: relative;
 }
 
-.circle img{
+.circle img {
     position: absolute;
     left: 16px;
     top: 12px;
     height: 55px;
 }
 
-.sub-heading{
+.sub-heading {
     font-family: "Sniglet", system-ui;
     color: #093fab;
 }
 
-.S-right {
-    text-align: justify;
+.s-teach-imgCol {
+    text-align: -webkit-center;
 }
 
 @media screen and (max-width:767px) {
@@ -398,21 +399,21 @@ nav ul li a:hover {
     .s-teach-heading p {
         text-align: justify;
     }
+
     .s-teach-imgCol {
         text-align: -webkit-center;
     }
 
     .sub-heading {
         margin-top: 10px;
-    } 
-    
-}
+    }
 
+}
 
 
 /* <!-- Service-Section-3 CSS......................................................................................... --> */
 
-.Service-S3-fluid{
+.Service-S3-fluid {
     background-image: url(../Images/footer-buttter.webp), url(../Images/footer-buttter.webp), url(../Images/mirror_img1.webp), url(../Images/footer-buttter.webp);
     background-repeat: no-repeat;
     background-size: 5%, 5%, 8%, 5%;
@@ -424,13 +425,13 @@ nav ul li a:hover {
     color: #093fab;
 }
 
-.topics p{
+.topics p {
     font-family: "Roboto", sans-serif;
 }
 
 /* Footer section............................................................................................ */
 
-.footer-fluid{
+.footer-fluid {
     background-color: #04a7ac;
     background-image: url(../Images/bird.webp), url(../Images/footer-book.webp), url(../Images/footer-book.webp), url(../Images/footer-buttter.webp), url(../Images/footer-buttter.webp), url(../Images//footer-smily.webp);
     background-position: top center, left 18px bottom 30px, top 18px right 45px, top 20px left 20px, top right 500px, bottom 20px right 20px;
@@ -440,15 +441,15 @@ nav ul li a:hover {
     color: white;
 }
 
-.fotter-row{
+.fotter-row {
     margin: 0 auto;
     width: 85%;
 }
 
-.fotter-row li{
+.fotter-row li {
     margin-top: 8px;
 }
 
-.F-Social-div li img{
+.F-Social-div li img {
     padding-right: 15px;
 }

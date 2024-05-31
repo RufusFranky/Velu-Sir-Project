@@ -153,7 +153,7 @@ nav ul li a:hover {
 .dropdown-item {
     /* background-color: #04a7ac; */
     color: #04a7ac;
-    
+
 }
 
 .dropdown-item:hover {
@@ -233,9 +233,22 @@ nav ul li a:hover {
 
 .Academic-support .col-12 {
     align-content: center;
-    /* text-align: center; */
+    text-align: center;
 }
 
+@media (max-width:992px) {
+    .abt-img-col {
+        margin-top: 30px;
+    }
+
+    .Academic-support .col-12 {
+        margin-top: 50px;
+    }
+
+    .Abt-banner-img {
+        height: 280px;
+    }
+}
 
 @media (max-width:768px) {
     .banner-row {
@@ -407,6 +420,41 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+@media (max-width:1400px) {
+    .inner-prog-img {
+        height: 320px;
+    }
+
+    .dyslexia-img-col,
+    .dyspraxia-img-col,
+    .dysgraphia-img-col,
+    .dyscalculia-img-col {
+        align-content: center;
+        text-align: center;
+    }
+
+    .dyslexia,
+    .dyspraxia,
+    .dysgraphia,
+    .dyscalculia {
+        height: 369px;
+    }
+}
+
+@media (max-width:1200px) {
+    .inner-prog-img {
+        height: 228px;
+    }
+
+    .dyslexia,
+    .dyspraxia,
+    .dysgraphia,
+    .dyscalculia {
+        height: 369px;
+    }
+}
+
+
 @media (max-width:1025px) {
 
     .abt-s-img {
@@ -421,7 +469,7 @@ nav ul li a:hover {
     .modal li {
         font-size: 15px;
     }
-    
+
     .sec-title {
         height: 290px;
     }
@@ -431,6 +479,17 @@ nav ul li a:hover {
     .dysgraphia,
     .dyscalculia {
         height: 290px;
+    }
+}
+
+@media (max-width:992px) {
+    .inner-prog-img {
+        height: 260px;
+    }
+
+    .Aca-img-col {
+        margin-top: 40px;
+        text-align: center;
     }
 }
 
@@ -466,6 +525,26 @@ nav ul li a:hover {
     }
 }
 
+@media (max-width:768px) {
+    .modal li {
+        font-size: 13.5px;
+    }
+}
+
+@media (max-width:540px) {
+
+    .dyslexia-img-col,
+    .dyspraxia-img-col,
+    .dysgraphia-img-col,
+    .dyscalculia-img-col {
+        display: none;
+    }
+
+    .modal .col-6 {
+        width: 100%;
+    }
+}
+
 @media (max-width:426px) {
     .abt-s-img {
         height: 200px !important;
@@ -475,7 +554,10 @@ nav ul li a:hover {
         text-align: center !important;
     }
 
-    .dyslexia-img-col, .dyspraxia-img-col, .dysgraphia-img-col, .dyscalculia-img-col {
+    .dyslexia-img-col,
+    .dyspraxia-img-col,
+    .dysgraphia-img-col,
+    .dyscalculia-img-col {
         display: none;
     }
 
@@ -528,6 +610,20 @@ nav ul li a:hover {
 .sub-heading {
     font-family: "Sniglet", system-ui;
     color: #093fab;
+}
+
+.s-teach-imgCol {
+    text-align: -webkit-center;
+}
+
+@media screen and (max-width:426px) {
+    .s-teach-heading p {
+        text-align: justify;
+    }
+
+    .sub-heading {
+        margin-top: 10px;
+    }
 }
 
 /* <!-- Service-Section-3 CSS......................................................................................... --> */

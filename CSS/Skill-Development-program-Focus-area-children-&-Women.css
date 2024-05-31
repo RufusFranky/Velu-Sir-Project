@@ -232,6 +232,21 @@ nav ul li a:hover {
     width: 100%;
 }
 
+@media (max-width:992px) {
+    .abt-img-col {
+        margin-top: 30px;
+    }
+
+    .skill-develop .col-12 {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .Abt-banner-img {
+        height: 280px;
+    }
+}
+
 @media (max-width:768px) {
     .banner-row {
         text-align: center;
@@ -249,7 +264,7 @@ nav ul li a:hover {
 @media (max-width: 426px) {
     .Abt-banner-img {
         height: auto;
-    } 
+    }
 }
 
 /* <!-- Abt-service CSS......................................................................................... --> */
@@ -358,6 +373,36 @@ nav ul li a:hover {
     font-family: "Sniglet", system-ui;
     color: #093fab;
 }
+
+.s-teach-imgCol {
+    text-align: -webkit-center;
+}
+
+@media screen and (max-width:767px) {
+    .s-teach-imgCol {
+        text-align: -webkit-center;
+    }
+
+    .sub-heading {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .s-teach-heading p {
+        text-align: justify;
+    }
+
+    .s-teach-imgCol {
+        text-align: -webkit-center;
+    }
+
+    .sub-heading {
+        margin-top: 10px;
+    }
+
+}
+
 
 /* <!-- Service-Section-3 CSS......................................................................................... --> */
 

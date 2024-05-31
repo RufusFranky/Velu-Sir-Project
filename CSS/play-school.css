@@ -633,7 +633,6 @@ nav ul li a:hover {
     }
 }
 
-
 /* <!-- Service-Teach- CSS......................................................................................... --> */
 
 .s-teach-fluid {
@@ -661,7 +660,6 @@ nav ul li a:hover {
 
 .circle {
     width: 85px;
-    /* Adjust the width and height as needed */
     height: 85px;
     border-radius: 50%;
     border: 2px solid #04a7ac;
@@ -679,7 +677,6 @@ nav ul li a:hover {
     font-family: "Sniglet", system-ui;
     color: #093fab;
 }
-
 
 @media screen and (max-width:426px) {
     .s-teach-heading p {

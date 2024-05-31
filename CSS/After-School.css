@@ -722,24 +722,19 @@ nav ul li a:hover {
     color: #093fab;
 }
 
+.s-teach-imgCol {
+    text-align: -webkit-center;
+}
+
 @media screen and (max-width:426px) {
     .s-teach-heading p {
         text-align: justify;
-    }
-
-    .s-teach-imgCol {
-        text-align: -webkit-center;
     }
 
     .sub-heading {
         margin-top: 10px;
     }
 }
-
-
-
-
-
 
 /* <!-- Service-Section-3 CSS......................................................................................... --> */
 
