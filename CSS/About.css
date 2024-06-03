@@ -449,7 +449,9 @@ nav ul li a:hover {
 }
 
 @media (max-width:1200px) {
-    .V-point-img {
+
+    .V-point-img,
+    .M-point-img {
         text-align: -webkit-center;
     }
 }
@@ -596,7 +598,7 @@ nav ul li a:hover {
 
     .history-img-div {
         height: 720px;
-        background-image: url(../Images/3a.webp);
+        background-image: url(../Images/3a.png);
         background-repeat: no-repeat;
         background-position: right 0;
     }
@@ -637,6 +639,9 @@ nav ul li a:hover {
         left: 0;
         height: 100px;
     }
+
+
+
 
     .H-inner-div_1::after,
     .H-inner-div_2::after,
@@ -711,16 +716,28 @@ nav ul li a:hover {
     .H-inner-div p {
         font-size: 13px;
     }
+}
 
-    .H-inner-div_1::after,
-    .H-inner-div_2::after,
-    .H-inner-div_3::after,
-    .H-inner-div_4::after,
-    .H-inner-div_5::after {
-        position: absolute;
-        font-family: "Sniglet", system-ui;
-        color: #093fab;
-        font-size: x-large;
+.H-inner-div_1::after,
+.H-inner-div_2::after,
+.H-inner-div_3::after,
+.H-inner-div_4::after,
+.H-inner-div_5::after {
+    position: absolute;
+    font-family: "Sniglet", system-ui;
+    color: #093fab;
+    font-size: x-large;
+}
+
+
+@media (max-width:321px) {
+    .history-img-div {
+        height: 900px;
+        background-size: 183px;
+    }
+
+    .H-inner-div_3 p {
+        width: 93%;
     }
 }
 
