@@ -216,6 +216,8 @@ nav ul li a:hover {
 }
 
 .banner-row {
+    text-align: center;
+    align-self: center;
     padding-right: 0;
 }
 

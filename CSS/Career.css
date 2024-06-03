@@ -206,6 +206,7 @@ nav ul li a:hover {
 }
 
 .banner-sub {
+    text-align: justify;
     font-family: "Roboto", sans-serif;
     color: white;
 }

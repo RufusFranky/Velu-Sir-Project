@@ -203,6 +203,7 @@ nav ul li a:hover {
 }
 
 .banner-heading {
+    margin-left: 100px;
     font-family: "Sniglet", system-ui;
     color: white;
 }
@@ -214,6 +215,8 @@ nav ul li a:hover {
 }
 
 .banner-row {
+    
+    align-self: center;
     padding-right: 0;
 }
 
