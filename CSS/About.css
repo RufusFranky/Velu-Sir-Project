@@ -546,6 +546,63 @@ nav ul li a:hover {
     bottom: -25px;
 }
 
+@media screen and (max-width:1400px) {
+
+    .H-inner-div_1 {
+        left: 180px;
+        top: 45px;
+    }
+
+    .H-inner-div_2 {
+        right: 325px;
+        top: 45px;
+    }
+
+    .H-inner-div_3 {
+        top: 45px;
+        right: -50px;
+    }
+
+    .H-inner-div_4 {
+        left: 370px;
+        bottom: -25px;
+    }
+
+    .H-inner-div_5 {
+        right: 135px;
+        bottom: -25px;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+
+    .H-inner-div_1 {
+        left: 150px;
+        top: 0;
+    }
+
+    .H-inner-div_2 {
+        right: 270px;
+        top: 0;
+    }
+
+    .H-inner-div_3 {
+        top: 0;
+        right: -46px;
+    }
+
+    .H-inner-div_4 {
+        left: 315px;
+        bottom: -60px;
+    }
+
+    .H-inner-div_5 {
+        right: 112px;
+        bottom: -108px;
+    }
+}
+
 @media screen and (max-width:1025px) {
 
     .history-img {
@@ -591,14 +648,14 @@ nav ul li a:hover {
     }
 }
 
-@media (max-width:769px) {
+@media (max-width:992px) {
     .history-img-div img {
         display: none;
     }
 
     .history-img-div {
         height: 720px;
-        background-image: url(../Images/3a.png);
+        background-image: url(../Images/3a.webp);
         background-repeat: no-repeat;
         background-position: right 0;
     }
@@ -640,8 +697,103 @@ nav ul li a:hover {
         height: 100px;
     }
 
+    .H-inner-div_1::after,
+    .H-inner-div_2::after,
+    .H-inner-div_3::after,
+    .H-inner-div_4::after,
+    .H-inner-div_5::after {
+        position: absolute;
+        font-family: "Sniglet", system-ui;
+        color: #093fab;
+        font-size: x-large;
+        align-self: end;
+    }
 
+    .H-inner-div::after,
+    .H-inner-div::after,
+    .H-inner-div::after,
+    .H-inner-div::after,
+    .H-inner-div::after {
+        top: 0;
+        right: -25%;
+        bottom: 0;
 
+    }
+
+    .H-inner-div_1::after {
+
+        content: "2020";
+    }
+
+    .H-inner-div_2::after {
+
+        content: "2022";
+    }
+
+    .H-inner-div_3::after {
+
+        content: "2024";
+    }
+
+    .H-inner-div_4::after {
+
+        content: "2021";
+    }
+
+    .H-inner-div_5::after {
+
+        content: "2023";
+    }
+}
+
+@media (max-width:769px) {
+    .history-img-div img {
+        display: none;
+    }
+
+    .history-img-div {
+        height: 720px;
+        background-image: url(../Images/3a.webp);
+        background-repeat: no-repeat;
+        background-position: right 0;
+    }
+
+    .H-inner-div_3 p {
+        width: 100%;
+    }
+
+    .H-inner-div {
+        width: 65%;
+    }
+
+    .H-inner-div_1 {
+        left: 0;
+        top: 5%;
+    }
+
+    .H-inner-div_2 {
+        top: 40%;
+        left: 0;
+        height: 100px;
+        /* overflow: hidden; */
+    }
+
+    .H-inner-div_3 {
+        top: 80%;
+        left: 0;
+    }
+
+    .H-inner-div_4 {
+        top: 20%;
+        left: 0;
+        height: 100px;
+    }
+
+    .H-inner-div_5 {
+        top: 60%;
+        left: 0;
+        height: 100px;
+    }
 
     .H-inner-div_1::after,
     .H-inner-div_2::after,
@@ -729,6 +881,32 @@ nav ul li a:hover {
     font-size: x-large;
 }
 
+@media (max-width:376px) {
+    .H-inner-div_1::after {
+        bottom: 12px;
+        right: -60px;
+    }
+
+    .H-inner-div_4::after {
+        bottom: -15px;
+        right: -60px;
+    }
+
+    .H-inner-div_2::after {
+        bottom: -10px;
+        right: -60px;
+    }
+
+    .H-inner-div_5::after {
+        bottom: -10px;
+        right: -60px;
+    }
+
+    .H-inner-div_3::after {
+        bottom: -10px;
+        right: -60px;
+    }
+}
 
 @media (max-width:321px) {
     .history-img-div {
@@ -827,6 +1005,8 @@ nav ul li a:hover {
     transition: 300ms all linear 0ms;
 }
 
+
+
 .pxl-item--meta:before {
     z-index: -1;
     position: absolute;
@@ -836,23 +1016,15 @@ nav ul li a:hover {
     top: 0;
     left: 0;
     display: inline-block;
-    mask-image: url(../Images/mask-team.webp);
     -webkit-mask-image: url(../Images/mask-team.webp);
-    -ms-mask-image: url(../Images/mask-team.webp);
-    -o-mask-image: url(../Images/mask-team.webp);
+    mask-image: url(../Images/mask-team.webp);
     -webkit-mask-repeat: no-repeat;
-    -ms-mask-repeat: no-repeat;
-    -o-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
     -webkit-mask-position: left top;
-    -ms-mask-position: left top;
-    -o-mask-position: left top;
-    -webkit-transition: 300ms all linear 0ms;
-    -khtml-transition: 300ms all linear 0ms;
-    -moz-transition: 300ms all linear 0ms;
-    -ms-transition: 300ms all linear 0ms;
-    -o-transition: 300ms all linear 0ms;
+    mask-position: left top;
     transition: 300ms all linear 0ms;
 }
+
 
 .pxl-item--meta::before,
 .pxl-item--meta::after {
@@ -870,19 +1042,10 @@ nav ul li a:hover {
     display: inline-block;
     mask-image: url(../Images/mask-team.webp);
     -webkit-mask-image: url(../Images/mask-team.webp);
-    -ms-mask-image: url(../Images/mask-team.webp);
-    -o-mask-image: url(../Images/mask-team.webp);
     -webkit-mask-repeat: no-repeat;
-    -ms-mask-repeat: no-repeat;
-    -o-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
     -webkit-mask-position: left bottom;
-    -ms-mask-position: left bottom;
-    -o-mask-position: left bottom;
-    -webkit-transition: 300ms all linear 0ms;
-    -khtml-transition: 300ms all linear 0ms;
-    -moz-transition: 300ms all linear 0ms;
-    -ms-transition: 300ms all linear 0ms;
-    -o-transition: 300ms all linear 0ms;
+    mask-position: left bottom;
     transition: 300ms all linear 0ms;
 }
 
