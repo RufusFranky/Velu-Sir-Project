@@ -703,21 +703,21 @@ nav ul li a:hover {
 }
 
 .card_after_div2::after {
-    content: url(../Images/img3.webp);
+    content: url(../Images/After-school\ Programs.webp);
     position: absolute;
     width: 100%;
     bottom: 70%;
 }
 
 .card_after_div3::after {
-    content: url(../Images/img4.webp);
+    content: url(../Images/Parental\ Counselling.webp);
     position: absolute;
     width: 100%;
     bottom: 70%;
 }
 
 .card_after_div4::after {
-    content: url(../Images/img5.webp);
+    content: url(../Images/Programmes\ for\ the\ Development\ of\ Soft\ Skills.webp);
     position: absolute;
     width: 100%;
     bottom: 70%
@@ -731,7 +731,7 @@ nav ul li a:hover {
 }
 
 .card_after_div6::after {
-    content: url(../Images/img7.webp);
+    content: url(../Images/Skill\ Development\ &\ Awareness\ Workshops.webp);
     position: absolute;
     width: 100%;
     bottom: 70%;
